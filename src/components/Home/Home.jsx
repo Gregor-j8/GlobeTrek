@@ -9,8 +9,6 @@ export const Home = () => {
                 <video loop autoPlay width="900" src={Globe()}></video>
             </section>
             </div>
-
-            
         </div>
     )
 }
