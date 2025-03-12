@@ -4,10 +4,10 @@ export const Navbar = () => {
     return (
         <nav>
             <ul>
-                <Link><li>Home</li></Link>
-                <Link><li>Posts</li></Link>
-                <Link><li>Notes Page</li></Link>
-                <Link><li>Profile</li></Link>
+                <Link to={"/home"}><li>Home</li></Link>
+                <Link to={"/posts"}><li>Posts</li></Link>
+                <Link to={"/notes"}><li>Notes</li></Link>
+                <Link to={"/profile"}><li>Profile</li></Link>
                 {localStorage.getItem("user") ? (
                 <Link to="" onClick={() => {
                     localStorage.removeItem("user")
