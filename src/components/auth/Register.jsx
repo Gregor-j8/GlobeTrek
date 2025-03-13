@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import "./Login.css"
+
 import { createUser, getUserByEmail } from "../../services/userService"
 
 export const Register = (props) => {
@@ -46,7 +46,7 @@ export const Register = (props) => {
   }
 
   return (
-    <main className="auth-container">
+    <main className="">
       <form className="auth-form" onSubmit={handleRegister}>
         <h1 className="header">Globe Trek</h1>
         <h2>Please Register</h2>
@@ -77,7 +77,7 @@ export const Register = (props) => {
         </fieldset>
         <fieldset className="auth-fieldset">
           <div>
-            <button type="submit">Register</button>
+            <button className="main-colors" type="submit">Register</button>
           </div>
         </fieldset>
       </form>
