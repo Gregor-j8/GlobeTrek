@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-
+import "../../App.css"
 import { createUser, getUserByEmail } from "../../services/userService"
 
 export const Register = (props) => {
@@ -46,39 +46,26 @@ export const Register = (props) => {
   }
 
   return (
-    <main className="">
-      <form className="auth-form" onSubmit={handleRegister}>
-        <h1 className="header">Globe Trek</h1>
-        <h2>Please Register</h2>
-        <fieldset className="auth-fieldset">
+    <main className="flex flex-col items-center justify-center h-screen bg-main-color">
+      <form className="flex flex-col items-center justify-center card-color-secondary w-full h-6/12 p-5" onSubmit={handleRegister}>
+        <h1 className="flex items-start justify-center text-5xl  text-color-primary p-2">Globe Trek</h1>
+        <h2 className="flex justify-center text-1xl text-color-secondary font-bold ">Please Register</h2>
+        <fieldset className="flex flex-col items-center p-4">
           <div>
-            <input
-              onChange={updateUser}
-              type="text"
-              id="fullName"
-              className="auth-form-input"
-              placeholder="Enter your UserName"
-              required
-              autoFocus
+            <input onChange={updateUser} type="text" id="fullName"
+              className="flex secondary-color w-fit"
+              placeholder="Enter your UserName" required autoFocus
             />
           </div>
         </fieldset>
-        <fieldset className="auth-fieldset">
+        <fieldset className="flex flex-col items-center p-4">
           <div>
-            <input
-              onChange={updateUser}
-              type="email"
-              id="email"
-              className="auth-form-input"
-              placeholder="Email address"
-              required
-            />
+            <input onChange={updateUser} type="email" id="email"
+              className="flex secondary-color w-fit" placeholder="Email address" required/>
           </div>
         </fieldset>
-        <fieldset className="auth-fieldset">
-          <div>
-            <button className="main-colors" type="submit">Register</button>
-          </div>
+        <fieldset className="flex flex-col items-center p-4">
+          <div><button className="main-colors" type="submit">Register</button></div>
         </fieldset>
       </form>
     </main>

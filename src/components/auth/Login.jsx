@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
- import "../../App.css"
+import "../../App.css"
 import { getUserByEmail } from "../../services/userService"
 
 export const Login = () => {
@@ -45,7 +45,7 @@ export const Login = () => {
                 autoFocus
               />
           </fieldset>
-          <fieldset className="flex flex-col  items-center">
+          <fieldset className="flex flex-col items-center">
               <button className="button-primary" type="submit">Log In</button>
           </fieldset>
         </form>
