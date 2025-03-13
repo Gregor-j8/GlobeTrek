@@ -12,6 +12,7 @@
       { "id": 10, "fullName": "Olivia White", "email": "olivia@example.com" }
     ],
     "userFollow": [
+
     ],
     "posts": [
       { "id": 1, "userId": 1, "cityId": 1, "title": "Exploring Tokyo", "description": "Shibuya crossing and ramen!", "state": "published", "location": "Shibuya, Tokyo" },
@@ -26,6 +27,7 @@
       { "id": 10, "userId": 10, "cityId": 10, "title": "Cairo Pyramids", "description": "Incredible ancient history", "state": "published", "location": "Cairo, Egypt" }
     ],
     "notes": [
+        
     ],
     "cities": [
       { "id": 1, "city": "Tokyo" },
