@@ -60,7 +60,8 @@
       "title": "Exploring Tokyo",
       "description": "Shibuya crossing and ramen!",
       "state": "published",
-      "location": "Shibuya, Tokyo"
+      "location": "Shibuya, Tokyo",
+      "date": "2025-01-15"
     },
     {
       "id": 2,
@@ -69,7 +70,8 @@
       "title": "Sunset at Santorini",
       "description": "Breathtaking sunset!",
       "state": "draft",
-      "location": "Oia, Santorini"
+      "location": "Oia, Santorini",
+      "date": "2024-07-20"
     },
     {
       "id": 3,
@@ -78,7 +80,8 @@
       "title": "Paris Adventure",
       "description": "Climbed the Eiffel Tower",
       "state": "published",
-      "location": "Paris, France"
+      "location": "Paris, France",
+      "date": "2024-09-05"
     },
     {
       "id": 4,
@@ -87,7 +90,8 @@
       "title": "London Vibes",
       "description": "Big Ben and fish & chips",
       "state": "draft",
-      "location": "London, UK"
+      "location": "London, UK",
+      "date": "2024-11-12"
     },
     {
       "id": 5,
@@ -96,7 +100,8 @@
       "title": "New York Nights",
       "description": "Times Square was amazing",
       "state": "published",
-      "location": "New York, USA"
+      "location": "New York, USA",
+      "date": "2025-02-10"
     },
     {
       "id": 6,
@@ -105,7 +110,8 @@
       "title": "Sydney Surf",
       "description": "Bondi Beach was packed",
       "state": "published",
-      "location": "Sydney, Australia"
+      "location": "Sydney, Australia",
+      "date": "2024-12-03"
     },
     {
       "id": 7,
@@ -114,7 +120,8 @@
       "title": "Rome Walks",
       "description": "Colosseum and gelato",
       "state": "draft",
-      "location": "Rome, Italy"
+      "location": "Rome, Italy",
+      "date": "2024-08-18"
     },
     {
       "id": 8,
@@ -123,7 +130,8 @@
       "title": "Bangkok Street Food",
       "description": "Best pad thai ever!",
       "state": "published",
-      "location": "Bangkok, Thailand"
+      "location": "Bangkok, Thailand",
+      "date": "2025-03-01"
     },
     {
       "id": 9,
@@ -132,7 +140,8 @@
       "title": "Berlin History",
       "description": "Visited the Berlin Wall",
       "state": "draft",
-      "location": "Berlin, Germany"
+      "location": "Berlin, Germany",
+      "date": "2024-10-05"
     },
     {
       "id": 10,
@@ -141,7 +150,8 @@
       "title": "Cairo Pyramids",
       "description": "Incredible ancient history",
       "state": "published",
-      "location": "Cairo, Egypt"
+      "location": "Cairo, Egypt",
+      "date": "2024-06-22"
     }
   ],
   "notes": [],
@@ -185,6 +195,21 @@
       "id": 9,
       "postId": 5,
       "userId": 9
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "postId": 3,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "postId": 4,
+      "id": 12
     }
   ],
   "cities": [
@@ -230,4 +255,3 @@
     }
   ]
 }
-  
