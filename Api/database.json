@@ -1,45 +1,233 @@
 {
-    "users": [
-      { "id": 1, "fullName": "John Doe", "email": "john@example.com" },
-      { "id": 2, "fullName": "Jane Smith", "email": "jane@example.com" },
-      { "id": 3, "fullName": "Emily Johnson", "email": "emily@example.com" },
-      { "id": 4, "fullName": "Michael Brown", "email": "michael@example.com" },
-      { "id": 5, "fullName": "Sarah Davis", "email": "sarah@example.com" },
-      { "id": 6, "fullName": "David Wilson", "email": "david@example.com" },
-      { "id": 7, "fullName": "Chris Martinez", "email": "chris@example.com" },
-      { "id": 8, "fullName": "Jessica Lee", "email": "jessica@example.com" },
-      { "id": 9, "fullName": "Matthew Taylor", "email": "matthew@example.com" },
-      { "id": 10, "fullName": "Olivia White", "email": "olivia@example.com" }
-    ],
-    "userFollow": [
-
-    ],
-    "posts": [
-      { "id": 1, "userId": 1, "cityId": 1, "title": "Exploring Tokyo", "description": "Shibuya crossing and ramen!", "state": "published", "location": "Shibuya, Tokyo" },
-      { "id": 2, "userId": 2, "cityId": 2, "title": "Sunset at Santorini", "description": "Breathtaking sunset!", "state": "draft", "location": "Oia, Santorini" },
-      { "id": 3, "userId": 3, "cityId": 3, "title": "Paris Adventure", "description": "Climbed the Eiffel Tower", "state": "published", "location": "Paris, France" },
-      { "id": 4, "userId": 4, "cityId": 4, "title": "London Vibes", "description": "Big Ben and fish & chips", "state": "draft", "location": "London, UK" },
-      { "id": 5, "userId": 5, "cityId": 5, "title": "New York Nights", "description": "Times Square was amazing", "state": "published", "location": "New York, USA" },
-      { "id": 6, "userId": 6, "cityId": 6, "title": "Sydney Surf", "description": "Bondi Beach was packed", "state": "published", "location": "Sydney, Australia" },
-      { "id": 7, "userId": 7, "cityId": 7, "title": "Rome Walks", "description": "Colosseum and gelato", "state": "draft", "location": "Rome, Italy" },
-      { "id": 8, "userId": 8, "cityId": 8, "title": "Bangkok Street Food", "description": "Best pad thai ever!", "state": "published", "location": "Bangkok, Thailand" },
-      { "id": 9, "userId": 9, "cityId": 9, "title": "Berlin History", "description": "Visited the Berlin Wall", "state": "draft", "location": "Berlin, Germany" },
-      { "id": 10, "userId": 10, "cityId": 10, "title": "Cairo Pyramids", "description": "Incredible ancient history", "state": "published", "location": "Cairo, Egypt" }
-    ],
-    "notes": [
-        
-    ],
-    "cities": [
-      { "id": 1, "city": "Tokyo" },
-      { "id": 2, "city": "Santorini" },
-      { "id": 3, "city": "Paris" },
-      { "id": 4, "city": "London" },
-      { "id": 5, "city": "New York" },
-      { "id": 6, "city": "Sydney" },
-      { "id": 7, "city": "Rome" },
-      { "id": 8, "city": "Bangkok" },
-      { "id": 9, "city": "Berlin" },
-      { "id": 10, "city": "Cairo" }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Emily Johnson",
+      "email": "emily@example.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Michael Brown",
+      "email": "michael@example.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Sarah Davis",
+      "email": "sarah@example.com"
+    },
+    {
+      "id": 6,
+      "fullName": "David Wilson",
+      "email": "david@example.com"
+    },
+    {
+      "id": 7,
+      "fullName": "Chris Martinez",
+      "email": "chris@example.com"
+    },
+    {
+      "id": 8,
+      "fullName": "Jessica Lee",
+      "email": "jessica@example.com"
+    },
+    {
+      "id": 9,
+      "fullName": "Matthew Taylor",
+      "email": "matthew@example.com"
+    },
+    {
+      "id": 10,
+      "fullName": "Olivia White",
+      "email": "olivia@example.com"
+    }
+  ],
+  "userFollow": [],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "cityId": 1,
+      "title": "Exploring Tokyo",
+      "description": "Shibuya crossing and ramen!",
+      "state": "published",
+      "location": "Shibuya, Tokyo"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "cityId": 2,
+      "title": "Sunset at Santorini",
+      "description": "Breathtaking sunset!",
+      "state": "draft",
+      "location": "Oia, Santorini"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "cityId": 3,
+      "title": "Paris Adventure",
+      "description": "Climbed the Eiffel Tower",
+      "state": "published",
+      "location": "Paris, France"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "cityId": 4,
+      "title": "London Vibes",
+      "description": "Big Ben and fish & chips",
+      "state": "draft",
+      "location": "London, UK"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "cityId": 5,
+      "title": "New York Nights",
+      "description": "Times Square was amazing",
+      "state": "published",
+      "location": "New York, USA"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "cityId": 6,
+      "title": "Sydney Surf",
+      "description": "Bondi Beach was packed",
+      "state": "published",
+      "location": "Sydney, Australia"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "cityId": 7,
+      "title": "Rome Walks",
+      "description": "Colosseum and gelato",
+      "state": "draft",
+      "location": "Rome, Italy"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "cityId": 8,
+      "title": "Bangkok Street Food",
+      "description": "Best pad thai ever!",
+      "state": "published",
+      "location": "Bangkok, Thailand"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "cityId": 9,
+      "title": "Berlin History",
+      "description": "Visited the Berlin Wall",
+      "state": "draft",
+      "location": "Berlin, Germany"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "cityId": 10,
+      "title": "Cairo Pyramids",
+      "description": "Incredible ancient history",
+      "state": "published",
+      "location": "Cairo, Egypt"
+    }
+  ],
+  "notes": [],
+  "userLikes": [
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "postId": 3,
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "postId": 3,
+      "userId": 6
+    },
+    {
+      "id": 7,
+      "postId": 4,
+      "userId": 7
+    },
+    {
+      "id": 8,
+      "postId": 4,
+      "userId": 8
+    },
+    {
+      "id": 9,
+      "postId": 5,
+      "userId": 9
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "city": "Tokyo"
+    },
+    {
+      "id": 2,
+      "city": "Santorini"
+    },
+    {
+      "id": 3,
+      "city": "Paris"
+    },
+    {
+      "id": 4,
+      "city": "London"
+    },
+    {
+      "id": 5,
+      "city": "New York"
+    },
+    {
+      "id": 6,
+      "city": "Sydney"
+    },
+    {
+      "id": 7,
+      "city": "Rome"
+    },
+    {
+      "id": 8,
+      "city": "Bangkok"
+    },
+    {
+      "id": 9,
+      "city": "Berlin"
+    },
+    {
+      "id": 10,
+      "city": "Cairo"
+    }
+  ]
+}
   
