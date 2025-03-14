@@ -4,6 +4,7 @@ import { Home } from "../components/Home/Home"
 import { useEffect, useState } from "react"
 import { PostsList } from "../components/Posts/PostsList"
 
+
 export const AuthorizedViews = () => {
     const [currentUser, setCurrentUser] = useState({})
 
