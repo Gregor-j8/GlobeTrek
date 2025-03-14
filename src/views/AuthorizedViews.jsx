@@ -21,7 +21,7 @@ export const AuthorizedViews = () => {
                     <Outlet />
                 </>}>
                 <Route index element={<Home currentUser={currentUser}/>}/>
-                <Route path="posts" element={<PostsList />}/>
+                <Route path="posts" element={<PostsList currentUser={currentUser}/>}/>
             </Route>
         </Routes>
     </> 
