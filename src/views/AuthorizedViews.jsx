@@ -4,6 +4,7 @@ import { Home } from "../components/Home/Home"
 import { useEffect, useState } from "react"
 import { PostsList } from "../components/Posts/PostsList"
 import { PostDetails } from "../components/Posts/PostDetails"
+import { EditPosts } from "../components/Posts/EditPosts"
 
 
 export const AuthorizedViews = () => {
@@ -26,6 +27,7 @@ export const AuthorizedViews = () => {
                     <Route path="posts">
                         <Route index element={<PostsList currentUser={currentUser}/>}/>
                         <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
+                        <Route path=":postId/edit" element={<EditPosts currentUser={currentUser}/>}/>
                     </Route>
                 </Route>
         </Routes>
