@@ -3,6 +3,7 @@ import { Navbar } from "../components/navbar/Navbar"
 import { Home } from "../components/Home/Home"
 import { useEffect, useState } from "react"
 import { PostsList } from "../components/Posts/PostsList"
+import { PostDetails } from "../components/Posts/PostDetails"
 
 
 export const AuthorizedViews = () => {
@@ -22,8 +23,11 @@ export const AuthorizedViews = () => {
                     <Outlet />
                 </>}>
                 <Route index element={<Home currentUser={currentUser}/>}/>
-                <Route path="posts" element={<PostsList currentUser={currentUser}/>}/>
-            </Route>
+                    <Route path="posts">
+                        <Route index element={<PostsList currentUser={currentUser}/>}/>
+                        <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
+                    </Route>
+                </Route>
         </Routes>
     </> 
 }

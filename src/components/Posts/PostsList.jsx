@@ -13,7 +13,7 @@ export const PostsList = ({currentUser}) => {
     return (
         <div className="flex flex-col items-center w-full pt-16">
             {posts.map(post => {
-                return <Posts post={post} currentUser={currentUser}/>
+                return <Posts post={post} key={post.id} currentUser={currentUser}/>
             })}
         </div>
     )}
