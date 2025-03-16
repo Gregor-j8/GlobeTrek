@@ -9,12 +9,11 @@ export const Favorite = ({currentUser}) => {
             setFavoritePosts(posts)
         })
     }, [currentUser]) 
-    console.log(favoritePosts)
+    
     return ( 
     <div className="pt-20">
         {favoritePosts.map(post => {
-                 return <div></div>
-                //   <div><Posts post={post} key={post.id}/></div>
+                 return <div><Posts post={post} key={post.id}/></div>
         })}
     </div>
             
