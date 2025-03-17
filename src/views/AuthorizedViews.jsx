@@ -7,6 +7,7 @@ import { PostDetails } from "../components/Posts/PostDetails"
 import { EditPosts } from "../components/Posts/EditPosts"
 import { Favorite } from "../components/Favorite/Favorite"
 import { Profile } from "../components/Profile/Profile"
+import { EditProfile } from "../components/Profile/EditProfile"
 
 
 export const AuthorizedViews = () => {
@@ -33,6 +34,7 @@ export const AuthorizedViews = () => {
                     </Route>
                         <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
                         <Route path="/profile/:userId" element={<Profile currentUser={currentUser}/>}/>
+                        <Route path="/profile/edit" element={<EditProfile currentUser={currentUser}/>}/>
                 </Route>
         </Routes>
     </> 

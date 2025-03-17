@@ -25,7 +25,6 @@ export const Profile = ({currentUser}) => {
     const editProfile = () => {
         navigate("/profile/edit")
     }
-    console.log(profile)
 
     return ( currentUser?.id == userId ? (
     <div className="flex flex-col w-full items-center pt-20">
