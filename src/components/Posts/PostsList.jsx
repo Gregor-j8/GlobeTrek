@@ -15,7 +15,7 @@ export const PostsList = () => {
     return (
         <div className="flex flex-col items-center w-full pt-16">
             <div>
-               <button onClick={() => navigate("/newpost")}>New Post</button> 
+               <button className="text-color-primary" onClick={() => navigate("/newpost")}>New Post</button> 
             </div>
             {posts.map(post => {
                 return <Posts post={post} key={post.id}/>

@@ -30,7 +30,6 @@ export const AuthorizedViews = () => {
                 <Route index element={<Home currentUser={currentUser}/>}/>
                     <Route path="posts">
                         <Route index element={<PostsList currentUser={currentUser}/>}/>
-                        
                         <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
                         <Route path=":postId/edit" element={<EditPosts currentUser={currentUser}/>}/>
                     </Route>
@@ -38,7 +37,6 @@ export const AuthorizedViews = () => {
                         <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
                         <Route path="/profile/:userId" element={<Profile currentUser={currentUser}/>}/>
                         <Route path="/profile/edit" element={<EditProfile currentUser={currentUser}/>}/>
-
                 </Route>
         </Routes>
     </> 

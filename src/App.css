@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  background-color: #e0e0e0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11,43 +15,24 @@
 
 .bg-main-color {
   background-color: #333333;
+  color: #ffffff;
 }
-.card-color-primary {
-  background-color: #2C2C2C;
-}
-.card-color-secondary {
-  background-color: #252525;
-}
-.main-colors {
-  background-color:#4a79b3;
-}
-.secondary-color {
-  background-color:#88C0D0;
-}
-.main-colors-red {
-  background-color:#BF616A;
+
+
+.bg-main-card {
+  background-color: #f5f5f5;
 }
 
 .text-color-primary {
-  color: #E0E0E0;
-}
-.text-color-secondary {
-  color: #B0B0B0;
-}
-.text-color-dark {
-  color: #707070;
-}
-
-.border-primary {
-  color: #2C2C2C;
+  color: #333333;
 }
 
 .button-primary {
-  background-color: #A3BE8C;
+  background-color: #4b4b4b;
+  color: #ffffff;
 }
-.button-secondary {
-  background-color: #EBCB8B;
+
+.button-primary:hover {
+  background-color: #3a3a3a;
 }
-.button-warning {
-  background-color: #BF616A;
-}
+

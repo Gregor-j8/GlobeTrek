@@ -6,18 +6,18 @@ export const Posts = ({ post }) => {
     const { isLiked, toggleLike } = useLike();
 
     return (
-        <div className="flex justify-center items-center w-2/3">
-            <div className="w-full items-center md:w-1/2 lg:w-1/3 m-5 card-color-primary">
+        <div className="flex justify-center items-center w-full">
+            <div className="w-full items-center m-5 bg-main-card">
                 <section className="flex justify-around">
                     <Link to={`/posts/${post.id}`}>
-                        <h2 className="text-color-dark">{post.title}</h2>
+                        <h2 className="text-color-primary">{post.title}</h2>
                     </Link>
                     <button onClick={() => toggleLike(post.id)}>
                         {isLiked(post.id) ? <FilledHeartIcon /> : <UnFilledHeartIcon />}
                     </button>
                 </section>
-                <h3 className="text-color-dark">{post.description}</h3>
-                <h3 className="text-color-dark">{post.city.city}</h3>
+                <h3 className="text-color-primary">{post.description}</h3>
+                <h3 className="text-color-primary">{post.city.city}</h3>
             </div>
         </div>
     )

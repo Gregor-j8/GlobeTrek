@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export const Navbar = ({currentUser}) => {
     return (
         <nav>
-            <ul className="bg-main-color flex justify-evenly text-color-primary p-4 fixed w-full top-0">
+            <ul className="bg-main-color flex justify-evenly p-4 fixed w-full top-0">
                 <Link to={"/"}><li>Home</li></Link>
                 <Link to={"/posts"}><li>Posts</li></Link>
                 <Link to={"/favorites"}><li>Favorites</li></Link>
