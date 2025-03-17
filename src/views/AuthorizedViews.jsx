@@ -8,6 +8,7 @@ import { EditPosts } from "../components/Posts/EditPosts"
 import { Favorite } from "../components/Favorite/Favorite"
 import { Profile } from "../components/Profile/Profile"
 import { EditProfile } from "../components/Profile/EditProfile"
+import { NewPost } from "../components/Posts/NewPost"
 
 
 export const AuthorizedViews = () => {
@@ -29,12 +30,15 @@ export const AuthorizedViews = () => {
                 <Route index element={<Home currentUser={currentUser}/>}/>
                     <Route path="posts">
                         <Route index element={<PostsList currentUser={currentUser}/>}/>
+                        
                         <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
                         <Route path=":postId/edit" element={<EditPosts currentUser={currentUser}/>}/>
                     </Route>
+                        <Route path="/newpost" element={<NewPost currentUser={currentUser}/>}/>
                         <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
                         <Route path="/profile/:userId" element={<Profile currentUser={currentUser}/>}/>
                         <Route path="/profile/edit" element={<EditProfile currentUser={currentUser}/>}/>
+
                 </Route>
         </Routes>
     </> 
