@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import {  useNavigate, useParams } from "react-router-dom"
+import {  Link, useNavigate, useParams } from "react-router-dom"
 import { deletePost, getPostsDetails } from "../../services/postService"
 
 export const PostDetails = ({currentUser}) => {
@@ -23,7 +23,9 @@ export const PostDetails = ({currentUser}) => {
         <div className="w-full h-screen flex  items-center justify-center">
             <div className="flex flex-col  pb-10">
                 <section className=" flex justify-between">
-                    <h1>{PostDetail.user?.fullName}</h1>
+                    <Link to={`/profile/${PostDetail?.user?.id}`}>
+                        <h1>{PostDetail.user?.fullName}</h1>
+                    </Link> 
                     <h1>{PostDetail.title}</h1>          
                 </section>
                     <p className="items-center p-15">{PostDetail.description}</p>

@@ -233,6 +233,12 @@
       "postId": 10,
       "isLiked": true,
       "id": 22
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "isLiked": true,
+      "id": 23
     }
   ],
   "cities": [

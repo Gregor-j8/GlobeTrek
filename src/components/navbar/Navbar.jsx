@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
 
-export const Navbar = () => {
+export const Navbar = ({currentUser}) => {
     return (
         <nav>
             <ul className="bg-main-color flex justify-evenly text-color-primary p-4 fixed w-full top-0">
                 <Link to={"/"}><li>Home</li></Link>
                 <Link to={"/posts"}><li>Posts</li></Link>
                 <Link to={"/favorites"}><li>Favorites</li></Link>
-                <Link to={"/profile"}><li>Profile</li></Link>
+                <Link to={`/profile/${currentUser.id}`}><li>Profile</li></Link>
                 {localStorage.getItem("user") ? (
                 <Link to="" onClick={() => {
                     localStorage.removeItem("user")
