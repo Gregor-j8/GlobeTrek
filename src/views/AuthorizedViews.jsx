@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { PostsList } from "../components/Posts/PostsList"
 import { PostDetails } from "../components/Posts/PostDetails"
 import { EditPosts } from "../components/Posts/EditPosts"
+import { Favorite } from "../components/Favorite/Favorite"
 
 
 export const AuthorizedViews = () => {
@@ -29,6 +30,7 @@ export const AuthorizedViews = () => {
                         <Route path=":postId" element={<PostDetails currentUser={currentUser}/>}/>
                         <Route path=":postId/edit" element={<EditPosts currentUser={currentUser}/>}/>
                     </Route>
+                        <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
                 </Route>
         </Routes>
     </> 
