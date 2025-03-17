@@ -4,6 +4,7 @@ import { Login } from './components/auth/Login'
 import { Register } from './components/auth/Register'
 import { Authorized } from './views/Authorized'
 import { AuthorizedViews } from './views/AuthorizedViews'
+import { HandleLikes } from './context/LikeContext'
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
           path='*'
           element={
             <Authorized>
-                <AuthorizedViews />
+                <HandleLikes>
+                    <AuthorizedViews />
+                </HandleLikes>    
             </Authorized>
           }
         />

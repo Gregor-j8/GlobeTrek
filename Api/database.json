@@ -159,57 +159,80 @@
     {
       "id": 2,
       "postId": 1,
-      "userId": 2
+      "userId": 2,
+      "isLiked": true
     },
     {
       "id": 3,
       "postId": 2,
-      "userId": 3
+      "userId": 3,
+      "isLiked": true
     },
     {
       "id": 4,
       "postId": 2,
-      "userId": 4
+      "userId": 4,
+      "isLiked": true
     },
     {
       "id": 5,
       "postId": 3,
-      "userId": 5
+      "userId": 5,
+      "isLiked": true
     },
     {
       "id": 6,
       "postId": 3,
-      "userId": 6
+      "userId": 6,
+      "isLiked": true
     },
     {
       "id": 7,
       "postId": 4,
-      "userId": 7
+      "userId": 7,
+      "isLiked": true
     },
     {
       "id": 8,
       "postId": 4,
-      "userId": 8
+      "userId": 8,
+      "isLiked": true
     },
     {
       "id": 9,
       "postId": 5,
-      "userId": 9
-    },
-    {
-      "userId": 1,
-      "postId": 1,
-      "id": 10
+      "userId": 9,
+      "isLiked": true
     },
     {
       "userId": 1,
       "postId": 3,
-      "id": 11
+      "isLiked": true,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "postId": 5,
+      "isLiked": true,
+      "id": 19
     },
     {
       "userId": 1,
       "postId": 4,
-      "id": 12
+      "isLiked": true,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "isLiked": true,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "postId": 10,
+      "isLiked": true,
+      "id": 22
     }
   ],
   "cities": [

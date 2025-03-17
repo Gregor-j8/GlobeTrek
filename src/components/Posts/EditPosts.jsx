@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import { GetCities } from "../../services/CityServices"
 import { getPostsDetails, updatePosts } from "../../services/postService"
 
-export const EditPosts = ({currentUser}) => {
+export const EditPosts = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
     const [ cities, setCities] = useState([])
