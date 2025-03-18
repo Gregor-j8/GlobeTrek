@@ -255,5 +255,17 @@
       "id": 10,
       "city": "Cairo"
     }
+  ],
+   "locations": [
+      { "id": 1, "geocode": [48.8566, 2.3522], "popup": "Marker at Paris" },
+      { "id": 2, "geocode": [51.5074, -0.1278], "popup": "Marker at London" },
+      { "id": 3, "geocode": [40.7128, -74.0060], "popup": "Marker at New York" },
+      { "id": 4, "geocode": [35.6895, 139.6917], "popup": "Marker at Tokyo" },
+      { "id": 5, "geocode": [-33.8688, 151.2093], "popup": "Marker at Sydney" },
+      { "id": 6, "geocode": [-22.9068, -43.1729], "popup": "Marker at Rio de Janeiro" },
+      { "id": 7, "geocode": [-33.9249, 18.4241], "popup": "Marker at Cape Town" },
+      { "id": 8, "geocode": [52.5200, 13.4050], "popup": "Marker at Berlin" },
+      { "id": 9, "geocode": [25.276987, 55.296249], "popup": "Marker at Dubai" },
+      { "id": 10, "geocode": [30.0444, 31.2357], "popup": "Marker at Cairo" }
   ]
 }
