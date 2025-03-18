@@ -34,37 +34,37 @@ export const NewPost = ({currentUser}) => {
     }
     
     return (
-    <div className="w-full flex items-center justify-center pt-20">
-        <form>
+    <div className="w-full flex items-center justify-center p-20">
+        <form className="flex items-start bg-main-color p-10">
             <fieldset>
                 <section>
-                    <label>Title: </label>
-                    <input className="bg-gray-600 text-white" onChange={(event) => {
+                    <label className="text-color-primary">Title: </label>
+                    <input className="button-primary" onChange={(event) => {
                     const copy = {...newPost}
                     copy.title = event.target.value
                     setNewPost(copy)
                     }} required/>
                 </section>
                 <section>
-                    <label>description:</label>
-                    <input className="bg-gray-600 text-white" onChange={(event) => {
+                    <label className="text-color-primary">description:</label>
+                    <input className="button-primary" onChange={(event) => {
                     const copy = {...newPost}
                     copy.description = event.target.value
                     setNewPost(copy)
                     }} required/>
                 </section>
-                <select onChange={(event) => {
+                <select className="button-primary" onChange={(event) => {
                     const copy = {...newPost}
                     copy.cityId = event.target.value
                     setNewPost(copy)
                 }} required>
-                <option className="text-black" value={0}>Choose A city</option>
+                <option className="button-primary" value={0}>Choose A city</option>
                     {cities.map(city => {
-                        return <option className="text-black" key={city.id} value={city.id}>{city.city}</option>})}
+                        return <option className="button-primary" key={city.id} value={city.id}>{city.city}</option>})}
                     </select>
                     <div className="flex justify-between">
-                        <button className="bg-gray-600 p-2 cursor-pointer" onClick={(event) => AddNewPost(event)}>Create Post</button>
-                        <button className="bg-gray-600 p-2 cursor-pointer" onClick={() => navigate("/posts")}>Cancel</button> 
+                        <button className="button-primary p-2 cursor-pointer" onClick={(event) => AddNewPost(event)}>Create Post</button>
+                        <button className="button-primary p-2 cursor-pointer" onClick={() => navigate("/posts")}>Cancel</button> 
                     </div>
             </fieldset>
         </form>
