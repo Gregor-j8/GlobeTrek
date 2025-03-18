@@ -147,6 +147,14 @@
       "state": "published",
       "location": "Cairo, Egypt",
       "date": "2024-06-22"
+    },
+    {
+      "userId": 1,
+      "cityId": "1",
+      "title": "sss",
+      "description": "ssss",
+      "date": "3/17/2025",
+      "id": 11
     }
   ],
   "notes": [],
@@ -201,45 +209,9 @@
     },
     {
       "userId": 1,
-      "postId": 3,
-      "isLiked": true,
-      "id": 16
-    },
-    {
-      "userId": 1,
-      "postId": 5,
-      "isLiked": true,
-      "id": 19
-    },
-    {
-      "userId": 1,
-      "postId": 4,
-      "isLiked": true,
-      "id": 20
-    },
-    {
-      "userId": 1,
-      "postId": 2,
-      "isLiked": true,
-      "id": 21
-    },
-    {
-      "userId": 1,
-      "postId": 10,
-      "isLiked": true,
-      "id": 22
-    },
-    {
-      "userId": 1,
       "postId": 1,
       "isLiked": true,
-      "id": 23
-    },
-    {
-      "userId": 1,
-      "postId": 6,
-      "isLiked": true,
-      "id": 24
+      "id": 10
     }
   ],
   "cities": [

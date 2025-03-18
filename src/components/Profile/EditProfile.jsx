@@ -23,11 +23,12 @@ export const EditProfile = ({currentUser}) => {
         })
     }
     return (
-    <div className="flex pt-50 w-full ">
-        <form className="flex flex-col items-center justify-center pt-20 w-full">
+    <div className="flex pt-40 w-full ">
+        <form className="flex flex-col items-center justify-center pt-20 pb-5 mx-10 w-full bg-main-card">
             <fieldset>
-                <label>UserName: </label>
-                <input className="bg-gray-500 text-amber-50"
+                <h1 className="flex text-color-primary text-4xl justify-center pb-10">Edit Profile</h1>
+                <label className="text-color-primary">UserName: </label>
+                <input className="button-primary text-color-primary"
                 value={profile?.fullName} 
                 onChange={(event) => {
                     const copy = {...profile}
@@ -35,11 +36,11 @@ export const EditProfile = ({currentUser}) => {
                     setProfile(copy)}}/>
             </fieldset>
             <div className="flex items-center pt-10">
-                <button className="px-2 py-3 mx-10 bg-gray-400 cursor-pointer" onClick={(event) => handleUpdateName(event)}>Save</button>
-                <button className="px-2 py-3 mx-10 bg-gray-400 cursor-pointer" onClick={() => Navigate(`/profile/${currentUser.id}`)}>Cancel</button> 
+                <button className="text-color-primary px-2 py-3 mx-10 button-primary cursor-pointer" onClick={(event) => handleUpdateName(event)}>Save</button>
+                <button className="text-color-primary px-2 py-3 mx-10 button-primary cursor-pointer" onClick={() => Navigate(`/profile/${currentUser.id}`)}>Cancel</button> 
             </div>
-            <footer className="w-full flex items-center justify-center pt-10">
-                <button  className="px-2 py-3 bg-gray-400 cursor-pointer" onClick={() => {
+            <footer className="text-color-primary w-full flex items-center justify-center pt-10">
+                <button  className="px-2 py-3 button-primary cursor-pointer" onClick={() => {
                     deleteProfile(currentUser.id)
                     localStorage.removeItem("user")
                     }}>Delete Profile</button>                

@@ -42,40 +42,41 @@ export const EditPosts = () => {
 
     return (
         <div className="flex items-center justify-center w-full h-screen">
-            <form className="flex flex-col h-2/5 items-center justify-center bg-main-color">
+            <form className="flex flex-col h-2/5 items-center w-full mx-5 justify-center bg-main-card">
                 <fieldset >
                     <div>
-                        <label>Title</label>
+                        <label className="text-color-primary">Title: </label>
                         <input type="text"
-                        className="bg-white" value={newPost.title} onChange={(events) => {
+                        className="button-primary text-color-primary" value={newPost.title} onChange={(events) => {
                             const copy = {...newPost}
                             copy.title = events.target.value
                             setNewPost(copy)}}/>
                     </div>
                     <div>
-                        <label>Location</label>
+                        <label className="text-color-primary">Location: </label>
                         <input type="text"
-                            className="bg-white" value={newPost.location} onChange={(events) => {
+                            className="button-primary text-color-primary" value={newPost.location} onChange={(events) => {
                             const copy = {...newPost}
                             copy.location = events.target.value
                             setNewPost(copy)}}/>                   
                     </div>
                     <div>
-                        <label>Description</label>
+                        <label className="text-color-primary">Description: </label>
                         <input type="text"
-                                className="bg-white" value={newPost.description} onChange={(events) => {
+                                className="button-primary text-color-primary h-5"
+                                 value={newPost.description} onChange={(events) => {
                                 const copy = {...newPost}
                                 copy.description = events.target.value
                                 setNewPost(copy)}}/>                      
                     </div>
-                        <select onChange={(events) => {
+                        <select className="button-primary p-1 rounded-lg mx-3" onChange={(events) => {
                             const copy = {...newPost}
                             copy.cityId = parseInt(events.target.value)
                             setNewPost(copy)}}>
-                        <option className=" text-black" value={0}>Choose A City</option>{cities.map(city => {
-                        return <option className="text-black" value={city.id} key={city.id}>{city.city}</option>
+                        <option className=" button-primary" value={0}>Choose A City</option>{cities.map(city => {
+                        return <option className="button-primary" value={city.id} key={city.id}>{city.city}</option>
                     })}</select> 
-                    <button className="w-35 mt-22 rounded-lg h-8 bg-gray-400 cursor-pointer" onClick={updatingPost}>Save </button>
+                    <button className="w-35 mt-22 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={updatingPost}>Save </button>
                 </fieldset>
             </form>
         </div>

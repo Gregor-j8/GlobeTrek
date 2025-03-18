@@ -10,7 +10,7 @@ export const HandleLikes = ({ children }) => {
     useEffect(() => {
         getLikes().then(data => {
             setUserLikes(data)})
-    }, [userLikes])
+    }, [])
 
     const isLiked = (postId) => {
         return userLikes.find(like => like.postId === postId && like.userId === currentUser.id);

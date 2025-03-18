@@ -20,28 +20,28 @@ export const PostDetails = ({currentUser}) => {
         }
 
     return (
-        <div className="w-full h-screen flex  items-center justify-center">
-            <div className="flex flex-col  pb-10">
+        <div className="w-full h-screen flex  items-center justify-center ">
+            <div className="flex flex-col bg-main-card p-10">
                 <section className=" flex justify-between">
                     <Link to={`/profile/${PostDetail?.user?.id}`}>
-                        <h1>{PostDetail.user?.fullName}</h1>
+                        <h1 className="text-color-primary">{PostDetail.user?.fullName}</h1>
                     </Link> 
-                    <h1>{PostDetail.title}</h1>          
+                    <h2 className="text-color-primary">{PostDetail.title}</h2>          
                 </section>
-                    <p className="items-center p-15">{PostDetail.description}</p>
+                    <p className="items-center text-color-primary p-15">{PostDetail.description}</p>
                     {currentUser.id !== PostDetail.user?.id
                         ? <footer className="flex justify-between">
-                            <p>{PostDetail.city?.city}</p>
-                            <p>{PostDetail.date}</p> 
+                            <p className="text-color-primary">{PostDetail.city?.city}</p>
+                            <p className="text-color-primary">{PostDetail.date}</p> 
                             </footer>
-                        : <footer className="flex flex-col text-l p-2">
+                        : <footer className="flex  flex-col text-l p-2">
                             <div className="flex justify-between">
-                                <p>{PostDetail.city?.city}</p>
-                                <p>{PostDetail.date}</p> 
-                                <button className="cursor-pointer" onClick={() => {navigate("edit")}}>Edit</button> 
+                                <p className="text-color-primary">{PostDetail.city?.city}</p>
+                                <p className="text-color-primary">{PostDetail.date}</p> 
+                                <button className="cursor-pointer text-color-primary p-2 button-primary" onClick={() => {navigate("edit")}}>Edit</button> 
                             </div>
                             <div className="flex items-center justify-center pt-8 font-bold">
-                                <button className="cursor-pointer" value={PostDetail.id} onClick={(event) => HandleDelete(event.target.value)}>Delete</button>
+                                <button className="button-primary cursor-pointer p-2 text-color-primary" value={PostDetail.id} onClick={(event) => HandleDelete(event.target.value)}>Delete</button>
                             </div>
                         </footer>}
             </div>
