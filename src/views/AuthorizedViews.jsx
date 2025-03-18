@@ -9,6 +9,7 @@ import { Favorite } from "../components/Favorite/Favorite"
 import { Profile } from "../components/Profile/Profile"
 import { EditProfile } from "../components/Profile/EditProfile"
 import { NewPost } from "../components/Posts/NewPost"
+import { World } from "../components/Map/World"
 
 
 export const AuthorizedViews = () => {
@@ -35,6 +36,7 @@ export const AuthorizedViews = () => {
                     </Route>
                         <Route path="/newpost" element={<NewPost currentUser={currentUser}/>}/>
                         <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
+                        <Route path="/map" element={<World />}/>
                         <Route path="/profile/:userId" element={<Profile currentUser={currentUser}/>}/>
                         <Route path="/profile/edit" element={<EditProfile currentUser={currentUser}/>}/>
                 </Route>
