@@ -11,7 +11,7 @@ export const PostsList = () => {
             getPosts().then(data => {
                 setPosts(data)
             })}, [])
-
+            
     return (
         <div className="flex flex-col items-center w-full pt-16">
             <div>

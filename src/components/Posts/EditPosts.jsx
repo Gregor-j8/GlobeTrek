@@ -1,19 +1,11 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import { GetCities } from "../../services/CityServices"
 import { getPostsDetails, updatePosts } from "../../services/postService"
 
 export const EditPosts = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
-    const [ cities, setCities] = useState([])
     const [ newPost, setNewPost] = useState({})
-
-    useEffect(() => {
-        GetCities().then(res => {
-            setCities(res)
-        })
-    }, [])
 
     useEffect(() => {
         getPostsDetails(postId).then(res => {
@@ -29,10 +21,10 @@ export const EditPosts = () => {
             id: postId,
             title: newPost.title,
             description: newPost.description,
-            cityId: newPost.cityId, 
+            Name: newPost.Name, 
         }
         console.log(AddPost)
-        if (!AddPost.cityId) {
+        if (!AddPost) {
             return 
         } else {
             updatePosts(AddPost).then(() => {
@@ -69,13 +61,6 @@ export const EditPosts = () => {
                                 copy.description = events.target.value
                                 setNewPost(copy)}}/>                      
                     </div>
-                        <select className="button-primary p-1 rounded-lg mx-3" onChange={(events) => {
-                            const copy = {...newPost}
-                            copy.cityId = parseInt(events.target.value)
-                            setNewPost(copy)}}>
-                        <option className=" button-primary" value={0}>Choose A City</option>{cities.map(city => {
-                        return <option className="button-primary" value={city.id} key={city.id}>{city.city}</option>
-                    })}</select> 
                     <button className="w-35 mt-22 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={updatingPost}>Save </button>
                 </fieldset>
             </form>

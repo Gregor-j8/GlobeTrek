@@ -17,7 +17,6 @@ export const Posts = ({ post }) => {
                     </button>
                 </section>
                 <h3 className="text-color-primary">{post.description}</h3>
-                <h3 className="text-color-primary">{post.city.city}</h3>
             </div>
         </div>
     )
