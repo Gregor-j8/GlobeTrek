@@ -51,110 +51,206 @@
     {
       "id": 1,
       "userId": 1,
-      "cityId": 1,
-      "title": "Exploring Tokyo",
-      "description": "Shibuya crossing and ramen!",
-      "state": "published",
-      "location": "Shibuya, Tokyo",
-      "date": "2025-01-15"
+      "cityName": "Memphis",
+      "lon": "-90.0517638",
+      "lat": "35.1460249",
+      "geocode": [
+        35.1460249,
+        -90.0517638
+      ],
+      "title": "Exploring the Eiffel Tower",
+      "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
+      "popup": "Marker at Paris",
+      "date": "03/15/2025"
     },
     {
       "id": 2,
       "userId": 2,
-      "cityId": 2,
-      "title": "Sunset at Santorini",
-      "description": "Breathtaking sunset!",
-      "state": "draft",
-      "location": "Oia, Santorini",
-      "date": "2024-07-20"
+      "cityName": "Tokyo",
+      "lon": 139.6917,
+      "lat": 35.6895,
+      "geocode": [
+        35.6895,
+        139.6917
+      ],
+      "title": "Cherry Blossoms in Tokyo",
+      "description": "The cherry blossoms were in full bloom. Absolutely stunning!",
+      "popup": "Marker at Tokyo",
+      "date": "03/14/2025"
     },
     {
       "id": 3,
       "userId": 3,
-      "cityId": 3,
-      "title": "Paris Adventure",
-      "description": "Climbed the Eiffel Tower",
-      "state": "published",
-      "location": "Paris, France",
-      "date": "2024-09-05"
+      "cityName": "New York",
+      "lon": -74.006,
+      "lat": 40.7128,
+      "geocode": [
+        40.7128,
+        -74.006
+      ],
+      "title": "Times Square at Night",
+      "description": "Times Square is magical at night with all the lights and energy.",
+      "popup": "Marker at New York",
+      "date": "03/13/2025"
     },
     {
       "id": 4,
       "userId": 4,
-      "cityId": 4,
-      "title": "London Vibes",
-      "description": "Big Ben and fish & chips",
-      "state": "draft",
-      "location": "London, UK",
-      "date": "2024-11-12"
+      "cityName": "Rome",
+      "lon": 12.4964,
+      "lat": 41.9028,
+      "geocode": [
+        41.9028,
+        12.4964
+      ],
+      "title": "Roman History Tour",
+      "description": "Walked through the Colosseum and Roman Forum. Fascinating history!",
+      "popup": "Marker at Rome",
+      "date": "03/12/2025"
     },
     {
       "id": 5,
       "userId": 5,
-      "cityId": 5,
-      "title": "New York Nights",
-      "description": "Times Square was amazing",
-      "state": "published",
-      "location": "New York, USA",
-      "date": "2025-02-10"
+      "cityName": "Sydney",
+      "lon": 151.2093,
+      "lat": -33.8688,
+      "geocode": [
+        -33.8688,
+        151.2093
+      ],
+      "title": "Sydney Opera House Visit",
+      "description": "Toured the Opera House and walked along the harbor.",
+      "popup": "Marker at Sydney",
+      "date": "03/11/2025"
     },
     {
       "id": 6,
       "userId": 6,
-      "cityId": 6,
-      "title": "Sydney Surf",
-      "description": "Bondi Beach was packed",
-      "state": "published",
-      "location": "Sydney, Australia",
-      "date": "2024-12-03"
+      "cityName": "London",
+      "lon": -0.1276,
+      "lat": 51.5074,
+      "geocode": [
+        51.5074,
+        -0.1276
+      ],
+      "title": "Big Ben and the Thames",
+      "description": "Saw Big Ben and took a river cruise on the Thames.",
+      "popup": "Marker at London",
+      "date": "03/10/2025"
     },
     {
       "id": 7,
       "userId": 7,
-      "cityId": 7,
-      "title": "Rome Walks",
-      "description": "Colosseum and gelato",
-      "state": "draft",
-      "location": "Rome, Italy",
-      "date": "2024-08-18"
+      "cityName": "Dubai",
+      "lon": 55.2708,
+      "lat": 25.2048,
+      "geocode": [
+        25.2048,
+        55.2708
+      ],
+      "title": "Burj Khalifa Experience",
+      "description": "Went to the top of Burj Khalifa — the view is incredible!",
+      "popup": "Marker at Dubai",
+      "date": "03/09/2025"
     },
     {
       "id": 8,
       "userId": 8,
-      "cityId": 8,
-      "title": "Bangkok Street Food",
-      "description": "Best pad thai ever!",
-      "state": "published",
-      "location": "Bangkok, Thailand",
-      "date": "2025-03-01"
+      "cityName": "Cape Town",
+      "lon": 18.4241,
+      "lat": -33.9249,
+      "geocode": [
+        -33.9249,
+        18.4241
+      ],
+      "title": "Table Mountain Hike",
+      "description": "Hiked up Table Mountain and enjoyed the scenic views.",
+      "popup": "Marker at Cape Town",
+      "date": "03/08/2025"
     },
     {
       "id": 9,
       "userId": 9,
-      "cityId": 9,
-      "title": "Berlin History",
-      "description": "Visited the Berlin Wall",
-      "state": "draft",
-      "location": "Berlin, Germany",
-      "date": "2024-10-05"
+      "cityName": "Bangkok",
+      "lon": 100.5018,
+      "lat": 13.7563,
+      "geocode": [
+        13.7563,
+        100.5018
+      ],
+      "title": "Street Food Adventure",
+      "description": "Tried some of the best street food in the world!",
+      "popup": "Marker at Bangkok",
+      "date": "03/07/2025"
     },
     {
       "id": 10,
-      "userId": 1,
-      "cityId": 10,
-      "title": "Cairo Pyramids",
-      "description": "Incredible ancient history",
-      "state": "published",
-      "location": "Cairo, Egypt",
-      "date": "2024-06-22"
+      "userId": 10,
+      "cityName": "Rio de Janeiro",
+      "lon": -43.1729,
+      "lat": -22.9068,
+      "geocode": [
+        -22.9068,
+        -43.1729
+      ],
+      "title": "Carnival Experience",
+      "description": "The energy and colors of Carnival were amazing!",
+      "popup": "Marker at Rio de Janeiro",
+      "date": "03/06/2025"
     },
     {
       "userId": 1,
-      "cityId": "1",
+      "cityName": "Kariba",
+      "geocode": [
+        -17.223993450000002,
+        27.600645004043955
+      ],
       "title": "sss",
-      "description": "ssss",
-      "date": "3/17/2025",
-      "id": 11
+      "description": "sss",
+      "popup": "Marker at Uacu Cungo",
+      "date": "3/19/2025",
+      "id": 11,
+      "lat": "-17.223993450000002",
+      "lon": "27.600645004043955"
+    },
+    {
+      "userId": 1,
+      "cityName": "Au",
+      "geocode": [
+        -24.7761086,
+        134.755
+      ],
+      "title": "sss",
+      "description": "sss",
+      "popup": "Marker at Au",
+      "date": "3/19/2025",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "cityName": "Sérvia",
+      "geocode": [
+        44.024322850000004,
+        21.07657433209902
+      ],
+      "title": "aaa",
+      "description": "aaaa",
+      "popup": "Marker at Sérvia",
+      "date": "3/19/2025",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "cityName": "Saint Petersburg",
+      "geocode": [
+        59.9606739,
+        30.1586551
+      ],
+      "title": "zzz",
+      "description": "sss",
+      "popup": "Marker at Saint Petersburg",
+      "date": "3/19/2025",
+      "id": 14
     }
   ],
   "notes": [],
@@ -212,60 +308,18 @@
       "postId": 1,
       "isLiked": true,
       "id": 10
+    },
+    {
+      "userId": 1,
+      "postId": 11,
+      "isLiked": true,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "postId": 13,
+      "isLiked": true,
+      "id": 12
     }
-  ],
-  "cities": [
-    {
-      "id": 1,
-      "city": "Tokyo"
-    },
-    {
-      "id": 2,
-      "city": "Santorini"
-    },
-    {
-      "id": 3,
-      "city": "Paris"
-    },
-    {
-      "id": 4,
-      "city": "London"
-    },
-    {
-      "id": 5,
-      "city": "New York"
-    },
-    {
-      "id": 6,
-      "city": "Sydney"
-    },
-    {
-      "id": 7,
-      "city": "Rome"
-    },
-    {
-      "id": 8,
-      "city": "Bangkok"
-    },
-    {
-      "id": 9,
-      "city": "Berlin"
-    },
-    {
-      "id": 10,
-      "city": "Cairo"
-    }
-  ],
-   "locations": [
-      { "id": 1, "geocode": [48.8566, 2.3522], "popup": "Marker at Paris" },
-      { "id": 2, "geocode": [51.5074, -0.1278], "popup": "Marker at London" },
-      { "id": 3, "geocode": [40.7128, -74.0060], "popup": "Marker at New York" },
-      { "id": 4, "geocode": [35.6895, 139.6917], "popup": "Marker at Tokyo" },
-      { "id": 5, "geocode": [-33.8688, 151.2093], "popup": "Marker at Sydney" },
-      { "id": 6, "geocode": [-22.9068, -43.1729], "popup": "Marker at Rio de Janeiro" },
-      { "id": 7, "geocode": [-33.9249, 18.4241], "popup": "Marker at Cape Town" },
-      { "id": 8, "geocode": [52.5200, 13.4050], "popup": "Marker at Berlin" },
-      { "id": 9, "geocode": [25.276987, 55.296249], "popup": "Marker at Dubai" },
-      { "id": 10, "geocode": [30.0444, 31.2357], "popup": "Marker at Cairo" }
   ]
 }

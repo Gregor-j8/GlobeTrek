@@ -31,12 +31,10 @@ export const PostDetails = ({currentUser}) => {
                     <p className="items-center text-color-primary p-15">{PostDetail.description}</p>
                     {currentUser.id !== PostDetail.user?.id
                         ? <footer className="flex justify-between">
-                            <p className="text-color-primary">{PostDetail.city?.city}</p>
                             <p className="text-color-primary">{PostDetail.date}</p> 
                             </footer>
                         : <footer className="flex  flex-col text-l p-2">
                             <div className="flex justify-between">
-                                <p className="text-color-primary">{PostDetail.city?.city}</p>
                                 <p className="text-color-primary">{PostDetail.date}</p> 
                                 <button className="cursor-pointer text-color-primary p-2 button-primary" onClick={() => {navigate("edit")}}>Edit</button> 
                             </div>

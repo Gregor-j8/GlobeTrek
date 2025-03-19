@@ -5,6 +5,7 @@ import { Register } from './components/auth/Register'
 import { Authorized } from './views/Authorized'
 import { AuthorizedViews } from './views/AuthorizedViews'
 import { HandleLikes } from './context/LikeContext'
+import { NewPostHolder } from './context/NewPostContext'
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
           element={
             <Authorized>
                 <HandleLikes>
+                  <NewPostHolder>
                     <AuthorizedViews />
+                  </NewPostHolder>    
                 </HandleLikes>    
             </Authorized>
           }

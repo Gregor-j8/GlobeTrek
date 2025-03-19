@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { MapContainer, TileLayer } from "react-leaflet";
 import { MarkerPopUp } from "./MarkerPopUp"
-import { getLocations } from "../../services/locationServices"
+import { getPostMarker } from "../../services/postService";
 
 export const World = () => {
   const mapRef = useRef(null);
@@ -15,10 +15,10 @@ export const World = () => {
   }, []);
 
   useEffect(() => {
-    getLocations().then(data => {
+    getPostMarker().then(data => {
       setMarkers(data);
     });
-  }, []);
+  }, [markers]);
 
   return (
       <div className="h-screen w-[100%]">
@@ -29,8 +29,6 @@ export const World = () => {
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
           noWrap="true"
         />
-        {/* <CitySearch/> */}
-        {/* <MapClickHandler/> */}
         {markers.map(marker => {
           return <MarkerPopUp marker={marker} key={marker.id} />
         })}
