@@ -51,12 +51,12 @@
     {
       "id": 1,
       "userId": 1,
-      "cityName": "Paris",
-      "lon": 2.3522,
-      "lat": 48.8566,
+      "cityName": "Memphis",
+      "lon": "-90.0517638",
+      "lat": "35.1460249",
       "geocode": [
-        48.8566,
-        2.3522
+        35.1460249,
+        -90.0517638
       ],
       "title": "Exploring the Eiffel Tower",
       "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
@@ -200,16 +200,18 @@
     },
     {
       "userId": 1,
-      "cityName": "Uacu Cungo",
+      "cityName": "Kariba",
       "geocode": [
-        -11.36343,
-        15.120778
+        -17.223993450000002,
+        27.600645004043955
       ],
       "title": "sss",
       "description": "sss",
       "popup": "Marker at Uacu Cungo",
       "date": "3/19/2025",
-      "id": 11
+      "id": 11,
+      "lat": "-17.223993450000002",
+      "lon": "27.600645004043955"
     },
     {
       "userId": 1,

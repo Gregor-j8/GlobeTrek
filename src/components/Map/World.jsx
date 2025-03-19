@@ -18,7 +18,7 @@ export const World = () => {
     getPostMarker().then(data => {
       setMarkers(data);
     });
-  }, []);
+  }, [markers]);
 
   return (
       <div className="h-screen w-[100%]">
