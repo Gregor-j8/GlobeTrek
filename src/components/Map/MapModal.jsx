@@ -3,20 +3,17 @@ import { useEditPost } from "../../context/EditPostContext"
 import { EditFilter } from "../Filter/EditFilter"
 import { deletePost, updatePosts } from "../../services/postService"
 
-export const MapModal = ({ marker }) => {
+export const MapModal = ({ marker, onClose }) => {
   const { editPost, updateEditPost, handleSave } = useEditPost()
-
-    console.log("editPost", editPost)
     useEffect(() => {
         if (marker && marker.id !== editPost.id) {
             updateEditPost(marker)
         }
     }, [marker, editPost.id]) 
 
-  
-
-const onSave  = (event) => {
-    handleSave(event, updatePosts)
+const onSave = (event) => {
+    event.preventDefault()
+    handleSave(updatePosts)
 }
 
         
@@ -54,6 +51,9 @@ const onSave  = (event) => {
                 <EditFilter newPost={editPost} setNewPost={updateEditPost} />
                 <button className="button-primary" onClick={onSave}>
                     Save
+                </button>                
+                <button className="button-primary" onClick={onClose}>
+                    Cancel
                 </button>
                 <button className="button-primary" onClick={handleDelete}>
                     Delete
