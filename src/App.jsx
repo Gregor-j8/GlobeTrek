@@ -6,6 +6,7 @@ import { Authorized } from './views/Authorized'
 import { AuthorizedViews } from './views/AuthorizedViews'
 import { HandleLikes } from './context/LikeContext'
 import { NewPostHolder } from './context/NewPostContext'
+import { EditPostProvider } from './context/EditPostContext'
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
             <Authorized>
                 <HandleLikes>
                   <NewPostHolder>
-                    <AuthorizedViews />
+                    <EditPostProvider>
+                      <AuthorizedViews />
+                    </EditPostProvider>
                   </NewPostHolder>    
                 </HandleLikes>    
             </Authorized>

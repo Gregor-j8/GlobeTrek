@@ -51,22 +51,27 @@
     {
       "id": 1,
       "userId": 1,
-      "cityName": "Memphis",
-      "lon": "-90.0517638",
-      "lat": "35.1460249",
+      "cityName": "Caballero",
+      "lon": "-84.2747329",
+      "lat": "34.0709576",
       "geocode": [
-        35.1460249,
-        -90.0517638
+        34.0709576,
+        -84.2747329
       ],
       "title": "Exploring the Eiffel Tower",
       "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
       "popup": "Marker at Paris",
-      "date": "03/15/2025"
+      "date": "03/15/2025",
+      "user": {
+        "id": 1,
+        "fullName": "john doe",
+        "email": "john@example.com"
+      }
     },
     {
       "id": 2,
       "userId": 2,
-      "cityName": "Tokyo",
+      "cityName": "Daxing",
       "lon": 139.6917,
       "lat": 35.6895,
       "geocode": [
@@ -81,27 +86,32 @@
     {
       "id": 3,
       "userId": 3,
-      "cityName": "New York",
-      "lon": -74.006,
-      "lat": 40.7128,
+      "cityName": "New York City",
+      "lon": "-74.0060152",
+      "lat": "40.7127281",
       "geocode": [
-        40.7128,
-        -74.006
+        40.7127281,
+        -74.0060152
       ],
       "title": "Times Square at Night",
       "description": "Times Square is magical at night with all the lights and energy.",
       "popup": "Marker at New York",
-      "date": "03/13/2025"
+      "date": "03/13/2025",
+      "user": {
+        "id": 1,
+        "fullName": "john doe",
+        "email": "john@example.com"
+      }
     },
     {
       "id": 4,
       "userId": 4,
-      "cityName": "Rome",
-      "lon": 12.4964,
-      "lat": 41.9028,
+      "cityName": "Princes Town",
+      "lon": "-61.28061860703701",
+      "lat": "10.20480035",
       "geocode": [
-        41.9028,
-        12.4964
+        10.20480035,
+        -61.28061860703701
       ],
       "title": "Roman History Tour",
       "description": "Walked through the Colosseum and Roman Forum. Fascinating history!",
@@ -126,12 +136,12 @@
     {
       "id": 6,
       "userId": 6,
-      "cityName": "London",
-      "lon": -0.1276,
-      "lat": 51.5074,
+      "cityName": "Kladow",
+      "lon": "-122.272863",
+      "lat": "37.8708393",
       "geocode": [
-        51.5074,
-        -0.1276
+        37.8708393,
+        -122.272863
       ],
       "title": "Big Ben and the Thames",
       "description": "Saw Big Ben and took a river cruise on the Thames.",
@@ -186,7 +196,7 @@
     {
       "id": 10,
       "userId": 10,
-      "cityName": "Rio de Janeiro",
+      "cityName": "Mallawī",
       "lon": -43.1729,
       "lat": -22.9068,
       "geocode": [
@@ -241,16 +251,18 @@
     },
     {
       "userId": 1,
-      "cityName": "Saint Petersburg",
+      "cityName": "Beersheba",
       "geocode": [
-        59.9606739,
-        30.1586551
+        31.2457442,
+        34.7925181
       ],
       "title": "zzz",
       "description": "sss",
       "popup": "Marker at Saint Petersburg",
       "date": "3/19/2025",
-      "id": 14
+      "id": 14,
+      "lat": "31.2457442",
+      "lon": "34.7925181"
     }
   ],
   "notes": [],
