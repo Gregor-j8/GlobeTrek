@@ -8,7 +8,6 @@ export const EditPosts = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
     const { editPost, updateEditPost } = useEditPost()
-    console.log(editPost)
 
     useEffect(() => {
         getPostsDetails(postId).then(res => {
@@ -35,17 +34,14 @@ export const EditPosts = () => {
 
     const updatingPost = (event) => {
         event.preventDefault()
-
         if (!editPost.cityName || !editPost.title || !editPost.description) {
             alert('Please fill out all forms to make a post');
             return;
         }
-
         const post = {
             id: postId,
             ...editPost
         }
-
         updatePosts(post).then(() => {
             navigate(`/posts`)
         })

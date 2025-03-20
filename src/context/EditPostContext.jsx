@@ -3,14 +3,11 @@ import { createContext, useContext, useState } from 'react';
 const EditPostContext = createContext();
 
 export const EditPostProvider = ({ children }) => {
-    const [editPost, setEditPost] = useState({});
+    const [editPost, setEditPost] = useState({})
 
     const updateEditPost = (updatedPost) => {
-        setEditPost((prevPost) => ({
-            ...prevPost,
-            ...updatedPost,
-        }));
-    };
+        setEditPost((prevPost) => ({...prevPost, ...updatedPost,
+        }))}
 
     const handleSave = async (event, updatePosts) => {
         event.preventDefault();
@@ -28,11 +25,9 @@ export const EditPostProvider = ({ children }) => {
                             lon: data[0].lon,
                             geocode: [parseFloat(data[0].lat), parseFloat(data[0].lon)],
                         }
-
                         setTimeout(() => {
                             updatePosts(updatedPost)
                         }, 100)
-
                         return updatedPost
                     })}}}
 

@@ -38,7 +38,7 @@ export const NewPost = ({ currentUser }) => {
     
 
     return (
-        <div className="w-full flex items-center justify-center p-20">
+        <div className="w-full flex items-center z-150 justify-center p-20">
             <form className="flex items-start bg-main-color p-10">
                 <fieldset>
                     <section>

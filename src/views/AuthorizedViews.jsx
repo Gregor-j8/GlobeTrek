@@ -36,7 +36,7 @@ export const AuthorizedViews = () => {
                     </Route>
                         <Route path="/newpost" element={<NewPost currentUser={currentUser}/>}/>
                         <Route path="/favorites" element={<Favorite currentUser={currentUser}/>}/>
-                        <Route path="/map" element={<World />}/>
+                        <Route path="/map" element={<World currentUser={currentUser}/>}/>
                         <Route path="/profile/:userId" element={<Profile currentUser={currentUser}/>}/>
                         <Route path="/profile/edit" element={<EditProfile currentUser={currentUser}/>}/>
                 </Route>

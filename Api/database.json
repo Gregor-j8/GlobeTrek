@@ -61,27 +61,7 @@
       "title": "Exploring the Eiffel Tower",
       "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
       "popup": "Marker at Paris",
-      "date": "03/15/2025",
-      "user": {
-        "id": 1,
-        "fullName": "john doe",
-        "email": "john@example.com"
-      }
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "cityName": "Daxing",
-      "lon": 139.6917,
-      "lat": 35.6895,
-      "geocode": [
-        35.6895,
-        139.6917
-      ],
-      "title": "Cherry Blossoms in Tokyo",
-      "description": "The cherry blossoms were in full bloom. Absolutely stunning!",
-      "popup": "Marker at Tokyo",
-      "date": "03/14/2025"
+      "date": "03/15/2025"
     },
     {
       "id": 3,
@@ -194,21 +174,6 @@
       "date": "03/07/2025"
     },
     {
-      "id": 10,
-      "userId": 10,
-      "cityName": "Mallawī",
-      "lon": -43.1729,
-      "lat": -22.9068,
-      "geocode": [
-        -22.9068,
-        -43.1729
-      ],
-      "title": "Carnival Experience",
-      "description": "The energy and colors of Carnival were amazing!",
-      "popup": "Marker at Rio de Janeiro",
-      "date": "03/06/2025"
-    },
-    {
       "userId": 1,
       "cityName": "Kariba",
       "geocode": [
@@ -263,6 +228,111 @@
       "id": 14,
       "lat": "31.2457442",
       "lon": "34.7925181"
+    },
+    {
+      "userId": 1,
+      "cityName": "Mbuji-Mayi",
+      "lat": "-6.1258942",
+      "lon": "23.5998111",
+      "geocode": [
+        -6.1258942,
+        23.5998111
+      ],
+      "title": "yyyy",
+      "description": "yyyy",
+      "popup": "Marker at Mbuji-Mayi",
+      "date": "3/20/2025",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "cityName": "Kemijärvi",
+      "lat": "66.7161179",
+      "lon": "27.4333534",
+      "geocode": [
+        66.7161179,
+        27.4333534
+      ],
+      "title": "finland",
+      "description": "hi finland",
+      "popup": "Marker at Kemijärvi",
+      "date": "3/20/2025",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "cityName": "Al Bawīţī",
+      "lat": "28.35182",
+      "lon": "28.862992",
+      "geocode": [
+        28.35182,
+        28.862992
+      ],
+      "title": "hi colin",
+      "description": "colins location",
+      "popup": "Marker at Al Bawīţī",
+      "date": "3/20/2025",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "cityName": "St Helens",
+      "lat": "53.4535471",
+      "lon": "-2.7343231",
+      "geocode": [
+        53.4535471,
+        -2.7343231
+      ],
+      "title": "joey",
+      "description": "joey",
+      "popup": "Marker at St Helens",
+      "date": "3/20/2025",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "cityName": "Nuuk",
+      "lat": "64.183",
+      "lon": "-51.721",
+      "geocode": [
+        64.183,
+        -51.721
+      ],
+      "title": "Exploring Nuuk",
+      "description": "Discovering the vibrant culture and stunning landscapes of Greenland's capital city.",
+      "popup": "Marker at Nuuk",
+      "date": "3/20/2025",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "cityName": "Bowling Green",
+      "lat": "36.9903199",
+      "lon": "-86.4436018",
+      "geocode": [
+        36.9903199,
+        -86.4436018
+      ],
+      "title": "joey",
+      "description": "joey",
+      "popup": "Marker at Bowling Green",
+      "date": "3/20/2025",
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "cityName": "Altai",
+      "lat": "47.8257562",
+      "lon": "88.1291701",
+      "geocode": [
+        47.8257562,
+        88.1291701
+      ],
+      "title": "joey house",
+      "description": "joeys ",
+      "popup": "Marker at Altai",
+      "date": "3/20/2025",
+      "id": 20
     }
   ],
   "notes": [],
@@ -271,18 +341,6 @@
       "id": 2,
       "postId": 1,
       "userId": 2,
-      "isLiked": true
-    },
-    {
-      "id": 3,
-      "postId": 2,
-      "userId": 3,
-      "isLiked": true
-    },
-    {
-      "id": 4,
-      "postId": 2,
-      "userId": 4,
       "isLiked": true
     },
     {
