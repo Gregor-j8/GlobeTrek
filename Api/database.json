@@ -333,6 +333,21 @@
       "popup": "Marker at Altai",
       "date": "3/20/2025",
       "id": 20
+    },
+    {
+      "userId": 1,
+      "cityName": "Algiers",
+      "lat": "36.7729333",
+      "lon": "3.0588445",
+      "geocode": [
+        36.7729333,
+        3.0588445
+      ],
+      "title": "s",
+      "description": "s",
+      "popup": "Marker at Algiers",
+      "date": "3/20/2025",
+      "id": 22
     }
   ],
   "notes": [],
