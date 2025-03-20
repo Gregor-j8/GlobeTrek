@@ -18,11 +18,11 @@ export const World = () => {
     getPostMarker().then(data => {
       setMarkers(data);
     });
-  }, [markers]);
+  }, []);
 
   return (
       <div className="h-screen w-[100%]">
-            <MapContainer center={[0, 0]} zoom={2} style={{ height: "95%", width: "100%", position: "absolute", bottom: 0 }}
+            <MapContainer center={[0, 0]} z-index={100} zoom={2} style={{ height: "95%", width: "100%", position: "absolute", bottom: 0 }}
               whenCreated={(mapInstance) => (mapRef.current = mapInstance)}>
           <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
