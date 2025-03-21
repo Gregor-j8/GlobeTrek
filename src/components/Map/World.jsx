@@ -19,13 +19,6 @@ export const World = () => {
   ]
 
   useEffect(() => {
-    if (mapRef.current) {
-      const map = mapRef.current;
-      map.fitWorld()
-    }
-  }, [])
-
-  useEffect(() => {
     getPostMarker().then(data => {
       setHolder(data)
     })
@@ -39,16 +32,18 @@ export const World = () => {
       setMarkers(holder)
     }}, [holder, currentUser, userPost])
 
-
   return (
       <div className="h-screen w-[100%]">
-            <MapContainer  center={[0.505, -0.09]} zoom={3} minZoom={3} maxZoom={19} maxBounds={bounds} maxBoundsViscosity={1.0}
+            <MapContainer  center={[30.505, -0.09]} zoom={3} minZoom={3} maxZoom={19} maxBounds={bounds} maxBoundsViscosity={1.0}
             style={{ height: "100vh", width: "100%", position: "absolute", bottom: 0 }}
               whenCreated={(mapInstance) => (mapRef.current = mapInstance)}>
                 <div className=" top-14 left-[25%] text-xl z-[10000] absolute">
-                   <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" onClick={() => SetNewPostModal(true)}>New Post</button>
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]"  onClick={() => SetUserPost(true)}>user Marker</button>
-                    <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" onClick={() => SetUserPost(false)}>See all Marker</button>
+                   <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" 
+                   onClick={() => SetNewPostModal(true)}>New Post</button>
+                    <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" 
+                     onClick={() => SetUserPost(true)}>user Marker</button>
+                    <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]"
+                     onClick={() => SetUserPost(false)}>See all Marker</button>
                 </div>
                   {NewPostModal && (
                         <CreateMarker
