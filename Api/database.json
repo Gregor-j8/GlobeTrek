@@ -114,6 +114,12 @@
       "postId": 3,
       "isLiked": true,
       "id": 14
+    },
+    {
+      "userId": 3,
+      "postId": 1,
+      "isLiked": true,
+      "id": 15
     }
   ],
   "posts": [
