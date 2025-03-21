@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react';
+import { updatePosts } from '../services/postService';
 
 const EditPostContext = createContext();
 
@@ -9,13 +10,10 @@ export const EditPostProvider = ({ children }) => {
         setEditPost((prevPost) => ({...prevPost, ...updatedPost,
         }))}
 
-    const handleSave = async (event, updatePosts) => {
-        event.preventDefault();
-
+    const handleSave = async () => {
         if (editPost.cityName) {
                 const response = await fetch(
-                    `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(editPost.cityName)}`
-                )
+                    `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(editPost.cityName)}`)
                 const data = await response.json()
                 if (data[0]?.lat && data[0]?.lon) {
                     setEditPost((prevPost) => {

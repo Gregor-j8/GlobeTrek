@@ -22,7 +22,7 @@ export const World = () => {
     getPostMarker().then(data => {
       setHolder(data)
     })
-  }, [currentUser])
+  }, [currentUser, holder])
   
   useEffect(() => {
     if (userPost) {
