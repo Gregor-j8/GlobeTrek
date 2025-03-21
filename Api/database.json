@@ -47,309 +47,6 @@
     }
   ],
   "userFollow": [],
-  "posts": [
-    {
-      "id": 1,
-      "userId": 1,
-      "cityName": "Caballero",
-      "lon": "-84.2747329",
-      "lat": "34.0709576",
-      "geocode": [
-        34.0709576,
-        -84.2747329
-      ],
-      "title": "Exploring the Eiffel Tower",
-      "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
-      "popup": "Marker at Paris",
-      "date": "03/15/2025"
-    },
-    {
-      "id": 3,
-      "userId": 3,
-      "cityName": "New York City",
-      "lon": "-74.0060152",
-      "lat": "40.7127281",
-      "geocode": [
-        40.7127281,
-        -74.0060152
-      ],
-      "title": "Times Square at Night",
-      "description": "Times Square is magical at night with all the lights and energy.",
-      "popup": "Marker at New York",
-      "date": "03/13/2025",
-      "user": {
-        "id": 1,
-        "fullName": "john doe",
-        "email": "john@example.com"
-      }
-    },
-    {
-      "id": 4,
-      "userId": 4,
-      "cityName": "Princes Town",
-      "lon": "-61.28061860703701",
-      "lat": "10.20480035",
-      "geocode": [
-        10.20480035,
-        -61.28061860703701
-      ],
-      "title": "Roman History Tour",
-      "description": "Walked through the Colosseum and Roman Forum. Fascinating history!",
-      "popup": "Marker at Rome",
-      "date": "03/12/2025"
-    },
-    {
-      "id": 5,
-      "userId": 5,
-      "cityName": "Sydney",
-      "lon": 151.2093,
-      "lat": -33.8688,
-      "geocode": [
-        -33.8688,
-        151.2093
-      ],
-      "title": "Sydney Opera House Visit",
-      "description": "Toured the Opera House and walked along the harbor.",
-      "popup": "Marker at Sydney",
-      "date": "03/11/2025"
-    },
-    {
-      "id": 6,
-      "userId": 6,
-      "cityName": "Kladow",
-      "lon": "-122.272863",
-      "lat": "37.8708393",
-      "geocode": [
-        37.8708393,
-        -122.272863
-      ],
-      "title": "Big Ben and the Thames",
-      "description": "Saw Big Ben and took a river cruise on the Thames.",
-      "popup": "Marker at London",
-      "date": "03/10/2025"
-    },
-    {
-      "id": 7,
-      "userId": 7,
-      "cityName": "Dubai",
-      "lon": 55.2708,
-      "lat": 25.2048,
-      "geocode": [
-        25.2048,
-        55.2708
-      ],
-      "title": "Burj Khalifa Experience",
-      "description": "Went to the top of Burj Khalifa — the view is incredible!",
-      "popup": "Marker at Dubai",
-      "date": "03/09/2025"
-    },
-    {
-      "id": 8,
-      "userId": 8,
-      "cityName": "Cape Town",
-      "lon": 18.4241,
-      "lat": -33.9249,
-      "geocode": [
-        -33.9249,
-        18.4241
-      ],
-      "title": "Table Mountain Hike",
-      "description": "Hiked up Table Mountain and enjoyed the scenic views.",
-      "popup": "Marker at Cape Town",
-      "date": "03/08/2025"
-    },
-    {
-      "id": 9,
-      "userId": 9,
-      "cityName": "Bangkok",
-      "lon": 100.5018,
-      "lat": 13.7563,
-      "geocode": [
-        13.7563,
-        100.5018
-      ],
-      "title": "Street Food Adventure",
-      "description": "Tried some of the best street food in the world!",
-      "popup": "Marker at Bangkok",
-      "date": "03/07/2025"
-    },
-    {
-      "userId": 1,
-      "cityName": "Kariba",
-      "geocode": [
-        -17.223993450000002,
-        27.600645004043955
-      ],
-      "title": "sss",
-      "description": "sss",
-      "popup": "Marker at Uacu Cungo",
-      "date": "3/19/2025",
-      "id": 11,
-      "lat": "-17.223993450000002",
-      "lon": "27.600645004043955"
-    },
-    {
-      "userId": 1,
-      "cityName": "Au",
-      "geocode": [
-        -24.7761086,
-        134.755
-      ],
-      "title": "sss",
-      "description": "sss",
-      "popup": "Marker at Au",
-      "date": "3/19/2025",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "cityName": "Sérvia",
-      "geocode": [
-        44.024322850000004,
-        21.07657433209902
-      ],
-      "title": "aaa",
-      "description": "aaaa",
-      "popup": "Marker at Sérvia",
-      "date": "3/19/2025",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "cityName": "Beersheba",
-      "geocode": [
-        31.2457442,
-        34.7925181
-      ],
-      "title": "zzz",
-      "description": "sss",
-      "popup": "Marker at Saint Petersburg",
-      "date": "3/19/2025",
-      "id": 14,
-      "lat": "31.2457442",
-      "lon": "34.7925181"
-    },
-    {
-      "userId": 1,
-      "cityName": "Mbuji-Mayi",
-      "lat": "-6.1258942",
-      "lon": "23.5998111",
-      "geocode": [
-        -6.1258942,
-        23.5998111
-      ],
-      "title": "yyyy",
-      "description": "yyyy",
-      "popup": "Marker at Mbuji-Mayi",
-      "date": "3/20/2025",
-      "id": 15
-    },
-    {
-      "userId": 1,
-      "cityName": "Kemijärvi",
-      "lat": "66.7161179",
-      "lon": "27.4333534",
-      "geocode": [
-        66.7161179,
-        27.4333534
-      ],
-      "title": "finland",
-      "description": "hi finland",
-      "popup": "Marker at Kemijärvi",
-      "date": "3/20/2025",
-      "id": 16
-    },
-    {
-      "userId": 1,
-      "cityName": "Al Bawīţī",
-      "lat": "28.35182",
-      "lon": "28.862992",
-      "geocode": [
-        28.35182,
-        28.862992
-      ],
-      "title": "hi colin",
-      "description": "colins location",
-      "popup": "Marker at Al Bawīţī",
-      "date": "3/20/2025",
-      "id": 17
-    },
-    {
-      "userId": 1,
-      "cityName": "St Helens",
-      "lat": "53.4535471",
-      "lon": "-2.7343231",
-      "geocode": [
-        53.4535471,
-        -2.7343231
-      ],
-      "title": "joey",
-      "description": "joey",
-      "popup": "Marker at St Helens",
-      "date": "3/20/2025",
-      "id": 18
-    },
-    {
-      "userId": 1,
-      "cityName": "Nuuk",
-      "lat": "64.183",
-      "lon": "-51.721",
-      "geocode": [
-        64.183,
-        -51.721
-      ],
-      "title": "Exploring Nuuk",
-      "description": "Discovering the vibrant culture and stunning landscapes of Greenland's capital city.",
-      "popup": "Marker at Nuuk",
-      "date": "3/20/2025",
-      "id": 21
-    },
-    {
-      "userId": 1,
-      "cityName": "Bowling Green",
-      "lat": "36.9903199",
-      "lon": "-86.4436018",
-      "geocode": [
-        36.9903199,
-        -86.4436018
-      ],
-      "title": "joey",
-      "description": "joey",
-      "popup": "Marker at Bowling Green",
-      "date": "3/20/2025",
-      "id": 19
-    },
-    {
-      "userId": 1,
-      "cityName": "Altai",
-      "lat": "47.8257562",
-      "lon": "88.1291701",
-      "geocode": [
-        47.8257562,
-        88.1291701
-      ],
-      "title": "joey house",
-      "description": "joeys ",
-      "popup": "Marker at Altai",
-      "date": "3/20/2025",
-      "id": 20
-    },
-    {
-      "userId": 1,
-      "cityName": "Algiers",
-      "lat": "36.7729333",
-      "lon": "3.0588445",
-      "geocode": [
-        36.7729333,
-        3.0588445
-      ],
-      "title": "s",
-      "description": "s",
-      "popup": "Marker at Algiers",
-      "date": "3/20/2025",
-      "id": 22
-    }
-  ],
   "notes": [],
   "userLikes": [
     {
@@ -418,5 +115,998 @@
       "isLiked": true,
       "id": 14
     }
+  ],
+  "posts": [
+      {
+        "id": 1,
+        "userId": 4,
+        "cityName": "New York",
+        "lon": "-74.0060",
+        "lat": "40.7128",
+        "geocode": [
+          40.7128,
+          -74.0060
+        ],
+        "title": "Exploring the Big Apple",
+        "description": "Visited Central Park and the Empire State Building.",
+        "date": "12/15/2024"
+      },
+      {
+        "id": 2,
+        "userId": 8,
+        "cityName": "London",
+        "lon": "-0.1278",
+        "lat": "51.5074",
+        "geocode": [
+          51.5074,
+          -0.1278
+        ],
+        "title": "Touring the British Capital",
+        "description": "Explored the Tower of London and Buckingham Palace.",
+        "date": "06/09/2023"
+      },
+      {
+        "id": 3,
+        "userId": 6,
+        "cityName": "Paris",
+        "lon": "2.3522",
+        "lat": "48.8566",
+        "geocode": [
+          48.8566,
+          2.3522
+        ],
+        "title": "Exploring the Eiffel Tower",
+        "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
+        "date": "11/19/2024"
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "cityName": "Tokyo",
+        "lon": "139.6917",
+        "lat": "35.6895",
+        "geocode": [
+          35.6895,
+          139.6917
+        ],
+        "title": "Discovering Tokyo's Skyline",
+        "description": "Visited Shibuya Crossing and the Senso-ji Temple.",
+        "date": "09/15/2022"
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "cityName": "Los Angeles",
+        "lon": "-118.2437",
+        "lat": "34.0522",
+        "geocode": [
+          34.0522,
+          -118.2437
+        ],
+        "title": "Hollywood Adventures",
+        "description": "Walked along the Hollywood Walk of Fame and saw the famous Hollywood Sign.",
+        "date": "02/11/2023"
+      },
+      {
+        "id": 6,
+        "userId": 7,
+        "cityName": "Sydney",
+        "lon": "151.2093",
+        "lat": "-33.8688",
+        "geocode": [
+          -33.8688,
+          151.2093
+        ],
+        "title": "Exploring the Sydney Opera House",
+        "description": "Enjoyed the views from Sydney Harbour Bridge and visited the Opera House.",
+        "date": "10/01/2023"
+      },
+      {
+        "id": 7,
+        "userId": 1,
+        "cityName": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "geocode": [
+          52.5200,
+          13.4050
+        ],
+        "title": "A Tour of Berlin's History",
+        "description": "Visited the Brandenburg Gate and Berlin Wall Memorial.",
+        "date": "03/04/2022"
+      },
+      {
+        "id": 8,
+        "userId": 3,
+        "cityName": "Rio de Janeiro",
+        "lon": "-43.1729",
+        "lat": "-22.9068",
+        "geocode": [
+          -22.9068,
+          -43.1729
+        ],
+        "title": "Visiting the Christ the Redeemer",
+        "description": "Climbed to the top of Corcovado Mountain to see the Christ the Redeemer statue.",
+        "date": "07/30/2024"
+      },
+      {
+        "id": 9,
+        "userId": 9,
+        "cityName": "Moscow",
+        "lon": "37.6176",
+        "lat": "55.7558",
+        "geocode": [
+          55.7558,
+          37.6176
+        ],
+        "title": "Exploring Moscow's Red Square",
+        "description": "Walked through Red Square and visited the Kremlin and St. Basil's Cathedral.",
+        "date": "06/15/2025"
+      },
+      {
+        "id": 10,
+        "userId": 2,
+        "cityName": "Dubai",
+        "lon": "55.2708",
+        "lat": "25.276987",
+        "geocode": [
+          25.276987,
+          55.2708
+        ],
+        "title": "A Trip to the Burj Khalifa",
+        "description": "Visited the Burj Khalifa and went to the top to see panoramic views of the city.",
+        "date": "05/10/2023"
+      },
+      {
+        "id": 11,
+        "userId": 3,
+        "cityName": "Barcelona",
+        "lon": "2.1734",
+        "lat": "41.3851",
+        "geocode": [
+            41.3851,
+            2.1734
+          ],
+          "title": "Exploring the Sagrada Familia",
+          "description": "Visited the famous Sagrada Familia and enjoyed the local tapas.",
+          "date": "03/22/2025"
+        },
+        {
+          "id": 12,
+          "userId": 4,
+          "cityName": "Lisbon",
+          "lon": "-9.1395",
+          "lat": "38.7169",
+          "geocode": [
+            38.7169,
+            -9.1395
+          ],
+          "title": "Touring the Belem Tower",
+          "description": "Visited the Belem Tower and enjoyed the famous Pastéis de Nata.",
+          "date": "01/12/2024"
+        },
+        {
+          "id": 13,
+          "userId": 5,
+          "cityName": "Vancouver",
+          "lon": "-123.1216",
+          "lat": "49.2827",
+          "geocode": [
+            49.2827,
+            -123.1216
+          ],
+          "title": "Exploring Stanley Park",
+          "description": "Walked around the beautiful Stanley Park and enjoyed views of the harbor.",
+          "date": "08/15/2023"
+        },
+        {
+          "id": 14,
+          "userId": 6,
+          "cityName": "Buenos Aires",
+          "lon": "-58.4438",
+          "lat": "-34.6037",
+          "geocode": [
+            -34.6037,
+            -58.4438
+          ],
+          "title": "A Visit to La Boca",
+          "description": "Walked around the colorful streets of La Boca and watched tango performances.",
+          "date": "10/25/2023"
+        },
+        {
+          "id": 15,
+          "userId": 7,
+          "cityName": "Cape Town",
+          "lon": "18.4241",
+          "lat": "-33.9249",
+          "geocode": [
+            -33.9249,
+            18.4241
+          ],
+          "title": "Climbing Table Mountain",
+          "description": "Hiked up to the top of Table Mountain for amazing panoramic views.",
+          "date": "07/18/2024"
+        },
+        {
+          "id": 16,
+          "userId": 8,
+          "cityName": "Budapest",
+          "lon": "19.0402",
+          "lat": "47.4979",
+          "geocode": [
+            47.4979,
+            19.0402
+          ],
+          "title": "Relaxing at the Széchenyi Thermal Bath",
+          "description": "Enjoyed the relaxing thermal baths and visited the famous Buda Castle.",
+          "date": "12/05/2023"
+        },
+        {
+          "id": 17,
+          "userId": 9,
+          "cityName": "Copenhagen",
+          "lon": "12.5683",
+          "lat": "55.6761",
+          "geocode": [
+            55.6761,
+            12.5683
+          ],
+          "title": "Visiting Nyhavn",
+          "description": "Walked along the colorful Nyhavn and took a canal tour.",
+          "date": "04/10/2025"
+        },
+        {
+          "id": 18,
+          "userId": 1,
+          "cityName": "Auckland",
+          "lon": "174.7633",
+          "lat": "-36.8485",
+          "geocode": [
+            -36.8485,
+            174.7633
+          ],
+          "title": "Sky Tower Views",
+          "description": "Went up to the Sky Tower for stunning views of the city and harbor.",
+          "date": "06/21/2024"
+        },
+        {
+          "id": 19,
+          "userId": 2,
+          "cityName": "Stockholm",
+          "lon": "18.0686",
+          "lat": "59.3293",
+          "geocode": [
+            59.3293,
+            18.0686
+          ],
+          "title": "Touring Gamla Stan",
+          "description": "Explored the medieval old town (Gamla Stan) and the Royal Palace.",
+          "date": "09/05/2023"
+        },
+        {
+          "id": 20,
+          "userId": 3,
+          "cityName": "Prague",
+          "lon": "14.4208",
+          "lat": "50.0755",
+          "geocode": [
+            50.0755,
+            14.4208
+          ],
+          "title": "Visiting the Prague Castle",
+          "description": "Walked around the historic Prague Castle and enjoyed the views over the city.",
+          "date": "02/25/2024"
+        },
+          {
+            "id": 21,
+            "userId": 4,
+            "cityName": "Seoul",
+            "lon": "126.9780",
+            "lat": "37.5665",
+            "geocode": [
+              37.5665,
+              126.9780
+            ],
+            "title": "Exploring Gyeongbokgung Palace",
+            "description": "Visited the Gyeongbokgung Palace and took a stroll along Bukchon Hanok Village.",
+            "date": "01/15/2025"
+          },
+          {
+            "id": 22,
+            "userId": 5,
+            "cityName": "Montreal",
+            "lon": "-73.5673",
+            "lat": "45.5017",
+            "geocode": [
+              45.5017,
+              -73.5673
+            ],
+            "title": "Exploring Old Montreal",
+            "description": "Walked through the historic streets of Old Montreal and visited Mount Royal.",
+            "date": "05/03/2024"
+          },
+          {
+            "id": 23,
+            "userId": 6,
+            "cityName": "Amsterdam",
+            "lon": "4.9041",
+            "lat": "52.3676",
+            "geocode": [
+              52.3676,
+              4.9041
+            ],
+            "title": "Riding a Bike Along the Canals",
+            "description": "Rode a bike along Amsterdam's famous canals and visited the Anne Frank House.",
+            "date": "02/22/2025"
+          },
+          {
+            "id": 24,
+            "userId": 7,
+            "cityName": "Zurich",
+            "lon": "8.5417",
+            "lat": "47.3769",
+            "geocode": [
+              47.3769,
+              8.5417
+            ],
+            "title": "Enjoying Lake Zurich",
+            "description": "Took a boat ride on Lake Zurich and enjoyed a peaceful walk along the waterfront.",
+            "date": "11/10/2024"
+          },
+          {
+            "id": 25,
+            "userId": 8,
+            "cityName": "Kuala Lumpur",
+            "lon": "101.6869",
+            "lat": "3.1390",
+            "geocode": [
+              3.1390,
+              101.6869
+            ],
+            "title": "Exploring the Petronas Towers",
+            "description": "Went to the top of the Petronas Towers and explored the Bukit Bintang district.",
+            "date": "03/16/2024"
+          },
+          {
+            "id": 26,
+            "userId": 9,
+            "cityName": "Vienna",
+            "lon": "16.3730",
+            "lat": "48.2082",
+            "geocode": [
+              48.2082,
+              16.3730
+            ],
+            "title": "Visiting the Hofburg Palace",
+            "description": "Visited the Hofburg Palace and strolled through the historic city center.",
+            "date": "07/30/2023"
+          },
+          {
+            "id": 27,
+            "userId": 1,
+            "cityName": "Buenos Aires",
+            "lon": "-58.4438",
+            "lat": "-34.6037",
+            "geocode": [
+              -34.6037,
+              -58.4438
+            ],
+            "title": "A Visit to La Boca",
+            "description": "Visited the vibrant district of La Boca and saw a tango show.",
+            "date": "04/21/2025"
+          },
+          {
+            "id": 28,
+            "userId": 2,
+            "cityName": "Oslo",
+            "lon": "10.7522",
+            "lat": "59.9139",
+            "geocode": [
+              59.9139,
+              10.7522
+            ],
+            "title": "Touring the Viking Ship Museum",
+            "description": "Explored the Viking Ship Museum and walked around the Aker Brygge area.",
+            "date": "06/14/2023"
+          },
+          {
+            "id": 29,
+            "userId": 3,
+            "cityName": "Mexico City",
+            "lon": "-99.1332",
+            "lat": "19.4326",
+            "geocode": [
+              19.4326,
+              -99.1332
+            ],
+            "title": "Exploring Chapultepec Park",
+            "description": "Visited Chapultepec Castle and walked around Chapultepec Park.",
+            "date": "09/30/2023"
+          },
+          {
+            "id": 30,
+            "userId": 4,
+            "cityName": "Cairo",
+            "lon": "31.2357",
+            "lat": "30.0444",
+            "geocode": [
+              30.0444,
+              31.2357
+            ],
+            "title": "Visiting the Pyramids of Giza",
+            "description": "Toured the ancient pyramids and the Sphinx.",
+            "date": "10/18/2024"
+          },
+          {
+            "id": 31,
+            "userId": 5,
+            "cityName": "Lagos",
+            "lon": "3.3792",
+            "lat": "6.5244",
+            "geocode": [
+              6.5244,
+              3.3792
+            ],
+            "title": "Relaxing at Tarkwa Bay",
+            "description": "Visited Tarkwa Bay Beach and explored the local markets.",
+            "date": "08/12/2024"
+          },
+          {
+            "id": 32,
+            "userId": 6,
+            "cityName": "Cape Town",
+            "lon": "18.4241",
+            "lat": "-33.9249",
+            "geocode": [
+              -33.9249,
+              18.4241
+            ],
+            "title": "Climbing Table Mountain",
+            "description": "Hiked up Table Mountain and enjoyed spectacular views of the coastline.",
+            "date": "07/03/2023"
+          },
+          {
+            "id": 33,
+            "userId": 7,
+            "cityName": "Helsinki",
+            "lon": "24.9354",
+            "lat": "60.1695",
+            "geocode": [
+              60.1695,
+              24.9354
+            ],
+            "title": "Exploring Suomenlinna",
+            "description": "Visited the UNESCO World Heritage Site of Suomenlinna and its fortress.",
+            "date": "11/10/2024"
+          },
+          {
+            "id": 34,
+            "userId": 8,
+            "cityName": "Auckland",
+            "lon": "174.7633",
+            "lat": "-36.8485",
+            "geocode": [
+              -36.8485,
+              174.7633
+            ],
+            "title": "Visiting Waiheke Island",
+            "description": "Took a ferry to Waiheke Island for wine tasting and scenic views.",
+            "date": "02/20/2025"
+          },
+          {
+            "id": 35,
+            "userId": 9,
+            "cityName": "Prague",
+            "lon": "14.4208",
+            "lat": "50.0755",
+            "geocode": [
+              50.0755,
+              14.4208
+            ],
+            "title": "Walking Across Charles Bridge",
+            "description": "Walked across the iconic Charles Bridge and visited the Old Town Square.",
+            "date": "09/14/2023"
+          },
+          {
+            "id": 36,
+            "userId": 1,
+            "cityName": "Dubrovnik",
+            "lon": "18.1102",
+            "lat": "42.6417",
+            "geocode": [
+              42.6417,
+              18.1102
+            ],
+            "title": "Exploring the Old City Walls",
+            "description": "Toured the medieval walls of Dubrovnik and relaxed by the Adriatic Sea.",
+            "date": "10/11/2024"
+          },
+          {
+            "id": 37,
+            "userId": 2,
+            "cityName": "Belgrade",
+            "lon": "20.4633",
+            "lat": "44.8176",
+            "geocode": [
+              44.8176,
+              20.4633
+            ],
+            "title": "Touring Kalemegdan Fortress",
+            "description": "Visited Kalemegdan Fortress and walked along the Danube River.",
+            "date": "05/27/2025"
+          },
+          {
+            "id": 38,
+            "userId": 3,
+            "cityName": "Tallinn",
+            "lon": "24.7535",
+            "lat": "59.4370",
+            "geocode": [
+              59.4370,
+              24.7535
+            ],
+            "title": "Exploring Tallinn Old Town",
+            "description": "Walked through the medieval streets of Tallinn Old Town and visited Alexander Nevsky Cathedral.",
+            "date": "08/19/2023"
+          },
+          {
+            "id": 39,
+            "userId": 4,
+            "cityName": "Marrakech",
+            "lon": "-7.9860",
+            "lat": "31.6295",
+            "geocode": [
+              31.6295,
+              -7.9860
+            ],
+            "title": "Visiting the Jardin Majorelle",
+            "description": "Visited the beautiful Jardin Majorelle and explored the colorful souks of Marrakech.",
+            "date": "02/05/2024"
+          },
+          {
+            "id": 40,
+            "userId": 5,
+            "cityName": "Bali",
+            "lon": "115.1889",
+            "lat": "-8.4095",
+            "geocode": [
+              -8.4095,
+              115.1889
+            ],
+            "title": "Relaxing on the Beaches of Bali",
+            "description": "Relaxed on the beautiful beaches of Bali and visited Uluwatu Temple.",
+            "date": "03/10/2025"
+          },
+          {
+            "id": 41,
+            "userId": 6,
+            "cityName": "Lisbon",
+            "lon": "-9.1395",
+            "lat": "38.7169",
+            "geocode": [
+              38.7169,
+              -9.1395
+            ],
+            "title": "Exploring Belém Tower",
+            "description": "Visited Belém Tower and tasted famous Portuguese pastries in the area.",
+            "date": "06/23/2024"
+          },         
+          {
+            "id": 42,
+            "userId": 7,
+            "cityName": "Budapest",
+            "lon": "19.0402",
+            "lat": "47.4979",
+            "geocode": [
+              47.4979,
+              19.0402
+            ],
+            "title": "Touring Buda Castle",
+            "description": "Explored the historic Buda Castle and enjoyed views of the Danube River.",
+            "date": "03/19/2024"
+          },          
+          {
+            "id": 43,
+            "userId": 8,
+            "cityName": "Dubai",
+            "lon": "55.2708",
+            "lat": "25.2048",
+            "geocode": [
+              25.2048,
+              55.2708
+            ],
+            "title": "Climbing the Burj Khalifa",
+            "description": "Went to the top of the Burj Khalifa and explored the Dubai Mall.",
+            "date": "07/29/2023"
+          },          
+          {
+            "id": 44,
+            "userId": 9,
+            "cityName": "Warsaw",
+            "lon": "21.0122",
+            "lat": "52.2298",
+            "geocode": [
+              52.2298,
+              21.0122
+            ],
+            "title": "Strolling in Łazienki Park",
+            "description": "Took a peaceful walk in Łazienki Park and visited the Palace on the Isle.",
+            "date": "09/09/2024"
+          },         
+          {
+            "id": 45,
+            "userId": 1,
+            "cityName": "Singapore",
+            "lon": "103.8198",
+            "lat": "1.3521",
+            "geocode": [
+              1.3521,
+              103.8198
+            ],
+            "title": "Visiting Gardens by the Bay",
+            "description": "Explored the futuristic Gardens by the Bay and admired the Supertree Grove.",
+            "date": "02/22/2024"
+          },         
+          {
+            "id": 46,
+            "userId": 2,
+            "cityName": "Lima",
+            "lon": "-77.0369",
+            "lat": "-12.0464",
+            "geocode": [
+              -12.0464,
+              -77.0369
+            ],
+            "title": "Exploring the Historic Centre",
+            "description": "Visited the historic center of Lima and explored Plaza Mayor.",
+            "date": "04/10/2023"
+          },          
+          {
+            "id": 47,
+            "userId": 3,
+            "cityName": "Santiago",
+            "lon": "-70.6483",
+            "lat": "-33.4489",
+            "geocode": [
+              -33.4489,
+              -70.6483
+            ],
+            "title": "Climbing San Cristobal Hill",
+            "description": "Climbed San Cristobal Hill for a panoramic view of the city.",
+            "date": "08/12/2024"
+          },          
+          {
+            "id": 48,
+            "userId": 4,
+            "cityName": "Cape Town",
+            "lon": "18.4241",
+            "lat": "-33.9249",
+            "geocode": [
+              -33.9249,
+              18.4241
+            ],
+            "title": "Hiking Table Mountain",
+            "description": "Hiked up Table Mountain and enjoyed the beautiful view over the city.",
+            "date": "11/25/2023"
+          },          
+          {
+            "id": 49,
+            "userId": 5,
+            "cityName": "Mexico City",
+            "lon": "-99.1332",
+            "lat": "19.4326",
+            "geocode": [
+              19.4326,
+              -99.1332
+            ],
+            "title": "Visiting Chapultepec Park",
+            "description": "Visited Chapultepec Castle and the zoo in Chapultepec Park.",
+            "date": "09/01/2023"
+          },         
+          {
+            "id": 50,
+            "userId": 6,
+            "cityName": "Athens",
+            "lon": "23.7275",
+            "lat": "37.9838",
+            "geocode": [
+              37.9838,
+              23.7275
+            ],
+            "title": "Exploring the Acropolis",
+            "description": "Visited the Acropolis and the Parthenon for a deep dive into Greek history.",
+            "date": "10/14/2024"
+          },          
+          {
+            "id": 51,
+            "userId": 7,
+            "cityName": "Stockholm",
+            "lon": "18.0686",
+            "lat": "59.3293",
+            "geocode": [
+              59.3293,
+              18.0686
+            ],
+            "title": "Exploring Gamla Stan",
+            "description": "Strolled through the cobblestone streets of Gamla Stan and visited the Royal Palace.",
+            "date": "12/04/2023"
+          },          
+          {
+            "id": 52,
+            "userId": 8,
+            "cityName": "Istanbul",
+            "lon": "28.9784",
+            "lat": "41.0082",
+            "geocode": [
+              41.0082,
+              28.9784
+            ],
+            "title": "Visiting Hagia Sophia",
+            "description": "Visited the Hagia Sophia and explored the Grand Bazaar.",
+            "date": "02/19/2025"
+          },          
+          {
+            "id": 53,
+            "userId": 9,
+            "cityName": "Rome",
+            "lon": "12.4964",
+            "lat": "41.9028",
+            "geocode": [
+              41.9028,
+              12.4964
+            ],
+            "title": "Exploring the Colosseum",
+            "description": "Visited the iconic Colosseum and walked through the Roman Forum.",
+            "date": "06/10/2023"
+          },         
+          {
+            "id": 54,
+            "userId": 1,
+            "cityName": "Madrid",
+            "lon": "-3.7038",
+            "lat": "40.4168",
+            "geocode": [
+              40.4168,
+              -3.7038
+            ],
+            "title": "Touring the Royal Palace",
+            "description": "Visited the Royal Palace and explored the Prado Museum.",
+            "date": "07/28/2024"
+          },          
+          {
+            "id": 55,
+            "userId": 2,
+            "cityName": "Berlin",
+            "lon": "13.4050",
+            "lat": "52.5200",
+            "geocode": [
+              52.5200,
+              13.4050
+            ],
+            "title": "Exploring the Brandenburg Gate",
+            "description": "Visited the Brandenburg Gate and toured the Berlin Wall Memorial.",
+            "date": "08/04/2023"
+          },         
+          {
+            "id": 56,
+            "userId": 3,
+            "cityName": "Barcelona",
+            "lon": "2.1734",
+            "lat": "41.3851",
+            "geocode": [
+              41.3851,
+              2.1734
+            ],
+            "title": "Exploring Sagrada Familia",
+            "description": "Visited the Sagrada Familia and explored the famous La Rambla.",
+            "date": "05/15/2024"
+          },          
+          {
+            "id": 57,
+            "userId": 4,
+            "cityName": "Copenhagen",
+            "lon": "12.5683",
+            "lat": "55.6761",
+            "geocode": [
+              55.6761,
+              12.5683
+            ],
+            "title": "Touring Tivoli Gardens",
+            "description": "Visited the historic Tivoli Gardens and enjoyed the amusement rides.",
+            "date": "11/23/2023"
+          },          
+          {
+            "id": 58,
+            "userId": 5,
+            "cityName": "Vienna",
+            "lon": "16.3730",
+            "lat": "48.2082",
+            "geocode": [
+              48.2082,
+              16.3730
+            ],
+            "title": "Touring Schönbrunn Palace",
+            "description": "Explored the stunning Schönbrunn Palace and its beautiful gardens.",
+            "date": "06/05/2024"
+          },          
+          {
+            "id": 59,
+            "userId": 6,
+            "cityName": "Hong Kong",
+            "lon": "114.1694",
+            "lat": "22.3193",
+            "geocode": [
+              22.3193,
+              114.1694
+            ],
+            "title": "Taking a Victoria Peak Tram",
+            "description": "Rode the Victoria Peak Tram for a breathtaking view of the skyline.",
+            "date": "10/27/2023"
+          },
+          {
+            "id": 60,
+            "userId": 7,
+            "cityName": "Rio de Janeiro",
+            "lon": "-43.1729",
+            "lat": "-22.9068",
+            "geocode": [
+              -22.9068,
+              -43.1729
+            ],
+            "title": "Visiting Christ the Redeemer",
+            "description": "Visited the Christ the Redeemer statue and explored Copacabana Beach.",
+            "date": "01/18/2025"
+          },  
+          {
+            "id": 51,
+            "userId": 1,
+            "cityName": "New York",
+            "lon": "-74.0060",
+            "lat": "40.7128",
+            "geocode": [
+              40.7128,
+              -74.0060
+            ],
+            "title": "Visiting Times Square",
+            "description": "Visited the bright lights of Times Square and enjoyed a Broadway show.",
+            "popup": "Marker at New York",
+            "date": "07/10/2024"
+          },         
+          {
+            "id": 52,
+            "userId": 2,
+            "cityName": "Los Angeles",
+            "lon": "-118.2437",
+            "lat": "34.0522",
+            "geocode": [
+              34.0522,
+              -118.2437
+            ],
+            "title": "Exploring the Hollywood Sign",
+            "description": "Took a hike up to the Hollywood Sign and explored the Walk of Fame.",
+            "popup": "Marker at Los Angeles",
+            "date": "05/01/2023"
+          },          
+          {
+            "id": 53,
+            "userId": 3,
+            "cityName": "Chicago",
+            "lon": "-87.6298",
+            "lat": "41.8781",
+            "geocode": [
+              41.8781,
+              -87.6298
+            ],
+            "title": "Visiting Millennium Park",
+            "description": "Walked through Millennium Park and saw the famous Cloud Gate sculpture.",
+            "popup": "Marker at Chicago",
+            "date": "08/15/2024"
+          },         
+          {
+            "id": 54,
+            "userId": 4,
+            "cityName": "Miami",
+            "lon": "-80.1918",
+            "lat": "25.7617",
+            "geocode": [
+              25.7617,
+              -80.1918
+            ],
+            "title": "Exploring South Beach",
+            "description": "Relaxed on South Beach and visited the Art Deco district.",
+            "popup": "Marker at Miami",
+            "date": "02/20/2024"
+          },         
+          {
+            "id": 55,
+            "userId": 5,
+            "cityName": "San Francisco",
+            "lon": "-122.4194",
+            "lat": "37.7749",
+            "geocode": [
+              37.7749,
+              -122.4194
+            ],
+            "title": "Visiting the Golden Gate Bridge",
+            "description": "Walked across the Golden Gate Bridge and explored Fisherman's Wharf.",
+            "popup": "Marker at San Francisco",
+            "date": "09/05/2023"
+          },          
+          {
+            "id": 56,
+            "userId": 6,
+            "cityName": "Seattle",
+            "lon": "-122.3321",
+            "lat": "47.6062",
+            "geocode": [
+              47.6062,
+              -122.3321
+            ],
+            "title": "Exploring the Space Needle",
+            "description": "Visited the Space Needle and enjoyed stunning views of Seattle.",
+            "popup": "Marker at Seattle",
+            "date": "06/10/2024"
+          },
+          {
+            "id": 57,
+            "userId": 7,
+            "cityName": "Las Vegas",
+            "lon": "-115.1398",
+            "lat": "36.1699",
+            "geocode": [
+              36.1699,
+              -115.1398
+            ],
+            "title": "Exploring the Las Vegas Strip",
+            "description": "Walked along the famous Las Vegas Strip and tried my luck at the casinos.",
+            "popup": "Marker at Las Vegas",
+            "date": "12/18/2023"
+          },         
+          {
+            "id": 58,
+            "userId": 8,
+            "cityName": "Austin",
+            "lon": "-97.7431",
+            "lat": "30.2672",
+            "geocode": [
+              30.2672,
+              -97.7431
+            ],
+            "title": "Exploring the Live Music Scene",
+            "description": "Visited some of Austin's famous live music venues in the downtown area.",
+            "popup": "Marker at Austin",
+            "date": "04/12/2024"
+          },          
+          {
+            "id": 59,
+            "userId": 9,
+            "cityName": "Washington, D.C.",
+            "lon": "-77.0369",
+            "lat": "38.9072",
+            "geocode": [
+              38.9072,
+              -77.0369
+            ],
+            "title": "Visiting the National Mall",
+            "description": "Visited the National Mall and saw the Lincoln Memorial and Washington Monument.",
+            "popup": "Marker at Washington, D.C.",
+            "date": "07/22/2023"
+          },       
+          {
+            "id": 60,
+            "userId": 1,
+            "cityName": "Boston",
+            "lon": "-71.0589",
+            "lat": "42.3601",
+            "geocode": [
+              42.3601,
+              -71.0589
+            ],
+            "title": "Exploring the Freedom Trail",
+            "description": "Walked along the historic Freedom Trail and visited famous sites from American history.",
+            "popup": "Marker at Boston",
+            "date": "11/04/2024"
+          }
+          
   ]
 }
