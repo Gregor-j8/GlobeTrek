@@ -132,6 +132,54 @@
       "postId": 3,
       "isLiked": true,
       "id": 17
+    },
+    {
+      "userId": 3,
+      "postId": 8,
+      "isLiked": true,
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "postId": 11,
+      "isLiked": true,
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "postId": 20,
+      "isLiked": true,
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "postId": 29,
+      "isLiked": true,
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "postId": 38,
+      "isLiked": true,
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "postId": 56,
+      "isLiked": true,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "postId": 47,
+      "isLiked": true,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "postId": 63,
+      "isLiked": true,
+      "id": 25
     }
   ],
   "posts": [

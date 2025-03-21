@@ -10,7 +10,7 @@ export const Posts = ({ post }) => {
         <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
             <div className="p-5">
                 <Link to={`/posts/${post.id}`}>
-                    <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 cursor-pointer">{post.title}</h5>
+                    <h1 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 cursor-pointer">{post.title}</h1>
                 </Link>
                 <button onClick={() => toggleLike(post.id)}>
                     {isLiked(post.id) ? <FilledHeartIcon /> : <UnFilledHeartIcon />}
