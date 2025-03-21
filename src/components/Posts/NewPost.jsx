@@ -2,8 +2,10 @@ import { useNavigate } from "react-router-dom"
 import { createPost } from "../../services/postService"
 import { Filter } from "../Filter/Filter"
 import {NewPostContext} from "../../context/NewPostContext"
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const NewPost = ({ currentUser }) => {
+export const NewPost = () => {
+    const { currentUser } = UseCurrentUser()
     const navigate = useNavigate()
     const { newPost, updatePost } = NewPostContext()
 

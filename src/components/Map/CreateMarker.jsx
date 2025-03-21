@@ -1,8 +1,10 @@
 import { createPost } from "../../services/postService"
 import { Filter } from "../Filter/Filter"
 import {NewPostContext} from "../../context/NewPostContext"  
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const CreateMarker = ({onClose, currentUser}) => {
+export const CreateMarker = ({onClose }) => {
+            const { currentUser } = UseCurrentUser()
             const { newPost, updatePost } = NewPostContext()
         
             const AddNewPost = (event) => {

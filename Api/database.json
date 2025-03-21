@@ -405,6 +405,18 @@
       "postId": 13,
       "isLiked": true,
       "id": 12
+    },
+    {
+      "userId": 1,
+      "postId": 12,
+      "isLiked": true,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "postId": 3,
+      "isLiked": true,
+      "id": 14
     }
   ]
 }

@@ -3,8 +3,10 @@ import { useNavigate, useParams } from "react-router-dom"
 import { GetUserProfile } from "../../services/userService"
 import { getUserPosts } from "../../services/postService"
 import { Posts } from "../Posts/Posts"
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const Profile = ({currentUser}) => {
+export const Profile = () => {
+    const { currentUser } = UseCurrentUser()
     const navigate = useNavigate()
      const { userId } = useParams()
     const [profile, setProfile] = useState({})
@@ -15,12 +17,12 @@ export const Profile = ({currentUser}) => {
             const profile = data[0]
             setProfile(profile)
         })
-    }, [])
+    }, [userId])
     useEffect(() => {
         getUserPosts(userId).then(data => {
             setUserPosts(data)
         })
-    }, [])
+    }, [userId])
 
     const editProfile = () => {
         navigate("/profile/edit")

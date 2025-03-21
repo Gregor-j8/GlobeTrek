@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Country, State, City } from 'country-state-city'
 
 export const EditFilter = ({newPost, setNewPost}) => {
-	const [countries, setCountries] = useState(Country.getAllCountries())
+	const [countries] = useState(Country.getAllCountries())
 	const [states, setStates] = useState([])
 	const [cities, setCities] = useState([])
 

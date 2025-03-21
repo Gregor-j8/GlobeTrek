@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const Navbar = ({currentUser}) => {
+export const Navbar = () => {
+    const navigate = useNavigate()
+    const { currentUser } = UseCurrentUser()
     return (
         <nav>
             <ul className="bg-main-color flex justify-evenly p-4 fixed w-full top-0">
