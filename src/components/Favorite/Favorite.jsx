@@ -3,8 +3,10 @@ import { GetFavoritePosts } from "../../services/likeService";
 import { useLike } from "../../context/LikeContext";
 import { FilledHeartIcon, UnFilledHeartIcon } from "../../Documents/Heart";
 import { Link } from "react-router-dom";
+import { UseCurrentUser } from "../../context/CurrentUserContext";
 
-export const Favorite = ({ currentUser }) => {
+export const Favorite = () => {
+    const { currentUser } = UseCurrentUser()
     const { isLiked, toggleLike } = useLike();
     const [favoritePosts, setFavoritePosts] = useState([]);
 

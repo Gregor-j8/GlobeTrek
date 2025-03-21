@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
 import { deleteProfile, GetEditProfile, updateUser } from "../../services/userService"
 import { useNavigate } from "react-router-dom"
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const EditProfile = ({currentUser}) => {
+export const EditProfile = () => {
+    const { currentUser } = UseCurrentUser()
     const Navigate = useNavigate()
     const [profile, setProfile] = useState({})
     useEffect(() => {
@@ -10,7 +12,7 @@ export const EditProfile = ({currentUser}) => {
             const currentProfile = data[0]
             setProfile(currentProfile)
         })
-    }, [])
+    }, [currentUser])
     const handleUpdateName = (event) => {
             event.preventDefault()
         const updateuserProfile = {

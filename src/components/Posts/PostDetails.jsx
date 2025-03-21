@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
 import {  Link, useNavigate, useParams } from "react-router-dom"
 import { deletePost, getPostsDetails } from "../../services/postService"
+import { UseCurrentUser } from "../../context/CurrentUserContext"
 
-export const PostDetails = ({currentUser}) => {
+export const PostDetails = () => {
+    const { currentUser } = UseCurrentUser()
     const navigate = useNavigate()
     const { postId } = useParams()
     const [PostDetail, setPostDetail] = useState({})

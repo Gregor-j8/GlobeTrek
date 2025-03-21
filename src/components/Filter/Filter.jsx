@@ -4,8 +4,8 @@ import {NewPostContext} from "../../context/NewPostContext"
 
 
 export const Filter = () => {
-    const { newPost, updatePost } = NewPostContext() 
-	const [countries, setCountries] = useState(Country.getAllCountries())
+    const { updatePost } = NewPostContext() 
+	const [countries ] = useState(Country.getAllCountries())
 	const [states, setStates] = useState([])
 	const [cities, setCities] = useState([])
 

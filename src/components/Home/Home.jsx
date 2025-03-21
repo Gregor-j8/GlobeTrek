@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react"
 import { GetUserById } from "../../services/userService"
 import { Globe } from "../../Documents/Globe"
-export const Home = ({currentUser}) => {
+import { UseCurrentUser } from "../../context/CurrentUserContext"
+export const Home = () => {
+    const { currentUser } = UseCurrentUser()
     const [user, setUser] = useState({})
     useEffect(() => {
         GetUserById(currentUser?.id).then(res => {

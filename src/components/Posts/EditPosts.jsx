@@ -14,7 +14,7 @@ export const EditPosts = () => {
             const chosenPost = res[0]
             updateEditPost(chosenPost)
         });
-    }, []);
+    }, [postId, updateEditPost]);
 
     useEffect(() => {
         if (editPost.cityName) {
@@ -30,7 +30,7 @@ export const EditPosts = () => {
                     }
                 })
         }
-    }, []);
+    }, [editPost, updateEditPost]);
 
     const updatingPost = (event) => {
         event.preventDefault()
