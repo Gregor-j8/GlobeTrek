@@ -120,6 +120,18 @@
       "postId": 1,
       "isLiked": true,
       "id": 15
+    },
+    {
+      "userId": 3,
+      "postId": 25,
+      "isLiked": true,
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "postId": 3,
+      "isLiked": true,
+      "id": 17
     }
   ],
   "posts": [
