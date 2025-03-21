@@ -16,7 +16,7 @@ const { currentUser } = UseCurrentUser()
     }
 
   return (
-    <div className=" flex-wrap fixed place-items-center w-full z-[100000]">
+    <div className=" flex-wrap fixed top-0 place-items-center w-full z-[100000]">
       <section className="mx-auto w-full z-[100000]">
         <nav className="flex justify-between bg-gray-900 text-white w-full">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center justify-between"> 
