@@ -6,7 +6,7 @@ export const Navbar = () => {
     const { currentUser } = UseCurrentUser()
     return (
         <nav>
-            <ul className="bg-main-color flex justify-evenly p-4 fixed w-full top-0">
+            <ul className="bg-main-color flex justify-evenly p-4 fixed w-full top-0 z-[100000]">
                 <Link to={"/"}><li className="text-color-primary">Home</li></Link>
                 <Link to={"/posts"}><li className="text-color-primary">Posts</li></Link>
                 <Link to={"/map"}><li className="text-color-primary">World Map</li></Link>
