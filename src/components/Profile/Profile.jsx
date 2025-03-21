@@ -28,31 +28,31 @@ export const Profile = () => {
         navigate("/profile/edit")
     }
 
-    return ( currentUser?.id == userId ? (
-    <div className="flex flex-col w-full items-center pt-20">
-        <header>
-            <h1 className="text-3xl text-color-primary">{profile.fullName}</h1>
-            <h2 className="text-color-primary">{profile.email}</h2>
-        </header>
-        <div>
-            <p className="text-color-primary">{userPosts.length}</p>
+return (currentUser?.id == userId ? (
+        <div className="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
+            <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
+            <p className="text-center text-gray-600 mt-1">{profile.email}</p>
+            <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
+            <button className="cursor-pointer button-primary">Follow</button>            
+            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
+                {userPosts.map(post => {
+                    return <Posts post={post} key={post.id} />
+                })}
+            </div>
+            <div className="mt-5">
+                <button className="py-3 px-4 button-primary text-color-primary cursor-pointer" onClick={editProfile}>Edit</button>
+            </div>
         </div>
-            <button className="py-3 px-4 button-primary text-color-primary cursor-pointer" onClick={editProfile}>Edit</button>
-        {userPosts.map(post => {
-           return <Posts post={post} key={post.id}/>
-        })}
-    </div>) : (<div className="flex flex-col w-full items-center pt-20">
-        <header>
-            <h1>{profile.fullName}</h1>
-            <h2>{profile.email}</h2>
-        </header>
-        <div>
-            <p>{userPosts.length}</p>
+    ) : (
+        <div className="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
+            <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
+            <p className="text-center text-gray-600 mt-1">{profile.email}</p>
+            <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>    
+            <button>Follow</button>             
+            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
+                {userPosts.map(post => {
+                    return <Posts post={post} key={post.id} />
+                })}
+            </div>
         </div>
-        {userPosts.map(post => {
-           return <Posts post={post} key={post.id}/>
-        })}
-    </div>
-    )
-)
-}
+    ))}
