@@ -1,19 +1,21 @@
 import { useEffect } from "react"
 import { useEditPost } from "../../context/EditPostContext"
 import { EditFilter } from "../Filter/EditFilter"
-import { deletePost, updatePosts } from "../../services/postService"
+import { deletePost } from "../../services/postService"
 
-export const MapModal = ({ marker, onClose }) => {
+export const MapModal = ({ marker, onClose, setIsModalOpen }) => {
   const { editPost, updateEditPost, handleSave } = useEditPost()
     useEffect(() => {
         if (marker && marker.id !== editPost.id) {
             updateEditPost(marker)
         }
-    }, [marker, editPost.id]) 
+    }, [marker, updateEditPost ,editPost.id]) 
 
 const onSave = (event) => {
     event.preventDefault()
-    handleSave(updatePosts)
+    handleSave().then(() => {
+        setIsModalOpen(false)
+    })
 }
 
         
@@ -31,7 +33,7 @@ const onSave = (event) => {
                     <input
                         className="button-primary"
                         type="text"
-                        value={editPost.title || ""}
+                        value={editPost.title}
                         onChange={(event) =>
                             updateEditPost({ title: event.target.value })
                         }
@@ -42,7 +44,7 @@ const onSave = (event) => {
                     <input
                         className="button-primary"
                         type="text"
-                        value={editPost.description || ""}
+                        value={editPost.description}
                         onChange={(event) =>
                             updateEditPost({ description: event.target.value })
                         }
