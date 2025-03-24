@@ -25,6 +25,7 @@ const { currentUser } = UseCurrentUser()
               <Link to="/posts"><li className="text-color-primary">Posts</li></Link>
               <Link to="/map"><li className="text-color-primary">World Map</li></Link>
               <Link to="/favorites"><li className="text-color-primary">Favorites</li></Link>
+              <Link to="/notes"><li className="text-color-primary">Notes</li></Link>
             </ul>
             <div className="hidden xl:flex space-x-5 items-center">
               <button className="hover:text-gray-200 cursor-pointer" onClick={logOut}>
@@ -46,6 +47,7 @@ const { currentUser } = UseCurrentUser()
             <Link to="/map" className="py-2" onClick={() => setIsOpen(false)}>World Map</Link>
             <Link to="/favorites" className="py-2" onClick={() => setIsOpen(false)}>Favorites</Link>
             <Link to={`/profile/${currentUser?.id}`} className="py-2" onClick={() => setIsOpen(false)}>Profile</Link>
+            <Link to={`/notes`} className="py-2" onClick={() => setIsOpen(false)}>Notes</Link>
             {localStorage.getItem("user") ? (
               <button className="py-2" onClick={() => {
                   localStorage.removeItem("user")
