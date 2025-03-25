@@ -16,6 +16,7 @@
     "leaflet": "^1.9.4",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
+    "react-chatbotify": "^2.0.0-beta.32",
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^6.22.2",

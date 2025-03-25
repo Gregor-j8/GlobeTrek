@@ -23,7 +23,7 @@ function App() {
                   <NewPostHolder>
                     <EditPostProvider>
                       <CurrentUserContext>
-                        <AuthorizedViews/> 
+                       <AuthorizedViews/> 
                       </CurrentUserContext>
                     </EditPostProvider>
                   </NewPostHolder>    
