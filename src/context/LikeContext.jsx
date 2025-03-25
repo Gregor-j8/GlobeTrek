@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 import { getLikes, createUserLike, deleteUserLike } from '../services/likeService'
 
-const LikeContext = createContext();
+const LikeContext = createContext()
 
 export const HandleLikes = ({ children }) => {
     const currentUser = JSON.parse(localStorage.getItem("user"))
@@ -13,7 +13,7 @@ export const HandleLikes = ({ children }) => {
     }, [])
 
     const isLiked = (postId) => {
-        return userLikes.find(like => like.postId === postId && like.userId === currentUser.id);
+        return userLikes.find(like => like.postId === postId && like.userId === currentUser.id)
     };
 
     const toggleLike = (postId) => {

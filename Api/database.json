@@ -1,4 +1,42 @@
 {
+  "follows": [
+    {
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "userId": 5
+    },
+    {
+      "id": 6,
+      "userId": 6
+    },
+    {
+      "id": 7,
+      "userId": 7
+    },
+    {
+      "id": 8,
+      "userId": 8
+    },
+    {
+      "id": 9,
+      "userId": 9
+    }
+  ],
   "users": [
     {
       "id": 1,
@@ -46,83 +84,168 @@
       "email": "matthew@example.com"
     }
   ],
- "followRelationships": [
-  {"followerId": 7, "followedId": 2, "id": 1},
-  {"followerId": 4, "followedId": 2, "id": 2},
-  {"followerId": 8, "followedId": 5, "id": 3},
-  {"followerId": 8, "followedId": 2, "id": 4},
-  {"followerId": 5, "followedId": 7, "id": 5},
-  {"followerId": 1, "followedId": 9, "id": 6},
-  {"followerId": 9, "followedId": 4, "id": 7},
-  {"followerId": 7, "followedId": 4, "id": 8},
-  {"followerId": 2, "followedId": 8, "id": 9},
-  {"followerId": 3, "followedId": 4, "id": 10},
-  {"followerId": 9, "followedId": 7, "id": 11},
-  {"followerId": 7, "followedId": 9, "id": 12},
-  {"followerId": 1, "followedId": 3, "id": 13},
-  {"followerId": 2, "followedId": 3, "id": 14},
-  {"followerId": 8, "followedId": 7, "id": 15},
-  {"followerId": 1, "followedId": 2, "id": 16},
-  {"followerId": 1, "followedId": 8, "id": 17},
-  {"followerId": 5, "followedId": 3, "id": 18},
-  {"followerId": 2, "followedId": 4, "id": 19},
-  {"followerId": 6, "followedId": 5, "id": 20}
-],
+  "followRelationships": [
+    {
+      "userId": 7,
+      "followId": 1,
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "followId": 2,
+      "id": 2
+    },
+    {
+      "userId": 8,
+      "followId": 5,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "followId": 2,
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "followId": 7,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "followId": 9,
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "followId": 4,
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "followId": 4,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "followId": 8,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "followId": 5,
+      "id": 10
+    },
+    {
+      "userId": 9,
+      "followId": 7,
+      "id": 11
+    },
+    {
+      "userId": 7,
+      "followId": 9,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "followId": 3,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "followId": 3,
+      "id": 14
+    },
+    {
+      "userId": 8,
+      "followId": 7,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "followId": 2,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "followId": 8,
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "followId": 3,
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "followId": 4,
+      "id": 19
+    },
+    {
+      "userId": 6,
+      "followId": 5,
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "followId": 4,
+      "id": 21
+    }
+  ],
   "notes": [
-      {
-        "id": 1,
-        "userId": 1,
-        "toVisit": "Bruges",
-        "toDoList": "See the canals, Visit Markt Square"
-      },
-      {
-        "id": 2,
-        "userId": 2,
-        "toVisit": "Halifax",
-        "toDoList": "Walk the waterfront, Try seafood"
-      },
-      {
-        "id": 3,
-        "userId": 3,
-        "toVisit": "Gdańsk",
-        "toDoList": "Visit Old Town, See Neptune’s Fountain"
-      },
-      {
-        "id": 4,
-        "userId": 4,
-        "toVisit": "Luang Prabang",
-        "toDoList": "Explore temples, Watch the sunset at Mount Phousi"
-      },
-      {
-        "id": 5,
-        "userId": 5,
-        "toVisit": "Tallinn",
-        "toDoList": "Walk through Old Town, Visit Alexander Nevsky Cathedral"
-      },
-      {
-        "id": 6,
-        "userId": 6,
-        "toVisit": "Oaxaca",
-        "toDoList": "Try mole, Visit Monte Albán"
-      },
-      {
-        "id": 7,
-        "userId": 7,
-        "toVisit": "Inverness",
-        "toDoList": "Look for Nessie, Visit Urquhart Castle"
-      },
-      {
-        "id": 8,
-        "userId": 8,
-        "toVisit": "Kotor",
-        "toDoList": "Walk the city walls, Visit St. Tryphon’s Cathedral"
-      },
-      {
-        "id": 9,
-        "userId": 9,
-        "toVisit": "Ushuaia",
-        "toDoList": "Visit the End of the World Museum, Explore Tierra del Fuego"
-      }
+    {
+      "id": 1,
+      "userId": 1,
+      "toVisit": "Bruges",
+      "toDoList": "See the canals, Visit Markt Square"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "toVisit": "Halifax",
+      "toDoList": "Walk the waterfront, Try seafood"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "toVisit": "Gdańsk",
+      "toDoList": "Visit Old Town, See Neptune’s Fountain"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "toVisit": "Luang Prabang",
+      "toDoList": "Explore temples, Watch the sunset at Mount Phousi"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "toVisit": "Tallinn",
+      "toDoList": "Walk through Old Town, Visit Alexander Nevsky Cathedral"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "toVisit": "Oaxaca",
+      "toDoList": "Try mole, Visit Monte Albán"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "toVisit": "Inverness",
+      "toDoList": "Look for Nessie, Visit Urquhart Castle"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "toVisit": "Kotor",
+      "toDoList": "Walk the city walls, Visit St. Tryphon’s Cathedral"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "toVisit": "Ushuaia",
+      "toDoList": "Visit the End of the World Museum, Explore Tierra del Fuego"
+    }
   ],
   "userLikes": [
     {

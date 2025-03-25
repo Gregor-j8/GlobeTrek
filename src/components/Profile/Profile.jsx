@@ -4,6 +4,7 @@ import { GetUserProfile } from "../../services/userService"
 import { getUserPosts } from "../../services/postService"
 import { Posts } from "../Posts/Posts"
 import { UseCurrentUser } from "../../context/CurrentUserContext"
+import { Follow } from "../Follow/Follow"
 
 export const Profile = () => {
     const { currentUser } = UseCurrentUser()
@@ -33,7 +34,7 @@ return (currentUser?.id == userId ? (
             <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
             <p className="text-center text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
-            <button className="cursor-pointer button-primary">Follow</button>
+            <Follow userId={userId}/>
             <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
                 {userPosts.map(post => {
                     return <Posts post={post} key={post.id} />
@@ -48,7 +49,7 @@ return (currentUser?.id == userId ? (
             <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
             <p className="text-center text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
-            <button>Follow</button>
+            <Follow userId={userId}/>
             <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
                 {userPosts.map(post => {
                     return <Posts post={post} key={post.id} />
