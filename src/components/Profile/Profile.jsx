@@ -30,12 +30,12 @@ export const Profile = () => {
     }
 
 return (currentUser?.id == userId ? (
-        <div className="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
+        <div className="max-w-lg mx-auto my-1bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
             <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
             <p className="text-center text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
             <Follow userId={userId}/>
-            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
+            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-18">
                 {userPosts.map(post => {
                     return <Posts post={post} key={post.id} />
                 })}
@@ -50,7 +50,7 @@ return (currentUser?.id == userId ? (
             <p className="text-center text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
             <Follow userId={userId}/>
-            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-8">
+            <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-18">
                 {userPosts.map(post => {
                     return <Posts post={post} key={post.id} />
                 })}
