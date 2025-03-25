@@ -18,12 +18,10 @@ const onSave = (event) => {
     })
 }
 
-        
     const handleDelete = () => {
         deletePost(editPost.id)
     }
     
-
     return (
         <div className="fixed inset-0 flex items-center justify-center z-10000 bg-opacity-50">
             <div className="bg-white p-5 rounded-lg shadow-lg">
