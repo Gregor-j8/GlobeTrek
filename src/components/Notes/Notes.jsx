@@ -1,3 +1,5 @@
+import { Chat } from "../Chat/Chat"
+
 export const Notes = ({note}) => {
     return (
       <div className="max-w-lg mx-auto min-w-[384px] mt-25">
@@ -5,6 +7,7 @@ export const Notes = ({note}) => {
                 <div className="p-5">
                         <h1 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 cursor-pointer">{note.toVisit}</h1>
                     <p className="font-normal text-gray-700 mb-3">{note.toDoList}</p>
+                    <Chat />
                 </div>
             </div>
         </div>

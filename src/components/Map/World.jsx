@@ -30,7 +30,7 @@ export const World = () => {
       setMarkers(userMarkers)
     } else {
       setMarkers(holder)
-    }}, [holder, currentUser, userPost])
+    }}, [ currentUser, userPost])
 
   return (
       <div className="h-screen w-[100%]">

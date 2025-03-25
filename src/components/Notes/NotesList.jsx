@@ -13,7 +13,7 @@ export const NotesList = () => {
         GetUserNotes(currentUser.id).then(data => {
             setNotes(data)
         })
-    })
+    }, [currentUser])
 
     return (
         <div className="flex flex-col items-center w-full pt-16">
