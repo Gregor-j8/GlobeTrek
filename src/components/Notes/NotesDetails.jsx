@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom"
-import { GetUserNotes } from "../../services/NotesService"
+import { deleteNotes, GetUserNotes, GetUserNotesDetails } from "../../services/NotesService"
 
 export const NotesDetails = () => {
     const { notesId } = useParams()
@@ -8,10 +8,10 @@ export const NotesDetails = () => {
     const [notesDetails, setNotesDetails] = useState({})
 
     useEffect(() => {
-        GetUserNotes(notesId).then(data => {
+        GetUserNotesDetails(notesId).then(data => {
             const post = data[0]
             setNotesDetails(post)
-        })}, [notesId])
+        })}, [notesId ])
 
     return (
         <div className="w-full h-screen flex  items-center justify-center ">
@@ -27,7 +27,8 @@ export const NotesDetails = () => {
                         <div className="flex justify-between">
                             <button className="cursor-pointer text-color-primary p-2 button-primary" onClick={() => {navigate("edit")}}>Edit</button> 
                             <button className="cursor-pointer text-color-primary p-2 button-primary" onClick={() => {navigate("/notes")}}>return</button> 
-                            <button className="button-primary cursor-pointer p-2 text-color-primary" value={notesDetails.id}>Delete</button>
+                            <button className="button-primary cursor-pointer p-2 text-color-primary" value={notesDetails.id}
+                             onClick={(event) => {deleteNotes(event.target.value).then(() => {navigate("/notes")})}}>Delete</button>
                         </div>
                     </footer>
             </div>
