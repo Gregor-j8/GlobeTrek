@@ -189,6 +189,11 @@
       "userId": 3,
       "followId": 4,
       "id": 21
+    },
+    {
+      "userId": 3,
+      "followId": 7,
+      "id": 22
     }
   ],
   "notes": [
@@ -391,6 +396,12 @@
       "postId": 33,
       "isLiked": true,
       "id": 29
+    },
+    {
+      "userId": 3,
+      "postId": 60,
+      "isLiked": true,
+      "id": 30
     }
   ],
   "posts": [
@@ -1277,7 +1288,12 @@
       "title": "Visiting Millennium Park",
       "description": "Walked through Millennium Park and saw the famous Cloud Gate sculpture.",
       "popup": "Marker at Chicago",
-      "date": "08/15/2024"
+      "date": "08/15/2024",
+      "user": {
+        "id": 3,
+        "fullName": "Emily Johnson",
+        "email": "emily@example.com"
+      }
     },
     {
       "id": 64,

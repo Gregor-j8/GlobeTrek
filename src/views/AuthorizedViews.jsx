@@ -12,6 +12,7 @@ import { World } from "../components/Map/World"
 import { NotesList } from "../components/Notes/NotesList"
 import { NotesDetails } from "../components/Notes/NotesDetails"
 import { EditNotes } from "../components/Notes/EditNotes"
+import { NewNotes } from "../components/Notes/NewNotes"
 
 
 export const AuthorizedViews = () => {
@@ -38,6 +39,7 @@ export const AuthorizedViews = () => {
                         <Route path=":notesId" element={<NotesDetails/>}/>
                         <Route path=":notesId/edit" element={<EditNotes/>}/>
                     </Route>
+                    <Route path="/newnote" element={<NewNotes/>}/>
                 </Route>
         </Routes>
     </> 
