@@ -11,6 +11,7 @@ import { NewPost } from "../components/Posts/NewPost"
 import { World } from "../components/Map/World"
 import { NotesList } from "../components/Notes/NotesList"
 import { NotesDetails } from "../components/Notes/NotesDetails"
+import { EditNotes } from "../components/Notes/EditNotes"
 
 
 export const AuthorizedViews = () => {
@@ -35,6 +36,7 @@ export const AuthorizedViews = () => {
                     <Route path="notes">
                         <Route index element={<NotesList/>}/>
                         <Route path=":notesId" element={<NotesDetails/>}/>
+                        <Route path=":notesId/edit" element={<EditNotes/>}/>
                     </Route>
                 </Route>
         </Routes>
