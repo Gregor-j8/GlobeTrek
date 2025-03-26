@@ -10,6 +10,7 @@ import { EditProfile } from "../components/Profile/EditProfile"
 import { NewPost } from "../components/Posts/NewPost"
 import { World } from "../components/Map/World"
 import { NotesList } from "../components/Notes/NotesList"
+import { NotesDetails } from "../components/Notes/NotesDetails"
 
 
 export const AuthorizedViews = () => {
@@ -31,7 +32,10 @@ export const AuthorizedViews = () => {
                         <Route path="/map" element={<World />}/>
                         <Route path="/profile/:userId" element={<Profile/>}/>
                         <Route path="/profile/edit" element={<EditProfile/>}/>
-                        <Route path="/notes" element={<NotesList/>}/>
+                    <Route path="notes">
+                        <Route index element={<NotesList/>}/>
+                        <Route path=":notesId" element={<NotesDetails/>}/>
+                    </Route>
                 </Route>
         </Routes>
     </> 
