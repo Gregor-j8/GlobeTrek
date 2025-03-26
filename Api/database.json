@@ -322,12 +322,6 @@
     },
     {
       "userId": 3,
-      "postId": 25,
-      "isLiked": true,
-      "id": 16
-    },
-    {
-      "userId": 3,
       "postId": 3,
       "isLiked": true,
       "id": 17
@@ -376,9 +370,27 @@
     },
     {
       "userId": 3,
-      "postId": 63,
+      "postId": 52,
       "isLiked": true,
-      "id": 25
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "postId": 43,
+      "isLiked": true,
+      "id": 27
+    },
+    {
+      "userId": 3,
+      "postId": 34,
+      "isLiked": true,
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "postId": 33,
+      "isLiked": true,
+      "id": 29
     }
   ],
   "posts": [
