@@ -14,6 +14,9 @@ export const getPostsDetails = (postId) => {
 export const getPostMarker = () => {
     return fetch(`http://localhost:8088/posts?`).then((res) => res.json())
   }
+export const getUserPostMarker = (userId) => {
+    return fetch(`http://localhost:8088/posts?userId=${userId}`).then((res) => res.json())
+  }
 
   export const getUserPosts = (userId) => {
     return fetch(`http://localhost:8088/posts?userId=${userId}&_expand=user&`).then((res) => res.json())
