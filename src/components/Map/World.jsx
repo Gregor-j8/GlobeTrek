@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react"
 import { MapContainer, TileLayer } from "react-leaflet";
 import { MarkerPopUp } from "./MarkerPopUp"
-import { getPostMarker } from "../../services/postService";
+import { getPostMarker, getUserPostMarker } from "../../services/postService";
 import { CreateMarker } from "./CreateMarker";
 import { UseCurrentUser } from "../../context/CurrentUserContext";
+import { GetFollowers } from "../../services/followService";
 
 export const World = () => {
   const [NewPostModal, SetNewPostModal] = useState(false)
@@ -12,6 +13,8 @@ export const World = () => {
   const [markers, setMarkers] = useState([])
   const [holder, setHolder] = useState([])
   const { currentUser } = UseCurrentUser()
+  const [userValue, setUserValue] = useState(0)
+  const [following, setFollowing] = useState([])
 
   const bounds = [
     [-90, -180], 
@@ -19,10 +22,20 @@ export const World = () => {
   ]
 
   useEffect(() => {
-    getPostMarker().then(data => {
-      setHolder(data)
+    GetFollowers(currentUser.id).then(data => {
+      setFollowing(data)
     })
   }, [currentUser])
+
+  useEffect(() => {
+    if(userValue === 0) {
+          getPostMarker().then(data => {
+      setHolder(data)
+    })} else {
+      getUserPostMarker(userValue).then(data => {
+        setHolder(data)
+    })}
+  }, [currentUser, userValue])
   
   useEffect(() => {
     if (userPost) {
@@ -30,7 +43,7 @@ export const World = () => {
       setMarkers(userMarkers)
     } else {
       setMarkers(holder)
-    }}, [ currentUser, userPost])
+    }}, [ holder, currentUser, userPost])
 
   return (
       <div className="h-screen w-[100%]">
@@ -41,9 +54,26 @@ export const World = () => {
                    <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" 
                    onClick={() => SetNewPostModal(true)}>New Post</button>
                     <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]" 
-                     onClick={() => SetUserPost(true)}>user Marker</button>
+                     onClick={() => {
+                    setUserValue(currentUser.id)
+                    SetUserPost(true)
+                     }}>user Marker</button>
                     <button className="bg-blue-500 text-white px-4 py-2 rounded shadow-md hover:bg-blue-700 transition z-[10000]"
-                     onClick={() => SetUserPost(false)}>See all Marker</button>
+                    onClick={() => {
+                      setUserValue(0)
+                      SetUserPost(false)}}
+                      >See all Marker</button>
+                    <select onChange={(event) => {
+                      SetUserPost(false)
+                      setUserValue(event.target.value)}}>
+                        <option value={0}>Following</option>
+                        {following.map(follow => (
+                            <option key={follow.user.id} value={follow.user.id}>
+                                {follow.user.fullName}
+                            </option>
+                        ))}
+                    </select>
+
                 </div>
                   {NewPostModal && (
                         <CreateMarker
