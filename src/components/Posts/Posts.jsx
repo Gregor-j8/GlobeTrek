@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import { useLike } from '../../context/LikeContext';
-import { FilledHeartIcon, UnFilledHeartIcon } from '../../Documents/Heart';
+import { Link } from 'react-router-dom'
+import { useLike } from '../../context/LikeContext'
+import { FilledHeartIcon, UnFilledHeartIcon } from '../../Documents/Heart'
 
 export const Posts = ({ post }) => {
     const { isLiked, toggleLike } = useLike()

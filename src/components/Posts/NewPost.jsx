@@ -3,17 +3,20 @@ import { createPost } from "../../services/postService"
 import { Filter } from "../Filter/Filter"
 import {NewPostContext} from "../../context/NewPostContext"
 import { UseCurrentUser } from "../../context/CurrentUserContext"
+import { Images } from "../Images/Images"
+import { useState } from "react"
 
 export const NewPost = () => {
     const { currentUser } = UseCurrentUser()
     const navigate = useNavigate()
     const { newPost, updatePost } = NewPostContext()
+    const { photoUrl, setPhotoUrl } = useState()
 
     const AddNewPost = (event) => {
         event.preventDefault()
         const currentDate = new Date().toLocaleDateString()
     
-        if (!newPost.cityName || !newPost.title || !newPost.description) {
+        if (!newPost.cityName || !newPost.title || !newPost.description || photoUrl) {
             alert("Please fill out all forms to make a post")
             return
         }
@@ -31,6 +34,7 @@ export const NewPost = () => {
                         description: newPost.description,
                         popup: `Marker at ${newPost.cityName}`,
                         date: currentDate,
+                        photoUrl: photoUrl
                     }
     
                     createPost(post).then(() => {
@@ -55,6 +59,9 @@ export const NewPost = () => {
                             required/>
                     </section>
                     <Filter newPost={newPost} />
+                    <div className="pb-3">
+                        <Images setPhotoUrl={setPhotoUrl}/>
+                    </div>
                     <div className="flex justify-between">
                         <button className="button-primary p-2 cursor-pointer" onClick={AddNewPost}>Create Post</button>
                         <button className="button-primary p-2 cursor-pointer" onClick={() =>  {

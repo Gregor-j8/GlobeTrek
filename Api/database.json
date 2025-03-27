@@ -431,7 +431,8 @@
       ],
       "title": "Exploring the Big Apple",
       "description": "Visited Central Park and the Empire State Building.",
-      "date": "12/15/2024"
+      "date": "12/15/2024",
+      "photoUrl": "https://media.cntravellerme.com/photos/648c35b151562a659243e075/3:2/w_3000,h_2000,c_limit/New%20York%20City_GettyImages-1347979016.jpg"
     },
     {
       "id": 2,
@@ -445,7 +446,8 @@
       ],
       "title": "Touring the British Capital",
       "description": "Explored the Tower of London and Buckingham Palace.",
-      "date": "06/09/2023"
+      "date": "06/09/2023",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/330px-London_Skyline_%28125508655%29.jpeg"
     },
     {
       "id": 3,
@@ -459,7 +461,8 @@
       ],
       "title": "Exploring the Eiffel Tower",
       "description": "Visited the Eiffel Tower and enjoyed the city lights at night.",
-      "date": "11/19/2024"
+      "date": "11/19/2024",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN5IQAk2StxRRjQUzUhLz0ZXvQsS-H3IMIsw&s"
     },
     {
       "id": 4,
@@ -473,7 +476,8 @@
       ],
       "title": "Discovering Tokyo's Skyline",
       "description": "Visited Shibuya Crossing and the Senso-ji Temple.",
-      "date": "09/15/2022"
+      "date": "09/15/2022",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_5i3MCcBYKz9UkInEHotICMpEBTAObU4Cg&s"
     },
     {
       "id": 5,
@@ -487,7 +491,8 @@
       ],
       "title": "Hollywood Adventures",
       "description": "Walked along the Hollywood Walk of Fame and saw the famous Hollywood Sign.",
-      "date": "02/11/2023"
+      "date": "02/11/2023",
+      "photoUrl": "https://www.discoverlosangeles.com/sites/default/files/images/2021-10/losangeles-observatory-social.jpg"
     },
     {
       "id": 6,
@@ -501,7 +506,8 @@
       ],
       "title": "Exploring the Sydney Opera House",
       "description": "Enjoyed the views from Sydney Harbour Bridge and visited the Opera House.",
-      "date": "10/01/2023"
+      "date": "10/01/2023",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/330px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg"
     },
     {
       "id": 7,
@@ -515,7 +521,8 @@
       ],
       "title": "A Tour of Berlin's History",
       "description": "Visited the Brandenburg Gate and Berlin Wall Memorial.",
-      "date": "03/04/2022"
+      "date": "03/04/2022",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Museumsinsel_Berlin_Juli_2021_1_%28cropped%29_b.jpg/800px-Museumsinsel_Berlin_Juli_2021_1_%28cropped%29_b.jpg"
     },
     {
       "id": 8,
@@ -529,7 +536,8 @@
       ],
       "title": "Visiting the Christ the Redeemer",
       "description": "Climbed to the top of Corcovado Mountain to see the Christ the Redeemer statue.",
-      "date": "07/30/2024"
+      "date": "07/30/2024",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/640px-Cidade_Maravilhosa.jpg"
     },
     {
       "id": 9,
@@ -543,7 +551,8 @@
       ],
       "title": "Exploring Moscow's Red Square",
       "description": "Walked through Red Square and visited the Kremlin and St. Basil's Cathedral.",
-      "date": "06/15/2025"
+      "date": "06/15/2025",
+      "photoUrl": "https://scontent.ccdn.cloud/image/vivitravels-en/bd1843c7-3c8e-4ac4-a9c9-b6a95af77c92/maxw-960.jpg"
     },
     {
       "id": 10,
@@ -557,7 +566,8 @@
       ],
       "title": "A Trip to the Burj Khalifa",
       "description": "Visited the Burj Khalifa and went to the top to see panoramic views of the city.",
-      "date": "05/10/2023"
+      "date": "05/10/2023",
+      "photoUrl": "https://tii.imgix.net/production/articles/12772/e6e279c7-c6bb-415e-8d1f-0eee12e8a4b9-alDhkb.png?auto=compress&fit=crop&auto=format"
     },
     {
       "id": 11,
@@ -571,7 +581,8 @@
       ],
       "title": "Exploring the Sagrada Familia",
       "description": "Visited the famous Sagrada Familia and enjoyed the local tapas.",
-      "date": "03/22/2025"
+      "date": "03/22/2025",
+      "photoUrl": "https://statemag.state.gov/wp-content/uploads/2024/05/0624POM-A-3-scaled.jpg"
     },
     {
       "id": 12,
@@ -585,63 +596,8 @@
       ],
       "title": "Touring the Belem Tower",
       "description": "Visited the Belem Tower and enjoyed the famous Pastéis de Nata.",
-      "date": "01/12/2024"
-    },
-    {
-      "id": 13,
-      "userId": 5,
-      "cityName": "Vancouver",
-      "lon": "-123.1216",
-      "lat": "49.2827",
-      "geocode": [
-        49.2827,
-        -123.1216
-      ],
-      "title": "Exploring Stanley Park",
-      "description": "Walked around the beautiful Stanley Park and enjoyed views of the harbor.",
-      "date": "08/15/2023"
-    },
-    {
-      "id": 14,
-      "userId": 6,
-      "cityName": "Buenos Aires",
-      "lon": "-58.4438",
-      "lat": "-34.6037",
-      "geocode": [
-        -34.6037,
-        -58.4438
-      ],
-      "title": "A Visit to La Boca",
-      "description": "Walked around the colorful streets of La Boca and watched tango performances.",
-      "date": "10/25/2023"
-    },
-    {
-      "id": 15,
-      "userId": 7,
-      "cityName": "Cape Town",
-      "lon": "18.4241",
-      "lat": "-33.9249",
-      "geocode": [
-        -33.9249,
-        18.4241
-      ],
-      "title": "Climbing Table Mountain",
-      "description": "Hiked up to the top of Table Mountain for amazing panoramic views.",
-      "date": "07/18/2024"
-    },
-    {
-      "id": 16,
-      "userId": 8,
-      "cityName": "Budapest",
-      "lon": "19.0402",
-      "lat": "47.4979",
-      "geocode": [
-        47.4979,
-        19.0402
-      ],
-      "title": "Relaxing at the Széchenyi Thermal Bath",
-      "description": "Enjoyed the relaxing thermal baths and visited the famous Buda Castle.",
-      "date": "12/05/2023"
+      "date": "01/12/2024",
+      "photoUrl": "https://images.squarespace-cdn.com/content/v1/56e8fcc03c44d89db7df9b3e/1555999875852-WLL11DEFUG78U088FD9F/image+1+lisbon+copy.jpg"
     },
     {
       "id": 17,
@@ -655,7 +611,8 @@
       ],
       "title": "Visiting Nyhavn",
       "description": "Walked along the colorful Nyhavn and took a canal tour.",
-      "date": "04/10/2025"
+      "date": "04/10/2025",
+      "photoUrl": "https://media.gq-magazine.co.uk/photos/5d139922b363fa43f120ce07/16:9/w_2560%2Cc_limit/Nyhavn-1-gq--4jan17_alamy_b.jpg"
     },
     {
       "id": 18,
@@ -669,7 +626,8 @@
       ],
       "title": "Sky Tower Views",
       "description": "Went up to the Sky Tower for stunning views of the city and harbor.",
-      "date": "06/21/2024"
+      "date": "06/21/2024",
+      "photoUrl": "https://www.cunard.com/content/dam/cunard/marketing-assets/destinations/australia-new-zealand/shutterstock_1009688986_Auckland_Cityscape_image_of_Auckland_skyline_New_Zealand_during_sunrise.jpg"
     },
     {
       "id": 19,
@@ -683,7 +641,8 @@
       ],
       "title": "Touring Gamla Stan",
       "description": "Explored the medieval old town (Gamla Stan) and the Royal Palace.",
-      "date": "09/05/2023"
+      "date": "09/05/2023",
+      "photoUrl": "https://imageio.forbes.com/specials-images/imageserve/65bcab9c21f1688929930b98/Stockholm-City--Sweden--in-the-winter-/960x0.jpg?format=jpg&width=960"
     },
     {
       "id": 20,
@@ -697,7 +656,8 @@
       ],
       "title": "Visiting the Prague Castle",
       "description": "Walked around the historic Prague Castle and enjoyed the views over the city.",
-      "date": "02/25/2024"
+      "date": "02/25/2024",
+      "photoUrl": "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/pois/prague-czech-republic-frommers.jpg?width=1200&height=630&quality=82&fit=cover&s=SunG8xnlq-9LE8Qg6aZ0nzdPvuNY3bwRdgLLkYf1_mE"
     },
     {
       "id": 21,
@@ -711,7 +671,8 @@
       ],
       "title": "Exploring Gyeongbokgung Palace",
       "description": "Visited the Gyeongbokgung Palace and took a stroll along Bukchon Hanok Village.",
-      "date": "01/15/2025"
+      "date": "01/15/2025",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Seoul_%28175734251%29.jpeg/1200px-Seoul_%28175734251%29.jpeg"
     },
     {
       "id": 22,
@@ -725,7 +686,8 @@
       ],
       "title": "Exploring Old Montreal",
       "description": "Walked through the historic streets of Old Montreal and visited Mount Royal.",
-      "date": "05/03/2024"
+      "date": "05/03/2024",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mtl_from_mont_royal_%28cropped%29.jpg/1200px-Mtl_from_mont_royal_%28cropped%29.jpg"
     },
     {
       "id": 23,
@@ -739,7 +701,8 @@
       ],
       "title": "Riding a Bike Along the Canals",
       "description": "Rode a bike along Amsterdam's famous canals and visited the Anne Frank House.",
-      "date": "02/22/2025"
+      "date": "02/22/2025",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK48NqDW1OOMsKYACYftXgYvxzmjE6YhlGcA&s"
     },
     {
       "id": 24,
@@ -753,7 +716,8 @@
       ],
       "title": "Enjoying Lake Zurich",
       "description": "Took a boat ride on Lake Zurich and enjoyed a peaceful walk along the waterfront.",
-      "date": "11/10/2024"
+      "date": "11/10/2024",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIWKQDZEuxMar5_QSluscVDZbp7UKRS2jTg&s"
     },
     {
       "id": 25,
@@ -767,7 +731,8 @@
       ],
       "title": "Exploring the Petronas Towers",
       "description": "Went to the top of the Petronas Towers and explored the Bukit Bintang district.",
-      "date": "03/16/2024"
+      "date": "03/16/2024",
+      "photoUrl": "https://img.static-kl.com/images/media/1F159175-0757-4F9E-A9A8EC6DBD5BCE68"
     },
     {
       "id": 26,
@@ -781,7 +746,8 @@
       ],
       "title": "Visiting the Hofburg Palace",
       "description": "Visited the Hofburg Palace and strolled through the historic city center.",
-      "date": "07/30/2023"
+      "date": "07/30/2023",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/7d/9d/61/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_a7774a51016c78e5c6fa"
     },
     {
       "id": 27,
@@ -795,7 +761,8 @@
       ],
       "title": "A Visit to La Boca",
       "description": "Visited the vibrant district of La Boca and saw a tango show.",
-      "date": "04/21/2025"
+      "date": "04/21/2025",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4WMijNBrQr7112wBNUcQeZx-yCsn3dsu-lA&s"
     },
     {
       "id": 28,
@@ -809,7 +776,8 @@
       ],
       "title": "Touring the Viking Ship Museum",
       "description": "Explored the Viking Ship Museum and walked around the Aker Brygge area.",
-      "date": "06/14/2023"
+      "date": "06/14/2023",
+      "photoUrl": "https://framerusercontent.com/images/BLUlMX4Sj7Q7wkj8fsv8ezU4Mg.jpeg"
     },
     {
       "id": 29,
@@ -823,7 +791,8 @@
       ],
       "title": "Exploring Chapultepec Park",
       "description": "Visited Chapultepec Castle and walked around Chapultepec Park.",
-      "date": "09/30/2023"
+      "date": "09/30/2023",
+      "photoUrl": "https://i.natgeofe.com/n/6c02ad5a-977b-4f12-b9c0-02ffb0736e07/metropolitan-cathedral-zocalo-mexico-city.JPG?w=2560&h=1740"
     },
     {
       "id": 30,
@@ -837,7 +806,8 @@
       ],
       "title": "Visiting the Pyramids of Giza",
       "description": "Toured the ancient pyramids and the Sphinx.",
-      "date": "10/18/2024"
+      "date": "10/18/2024",
+      "photoUrl": "https://media.gadventures.com/media-server/dynamic/blogs/posts/G-Adventures/2024/10/Things_to_do_in_Cairo.webp"
     },
     {
       "id": 31,
@@ -851,7 +821,8 @@
       ],
       "title": "Relaxing at Tarkwa Bay",
       "description": "Visited Tarkwa Bay Beach and explored the local markets.",
-      "date": "08/12/2024"
+      "date": "08/12/2024",
+      "photoUrl": "https://media.newyorker.com/photos/5909523dc14b3c606c103bac/master/pass/Victoria-Island-580.jpg"
     },
     {
       "id": 32,
@@ -865,7 +836,8 @@
       ],
       "title": "Climbing Table Mountain",
       "description": "Hiked up Table Mountain and enjoyed spectacular views of the coastline.",
-      "date": "07/03/2023"
+      "date": "07/03/2023",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2e/1e/cape-town.jpg?w=1400&h=1400&s=1"
     },
     {
       "id": 33,
@@ -879,7 +851,8 @@
       ],
       "title": "Exploring Suomenlinna",
       "description": "Visited the UNESCO World Heritage Site of Suomenlinna and its fortress.",
-      "date": "11/10/2024"
+      "date": "11/10/2024",
+      "photoUrl": "https://img.static-kl.com/images/media/9C7C504D-75B8-47D6-BF64D20B7C323F06"
     },
     {
       "id": 34,
@@ -893,7 +866,8 @@
       ],
       "title": "Visiting Waiheke Island",
       "description": "Took a ferry to Waiheke Island for wine tasting and scenic views.",
-      "date": "02/20/2025"
+      "date": "02/20/2025",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3uobKQVtsWQY-Kb_H0g5z1QA36LDROeEgbQ&s"
     },
     {
       "id": 35,
@@ -907,7 +881,8 @@
       ],
       "title": "Walking Across Charles Bridge",
       "description": "Walked across the iconic Charles Bridge and visited the Old Town Square.",
-      "date": "09/14/2023"
+      "date": "09/14/2023",
+      "photoUrl": "https://undiscoveredpathhome.com/wp-content/uploads/2024/09/best-time-of-year-to-visit-prague-prague-castle-scaled.jpeg"
     },
     {
       "id": 36,
@@ -921,7 +896,8 @@
       ],
       "title": "Exploring the Old City Walls",
       "description": "Toured the medieval walls of Dubrovnik and relaxed by the Adriatic Sea.",
-      "date": "10/11/2024"
+      "date": "10/11/2024",
+      "photoUrl": "https://www.worldtribune.org/wp-content/uploads/sites/2/2023/05/Dubrovnik_GettyImages-187139618.png"
     },
     {
       "id": 37,
@@ -935,7 +911,8 @@
       ],
       "title": "Touring Kalemegdan Fortress",
       "description": "Visited Kalemegdan Fortress and walked along the Danube River.",
-      "date": "05/27/2025"
+      "date": "05/27/2025",
+      "photoUrl": "https://media.digitalnomads.world/wp-content/uploads/2021/03/20120553/tallinn-digital-nomads.jpg"
     },
     {
       "id": 38,
@@ -949,7 +926,8 @@
       ],
       "title": "Exploring Tallinn Old Town",
       "description": "Walked through the medieval streets of Tallinn Old Town and visited Alexander Nevsky Cathedral.",
-      "date": "08/19/2023"
+      "date": "08/19/2023",
+      "photoUrl": ""
     },
     {
       "id": 39,
@@ -963,7 +941,8 @@
       ],
       "title": "Visiting the Jardin Majorelle",
       "description": "Visited the beautiful Jardin Majorelle and explored the colorful souks of Marrakech.",
-      "date": "02/05/2024"
+      "date": "02/05/2024",
+      "photoUrl": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60"
     },
     {
       "id": 40,
@@ -977,7 +956,8 @@
       ],
       "title": "Relaxing on the Beaches of Bali",
       "description": "Relaxed on the beautiful beaches of Bali and visited Uluwatu Temple.",
-      "date": "03/10/2025"
+      "date": "03/10/2025",
+      "photoUrl": "https://media.cntraveler.com/photos/5c263e13a6a145617b7c77ba/master/pass/Karma-Beach-Club_Karma-Beach-Bali-.jpg"
     },
     {
       "id": 41,
@@ -991,7 +971,8 @@
       ],
       "title": "Exploring Belém Tower",
       "description": "Visited Belém Tower and tasted famous Portuguese pastries in the area.",
-      "date": "06/23/2024"
+      "date": "06/23/2024",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lisbon_%2836831596786%29_%28cropped%29.jpg/960px-Lisbon_%2836831596786%29_%28cropped%29.jpg"
     },
     {
       "id": 42,
@@ -1005,7 +986,8 @@
       ],
       "title": "Touring Buda Castle",
       "description": "Explored the historic Buda Castle and enjoyed views of the Danube River.",
-      "date": "03/19/2024"
+      "date": "03/19/2024",
+      "photoUrl": "https://www.kempinski.com/var/site/storage/images/3/9/0/4/1734093-1-eng-GB/fe00aa1a5386-75358367_4K.jpg"
     },
     {
       "id": 43,
@@ -1019,7 +1001,8 @@
       ],
       "title": "Climbing the Burj Khalifa",
       "description": "Went to the top of the Burj Khalifa and explored the Dubai Mall.",
-      "date": "07/29/2023"
+      "date": "07/29/2023",
+      "photoUrl": "https://media.cntraveler.com/photos/678a864f7c5fa6c76a8e621c/16:9/w_2560%2Cc_limit/christoph-schulz-aEiu9nilN_c-unsplash.jpg"
     },
     {
       "id": 44,
@@ -1033,7 +1016,8 @@
       ],
       "title": "Strolling in Łazienki Park",
       "description": "Took a peaceful walk in Łazienki Park and visited the Palace on the Isle.",
-      "date": "09/09/2024"
+      "date": "09/09/2024",
+      "photoUrl": "https://dag08uxs564ub.cloudfront.net/images/warsaw-the-old-town.max-1280x768.jpg"
     },
     {
       "id": 45,
@@ -1047,7 +1031,8 @@
       ],
       "title": "Visiting Gardens by the Bay",
       "description": "Explored the futuristic Gardens by the Bay and admired the Supertree Grove.",
-      "date": "02/22/2024"
+      "date": "02/22/2024",
+      "photoUrl": "https://delivery.gfobcontent.com/api/public/content/34161f3d263a49ebb8b6fa81fc2b3af3?v=66d8d513"
     },
     {
       "id": 46,
@@ -1061,7 +1046,8 @@
       ],
       "title": "Exploring the Historic Centre",
       "description": "Visited the historic center of Lima and explored Plaza Mayor.",
-      "date": "04/10/2023"
+      "date": "04/10/2023",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/d1/56/e5/miraflores.jpg?w=900&h=-1&s=1"
     },
     {
       "id": 47,
@@ -1075,7 +1061,8 @@
       ],
       "title": "Climbing San Cristobal Hill",
       "description": "Climbed San Cristobal Hill for a panoramic view of the city.",
-      "date": "08/12/2024"
+      "date": "08/12/2024",
+      "photoUrl": "https://uploads.exoticca.com/global/destination/poi/santiago-chile.png"
     },
     {
       "id": 48,
@@ -1089,7 +1076,8 @@
       ],
       "title": "Hiking Table Mountain",
       "description": "Hiked up Table Mountain and enjoyed the beautiful view over the city.",
-      "date": "11/25/2023"
+      "date": "11/25/2023",
+      "photoUrl": "https://cdn.britannica.com/42/126842-050-0803BC41/Sea-Point-Cape-Town-SAf.jpg"
     },
     {
       "id": 49,
@@ -1103,7 +1091,8 @@
       ],
       "title": "Visiting Chapultepec Park",
       "description": "Visited Chapultepec Castle and the zoo in Chapultepec Park.",
-      "date": "09/01/2023"
+      "date": "09/01/2023",
+      "photoUrl": "https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://images.ntmllc.com/v4/destination/Mexico/Mexico-City/112092_SCN_MexicoCity_iStock628540524_Z42920/Mexico-City-Scenery.jpg?tr=w-656%2Ch-390%2Cfo-auto"
     },
     {
       "id": 50,
@@ -1117,7 +1106,8 @@
       ],
       "title": "Exploring the Acropolis",
       "description": "Visited the Acropolis and the Parthenon for a deep dive into Greek history.",
-      "date": "10/14/2024"
+      "date": "10/14/2024",
+      "photoUrl": "https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg"
     },
     {
       "id": 51,
@@ -1131,7 +1121,8 @@
       ],
       "title": "Exploring Gamla Stan",
       "description": "Strolled through the cobblestone streets of Gamla Stan and visited the Royal Palace.",
-      "date": "12/04/2023"
+      "date": "12/04/2023",
+      "photoUrl": "https://images.prismic.io/bounce/Z08ng5bqstJ97_rb_is-stockholm-safe.jpg?auto=format%2Ccompress&ar=1.7%3A1&fit=crop"
     },
     {
       "id": 52,
@@ -1145,7 +1136,8 @@
       ],
       "title": "Visiting Hagia Sophia",
       "description": "Visited the Hagia Sophia and explored the Grand Bazaar.",
-      "date": "02/19/2025"
+      "date": "02/19/2025",
+      "photoUrl": "https://images.prismic.io/bounce/Zzzeq68jQArT1C4l_is-istanbul-safe.jpg?auto=format%2Ccompress&w=1466&fit=crop&ar=3%3A2"
     },
     {
       "id": 53,
@@ -1159,7 +1151,8 @@
       ],
       "title": "Exploring the Colosseum",
       "description": "Visited the iconic Colosseum and walked through the Roman Forum.",
-      "date": "06/10/2023"
+      "date": "06/10/2023",
+      "photoUrl": "https://images.ctfassets.net/lmkdg513arga/3Vhm0NRK3OMQIuSo9EDjnp/71b0844f15fbf5e0bff2751f45f6180e/iStock-539115110.jpg?w=2764&fm=jpg"
     },
     {
       "id": 54,
@@ -1173,7 +1166,8 @@
       ],
       "title": "Touring The Royal Palace",
       "description": "Visited the Royal Palace and explored the Prado Museum.",
-      "date": "07/28/2024"
+      "date": "07/28/2024",
+      "photoUrl": "https://img.static-kl.com/images/media/65848EF5-2848-4EA7-BE113130180A0A55"
     },
     {
       "id": 55,
@@ -1187,7 +1181,8 @@
       ],
       "title": "Exploring the Brandenburg Gate",
       "description": "Visited the Brandenburg Gate and toured the Berlin Wall Memorial.",
-      "date": "08/04/2023"
+      "date": "08/04/2023",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3tsWB3biAG8-MBrq7vW1A0DDvnPvECtcxZA&s"
     },
     {
       "id": 56,
@@ -1201,7 +1196,8 @@
       ],
       "title": "Exploring Sagrada Familia",
       "description": "Visited the Sagrada Familia and explored the famous La Rambla.",
-      "date": "05/15/2024"
+      "date": "05/15/2024",
+      "photoUrl": "https://images.adsttc.com/media/images/5d01/50ea/284d/d152/0500/0048/medium_jpg/Barcelona_Architecture-Virginia_Duran-7-Barcelona_Cathedral.jpg?1560367327"
     },
     {
       "id": 57,
@@ -1215,7 +1211,8 @@
       ],
       "title": "Touring Tivoli Gardens",
       "description": "Visited the historic Tivoli Gardens and enjoyed the amusement rides.",
-      "date": "11/23/2023"
+      "date": "11/23/2023",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Christiansborg_fra_Nikolaj_Kirken.jpg/800px-Christiansborg_fra_Nikolaj_Kirken.jpg"
     },
     {
       "id": 58,
@@ -1229,7 +1226,8 @@
       ],
       "title": "Touring Schönbrunn Palace",
       "description": "Explored the stunning Schönbrunn Palace and its beautiful gardens.",
-      "date": "06/05/2024"
+      "date": "06/05/2024",
+      "photoUrl": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/47000/47129-Belvedere.jpg"
     },
     {
       "id": 59,
@@ -1243,7 +1241,8 @@
       ],
       "title": "Taking a Victoria Peak Tram",
       "description": "Rode the Victoria Peak Tram for a breathtaking view of the skyline.",
-      "date": "10/27/2023"
+      "date": "10/27/2023",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnNVBMX9wl_D-6blQF_gc9VsaYldGtOo0Tyg&s"
     },
     {
       "id": 60,
@@ -1257,7 +1256,8 @@
       ],
       "title": "Visiting Christ the Redeemer",
       "description": "Visited the Christ the Redeemer statue and explored Copacabana Beach.",
-      "date": "01/18/2025"
+      "date": "01/18/2025",
+      "photoUrl": "https://cdn.kimkim.com/files/a/images/46176a18f601725b559c0249021cf5a2f48aa2c8/original-1178304853a18d0b691b243c74dee9e5.jpg"
     },
     {
       "id": 61,
@@ -1272,7 +1272,8 @@
       "title": "Visiting Times Square",
       "description": "Visited the bright lights of Times Square and enjoyed a Broadway show.",
       "popup": "Marker at New York",
-      "date": "07/10/2024"
+      "date": "07/10/2024",
+      "photoUrl": "https://www.travelguide.net/media/new-york.jpeg"
     },
     {
       "id": 62,
@@ -1287,7 +1288,8 @@
       "title": "Exploring the Hollywood Sign",
       "description": "Took a hike up to the Hollywood Sign and explored the Walk of Fame.",
       "popup": "Marker at Los Angeles",
-      "date": "05/01/2023"
+      "date": "05/01/2023",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/330px-Los_Angeles_with_Mount_Baldy.jpg"
     },
     {
       "id": 63,
@@ -1303,11 +1305,7 @@
       "description": "Walked through Millennium Park and saw the famous Cloud Gate sculpture.",
       "popup": "Marker at Chicago",
       "date": "08/15/2024",
-      "user": {
-        "id": 3,
-        "fullName": "Emily Johnson",
-        "email": "emily@example.com"
-      }
+      "photoUrl": "https://media.timeout.com/images/106157920/image.jpg"
     },
     {
       "id": 64,
@@ -1322,7 +1320,8 @@
       "title": "Exploring South Beach",
       "description": "Relaxed on South Beach and visited the Art Deco district.",
       "popup": "Marker at Miami",
-      "date": "02/20/2024"
+      "date": "02/20/2024",
+      "photoUrl": "https://www.datocms-assets.com/34574/1654715173-1.jpg?w=768"
     },
     {
       "id": 65,
@@ -1337,7 +1336,8 @@
       "title": "Visiting the Golden Gate Bridge",
       "description": "Walked across the Golden Gate Bridge and explored Fisherman's Wharf.",
       "popup": "Marker at San Francisco",
-      "date": "09/05/2023"
+      "date": "09/05/2023",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/San_Francisco_from_the_Marin_Headlands_in_August_2022.jpg"
     },
     {
       "id": 66,
@@ -1352,7 +1352,8 @@
       "title": "Exploring the Space Needle",
       "description": "Visited the Space Needle and enjoyed stunning views of Seattle.",
       "popup": "Marker at Seattle",
-      "date": "06/10/2024"
+      "date": "06/10/2024",
+      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzER6kB2Q1GjRlF39KuPimuyMgZG_EkGrcTQ&s"
     },
     {
       "id": 67,
@@ -1367,7 +1368,8 @@
       "title": "Exploring the Las Vegas Strip",
       "description": "Walked along the famous Las Vegas Strip and tried my luck at the casinos.",
       "popup": "Marker at Las Vegas",
-      "date": "12/18/2023"
+      "date": "12/18/2023",
+      "photoUrl": "https://imageio.forbes.com/specials-images/imageserve/656df61cc3a44648c235dde3/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
     },
     {
       "id": 68,
@@ -1382,7 +1384,8 @@
       "title": "Exploring the Live Music Scene",
       "description": "Visited some of Austin's famous live music venues in the downtown area.",
       "popup": "Marker at Austin",
-      "date": "04/12/2024"
+      "date": "04/12/2024",
+      "photoUrl": "https://www.statesman.com/gcdn/authoring/authoring-images/2023/11/08/NAAS/71504509007-newcomer-oped.JPG?width=1733&height=1084&fit=crop&format=pjpg&auto=webp"
     },
     {
       "id": 69,
@@ -1397,37 +1400,8 @@
       "title": "Visiting the National Mall",
       "description": "Visited the National Mall and saw the Lincoln Memorial and Washington Monument.",
       "popup": "Marker at Washington, D.C.",
-      "date": "07/22/2023"
-    },
-    {
-      "userId": 3,
-      "cityName": "Los Angeles",
-      "lat": "34.0536909",
-      "lon": "-118.242766",
-      "geocode": [
-        34.0536909,
-        -118.242766
-      ],
-      "title": "Sunset in SUdan",
-      "description": "incredible view",
-      "popup": "Marker at Aroma",
-      "date": "3/26/2025",
-      "id": 70
-    },
-    {
-      "userId": 3,
-      "cityName": "Alagoinhas",
-      "lat": "-12.133526",
-      "lon": "-38.420772",
-      "geocode": [
-        -12.133526,
-        -38.420772
-      ],
-      "title": "Sunset",
-      "description": "Incredible view",
-      "popup": "Marker at Alagoinhas",
-      "date": "3/26/2025",
-      "id": 71
+      "date": "07/22/2023",
+      "photoUrl": "https://visitmontgomery.com/wp-content/uploads/2024/09/united-states-capitol-building-washington-dc-u-2023-11-27-05-35-51-utc-scaled.jpg"
     }
   ]
 }
