@@ -30,9 +30,10 @@ export const Profile = () => {
     }
 
 return (currentUser?.id == userId ? (
-        <div className="max-w-lg mx-auto my-1bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
-            <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
-            <p className="text-center text-gray-600 mt-1">{profile.email}</p>
+        <div className="max-w-lg mx-auto my-1 bg-white rounded-lg shadow-md mt-25 flex flex-col items-center justify-center mb-10">
+            <img src={`${profile.photoUrl}`} className="w-1/3 mt-2 rounded-4xl"/>
+            <h2 className="text-center text-2xl font-semibold text-gray-600 mt-3">{profile.fullName}</h2>
+            <p className="text-center  text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
             <Follow userId={userId}/>
             <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-18">

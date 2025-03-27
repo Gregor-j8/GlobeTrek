@@ -40,48 +40,57 @@
   "users": [
     {
       "id": 1,
-      "fullName": "john doe",
-      "email": "john@example.com"
+      "fullName": "John Doe",
+      "email": "john@example.com",
+      "photoUrl": "https://i.imgur.com/example1.jpg"
     },
     {
       "id": 2,
       "fullName": "Jane Smith",
-      "email": "jane@example.com"
+      "email": "jane@example.com",
+      "photoUrl": "https://i.imgur.com/example2.jpg"
     },
     {
       "id": 3,
       "fullName": "Emily Johnson",
-      "email": "emily@example.com"
+      "email": "emily@example.com",
+      "photoUrl": "https://i.ibb.co/Mk5g41Sb/Screenshot-2025-03-07-090645.png"
     },
     {
       "id": 4,
       "fullName": "Michael Brown",
-      "email": "michael@example.com"
+      "email": "michael@example.com",
+      "photoUrl": "https://i.imgur.com/example4.jpg"
     },
     {
       "id": 5,
       "fullName": "Sarah Davis",
-      "email": "sarah@example.com"
+      "email": "sarah@example.com",
+      "photoUrl": "https://i.imgur.com/example5.jpg"
     },
     {
       "id": 6,
       "fullName": "David Wilson",
-      "email": "david@example.com"
+      "email": "david@example.com",
+      "photoUrl": "https://i.imgur.com/example6.jpg"
     },
     {
       "id": 7,
       "fullName": "Chris Martinez",
-      "email": "chris@example.com"
+      "email": "chris@example.com",
+      "photoUrl": "https://i.imgur.com/example7.jpg"
     },
     {
       "id": 8,
       "fullName": "Jessica Lee",
-      "email": "jessica@example.com"
+      "email": "jessica@example.com",
+      "photoUrl": "https://i.imgur.com/example8.jpg"
     },
     {
       "id": 9,
       "fullName": "Matthew Taylor",
-      "email": "matthew@example.com"
+      "email": "matthew@example.com",
+      "photoUrl": "https://i.imgur.com/example9.jpg"
     }
   ],
   "followRelationships": [
@@ -192,7 +201,7 @@
     },
     {
       "userId": 3,
-      "followId": 7,
+      "followId": 8,
       "id": 22
     }
   ],
@@ -1384,6 +1393,36 @@
       "description": "Visited the National Mall and saw the Lincoln Memorial and Washington Monument.",
       "popup": "Marker at Washington, D.C.",
       "date": "07/22/2023"
+    },
+    {
+      "userId": 3,
+      "cityName": "Los Angeles",
+      "lat": "34.0536909",
+      "lon": "-118.242766",
+      "geocode": [
+        34.0536909,
+        -118.242766
+      ],
+      "title": "Sunset in SUdan",
+      "description": "incredible view",
+      "popup": "Marker at Aroma",
+      "date": "3/26/2025",
+      "id": 70
+    },
+    {
+      "userId": 3,
+      "cityName": "Alagoinhas",
+      "lat": "-12.133526",
+      "lon": "-38.420772",
+      "geocode": [
+        -12.133526,
+        -38.420772
+      ],
+      "title": "Sunset",
+      "description": "Incredible view",
+      "popup": "Marker at Alagoinhas",
+      "date": "3/26/2025",
+      "id": 71
     }
   ]
 }
