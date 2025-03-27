@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom"
 
-export const FollowingModal = ({ following, onClose }) => {
-    console.log("follwing",following)
-    
+export const FollowingModal = ({ following, onClose }) => {    
     return (
         <div className="fixed inset-0 flex items-center justify-center z-10000 bg-opacity-50 flex-col">
             <div className="w-1/4 bg-amber-500">

@@ -50,7 +50,6 @@ export const Follow = ({userId}) => {
         }
         checkFollowingStatus()
     }, [filteringFollowers, userId, currentUser.id])
-
     
     const SaveFollow = (checkID, event) => {
         event.preventDefault()
@@ -67,7 +66,6 @@ export const Follow = ({userId}) => {
                     followId: parseInt(checkID),
                 })  
             }
-
         }
     }
     

@@ -46,7 +46,8 @@ return (currentUser?.id == userId ? (
             </div>
         </div>
     ) : (
-        <div className="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md mt-50 flex flex-col items-center justify-center mb-15">
+        <div className="max-w-lg mx-auto my-10 bg-white rounded-lg shadow-md mt-30 flex flex-col items-center justify-center mb-15">
+            <img src={`${profile.photoUrl}`} className="w-1/3 mt-2 rounded-4xl"/>
             <h2 className="text-center text-2xl font-semibold mt-3">{profile.fullName}</h2>
             <p className="text-center text-gray-600 mt-1">{profile.email}</p>
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
