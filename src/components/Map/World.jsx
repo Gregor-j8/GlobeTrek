@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { MapContainer, TileLayer } from "react-leaflet";
 import { MarkerPopUp } from "./MarkerPopUp"
-import { getPostMarker, getUserPostMarker } from "../../services/postService";
+import { getPostMarker, getUserPostMarker } from "../../services/postService"
 import { CreateMarker } from "./CreateMarker";
 import { UseCurrentUser } from "../../context/CurrentUserContext";
 import { GetFollowering, GetFollowers } from "../../services/followService";

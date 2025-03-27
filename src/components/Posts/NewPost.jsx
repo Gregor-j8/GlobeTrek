@@ -10,18 +10,22 @@ export const NewPost = () => {
     const { currentUser } = UseCurrentUser()
     const navigate = useNavigate()
     const { newPost, updatePost } = NewPostContext()
-    const { photoUrl, setPhotoUrl } = useState()
+    const [photoUrl, setPhotoUrl] = useState('')
 
     const AddNewPost = (event) => {
         event.preventDefault()
         const currentDate = new Date().toLocaleDateString()
     
-        if (!newPost.cityName || !newPost.title || !newPost.description || photoUrl) {
+        if (!newPost.cityName || !newPost.title || !newPost.description || !photoUrl) {
             alert("Please fill out all forms to make a post")
             return
         }
     
-        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(newPost.cityName)}`)
+        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(`${newPost.cityName}`)}`, {
+            headers: {
+              'User-Agent': 'GlobeTrek/1.0 (Gregor.johnson028@gmail.com)'
+            }
+        })
             .then((res) => res.json())
             .then((data) => {
                 const cityData = data[0]
@@ -38,6 +42,7 @@ export const NewPost = () => {
                     }
     
                     createPost(post).then(() => {
+                        photoUrl('')
                         updatePost({userId: 0, cityName: '', lon: 0, lat: 0, geocode: [0, 0], title: '', description: '', popup: '', date: 0 })
                         navigate("/posts")
                     })}})}
@@ -60,11 +65,12 @@ export const NewPost = () => {
                     </section>
                     <Filter newPost={newPost} />
                     <div className="pb-3">
-                        <Images setPhotoUrl={setPhotoUrl}/>
+                        <Images photoUrl={photoUrl} setPhotoUrl={setPhotoUrl}/>
                     </div>
                     <div className="flex justify-between">
                         <button className="button-primary p-2 cursor-pointer" onClick={AddNewPost}>Create Post</button>
                         <button className="button-primary p-2 cursor-pointer" onClick={() =>  {
+                            photoUrl('')
                             updatePost({userId: 0, cityName: '', lon: 0, lat: 0, geocode: [0, 0], title: '', description: '', popup: '', date: 0 })
                             navigate("/posts")
                         }}>Cancel</button>

@@ -317,12 +317,6 @@
     },
     {
       "userId": 1,
-      "postId": 13,
-      "isLiked": true,
-      "id": 12
-    },
-    {
-      "userId": 1,
       "postId": 12,
       "isLiked": true,
       "id": 13
@@ -356,12 +350,6 @@
       "postId": 11,
       "isLiked": true,
       "id": 19
-    },
-    {
-      "userId": 3,
-      "postId": 20,
-      "isLiked": true,
-      "id": 20
     },
     {
       "userId": 3,
@@ -555,21 +543,6 @@
       "photoUrl": "https://scontent.ccdn.cloud/image/vivitravels-en/bd1843c7-3c8e-4ac4-a9c9-b6a95af77c92/maxw-960.jpg"
     },
     {
-      "id": 10,
-      "userId": 2,
-      "cityName": "Dubai",
-      "lon": "55.2708",
-      "lat": "25.276987",
-      "geocode": [
-        25.276987,
-        55.2708
-      ],
-      "title": "A Trip to the Burj Khalifa",
-      "description": "Visited the Burj Khalifa and went to the top to see panoramic views of the city.",
-      "date": "05/10/2023",
-      "photoUrl": "https://tii.imgix.net/production/articles/12772/e6e279c7-c6bb-415e-8d1f-0eee12e8a4b9-alDhkb.png?auto=compress&fit=crop&auto=format"
-    },
-    {
       "id": 11,
       "userId": 3,
       "cityName": "Barcelona",
@@ -598,66 +571,6 @@
       "description": "Visited the Belem Tower and enjoyed the famous Pastéis de Nata.",
       "date": "01/12/2024",
       "photoUrl": "https://images.squarespace-cdn.com/content/v1/56e8fcc03c44d89db7df9b3e/1555999875852-WLL11DEFUG78U088FD9F/image+1+lisbon+copy.jpg"
-    },
-    {
-      "id": 17,
-      "userId": 9,
-      "cityName": "Copenhagen",
-      "lon": "12.5683",
-      "lat": "55.6761",
-      "geocode": [
-        55.6761,
-        12.5683
-      ],
-      "title": "Visiting Nyhavn",
-      "description": "Walked along the colorful Nyhavn and took a canal tour.",
-      "date": "04/10/2025",
-      "photoUrl": "https://media.gq-magazine.co.uk/photos/5d139922b363fa43f120ce07/16:9/w_2560%2Cc_limit/Nyhavn-1-gq--4jan17_alamy_b.jpg"
-    },
-    {
-      "id": 18,
-      "userId": 1,
-      "cityName": "Auckland",
-      "lon": "174.7633",
-      "lat": "-36.8485",
-      "geocode": [
-        -36.8485,
-        174.7633
-      ],
-      "title": "Sky Tower Views",
-      "description": "Went up to the Sky Tower for stunning views of the city and harbor.",
-      "date": "06/21/2024",
-      "photoUrl": "https://www.cunard.com/content/dam/cunard/marketing-assets/destinations/australia-new-zealand/shutterstock_1009688986_Auckland_Cityscape_image_of_Auckland_skyline_New_Zealand_during_sunrise.jpg"
-    },
-    {
-      "id": 19,
-      "userId": 2,
-      "cityName": "Stockholm",
-      "lon": "18.0686",
-      "lat": "59.3293",
-      "geocode": [
-        59.3293,
-        18.0686
-      ],
-      "title": "Touring Gamla Stan",
-      "description": "Explored the medieval old town (Gamla Stan) and the Royal Palace.",
-      "date": "09/05/2023",
-      "photoUrl": "https://imageio.forbes.com/specials-images/imageserve/65bcab9c21f1688929930b98/Stockholm-City--Sweden--in-the-winter-/960x0.jpg?format=jpg&width=960"
-    },
-    {
-      "id": 20,
-      "userId": 3,
-      "cityName": "Prague",
-      "lon": "14.4208",
-      "lat": "50.0755",
-      "geocode": [
-        50.0755,
-        14.4208
-      ],
-      "title": "Visiting the Prague Castle",
-      "description": "Walked around the historic Prague Castle and enjoyed the views over the city.",
-      "date": "02/25/2024",
-      "photoUrl": "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/pois/prague-czech-republic-frommers.jpg?width=1200&height=630&quality=82&fit=cover&s=SunG8xnlq-9LE8Qg6aZ0nzdPvuNY3bwRdgLLkYf1_mE"
     },
     {
       "id": 21,
@@ -703,21 +616,6 @@
       "description": "Rode a bike along Amsterdam's famous canals and visited the Anne Frank House.",
       "date": "02/22/2025",
       "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK48NqDW1OOMsKYACYftXgYvxzmjE6YhlGcA&s"
-    },
-    {
-      "id": 24,
-      "userId": 7,
-      "cityName": "Zurich",
-      "lon": "8.5417",
-      "lat": "47.3769",
-      "geocode": [
-        47.3769,
-        8.5417
-      ],
-      "title": "Enjoying Lake Zurich",
-      "description": "Took a boat ride on Lake Zurich and enjoyed a peaceful walk along the waterfront.",
-      "date": "11/10/2024",
-      "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIWKQDZEuxMar5_QSluscVDZbp7UKRS2jTg&s"
     },
     {
       "id": 25,
@@ -1188,11 +1086,11 @@
       "id": 56,
       "userId": 3,
       "cityName": "Barcelona",
-      "lon": "2.1734",
-      "lat": "41.3851",
+      "lon": "2.1774322",
+      "lat": "41.3828939",
       "geocode": [
-        41.3851,
-        2.1734
+        41.3828939,
+        2.1774322
       ],
       "title": "Exploring Sagrada Familia",
       "description": "Visited the Sagrada Familia and explored the famous La Rambla.",
@@ -1402,6 +1300,22 @@
       "popup": "Marker at Washington, D.C.",
       "date": "07/22/2023",
       "photoUrl": "https://visitmontgomery.com/wp-content/uploads/2024/09/united-states-capitol-building-washington-dc-u-2023-11-27-05-35-51-utc-scaled.jpg"
+    },
+    {
+      "userId": 3,
+      "cityName": "Iitti",
+      "lat": "60.8892892",
+      "lon": "26.339536",
+      "geocode": [
+        60.8892892,
+        26.339536
+      ],
+      "title": "ss",
+      "description": "sss",
+      "popup": "Marker at Iitti",
+      "date": "3/27/2025",
+      "photoUrl": "https://i.ibb.co/pBRrtGFW/background.jpg",
+      "id": 70
     }
   ]
 }
