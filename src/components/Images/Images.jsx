@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export const ProfileImages = ({setPhotoUrl}) => {
+export const Images = ({setPhotoUrl}) => {
     const [image, setImage] = useState('')
     const [preview, setPreview] = useState('')
 

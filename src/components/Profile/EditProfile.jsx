@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { deleteProfile, GetEditProfile, updateUser } from "../../services/userService"
 import { useNavigate } from "react-router-dom"
 import { UseCurrentUser } from "../../context/CurrentUserContext"
-import { ProfileImages } from "./ProfileImages"
+import { Images } from "../Images/Images"
 
 export const EditProfile = () => {
     const { currentUser } = UseCurrentUser()
@@ -44,7 +44,7 @@ export const EditProfile = () => {
                     copy.fullName = event.target.value
                     setProfile(copy)}}/>
             </fieldset>
-            <ProfileImages setPhotoUrl={setPhotoUrl}/>
+            <Images setPhotoUrl={setPhotoUrl}/>
             <div className="flex items-center pt-10">
                 <button className="text-color-primary px-2 py-3 mx-10 button-primary cursor-pointer" onClick={(event) => handleUpdateName(event)}>Save</button>
                 <button className="text-color-primary px-2 py-3 mx-10 button-primary cursor-pointer" onClick={() => Navigate(`/profile/${currentUser.id}`)}>Cancel</button> 
