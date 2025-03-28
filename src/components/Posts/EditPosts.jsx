@@ -15,9 +15,10 @@ export const EditPosts = () => {
 
     useEffect(() => {
         editPosts(postId).then(res => {
-            updateEditPost(res)
+            const data = res[0]
+            updateEditPost(data)
         })
-    }, [postId, updateEditPost])
+    }, [postId, ])
 
     useEffect(() => {
         if (editPost.cityName) {
@@ -49,7 +50,7 @@ export const EditPosts = () => {
                 geocode: geocode.geocode,
             }))
         }
-    }, [geocode, updateEditPost, image])
+    }, [geocode, image])
 
     const updatingPost = (event) => {
         event.preventDefault()

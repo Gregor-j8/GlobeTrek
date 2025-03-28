@@ -1347,17 +1347,19 @@
     },
     {
       "userId": 4,
-      "cityName": "Brazzaville",
+      "cityName": "Río Bueno",
       "geocode": [
-        -4.2694407,
-        15.2712256
+        -40.3336678,
+        -72.9567617
       ],
-      "title": "aaaa",
-      "description": "aaaa",
-      "popup": "Marker at Brazzaville",
-      "date": "3/27/2025",
-      "photoUrl": "https://i.ibb.co/4gPtQRRK/background.jpg",
-      "id": 71
+      "title": "colins house",
+      "description": "hello colin",
+      "popup": "Marker at Bichena",
+      "date": "3/28/2025",
+      "photoUrl": "https://i.ibb.co/Y7H3zNB3/background.jpg",
+      "id": 71,
+      "lat": -40.3336678,
+      "lon": -72.9567617
     }
   ]
 }
