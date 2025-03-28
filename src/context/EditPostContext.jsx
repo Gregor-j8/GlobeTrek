@@ -27,8 +27,8 @@ export const EditPostProvider = ({ children }) => {
                         }
                         setTimeout(() => {
                             updatePosts(updatedPost)
+                            return
                         }, 100)
-                        return updatedPost
                     })}}}
 
     return (
