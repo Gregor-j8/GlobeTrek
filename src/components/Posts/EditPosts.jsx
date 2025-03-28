@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { editPosts, updatePosts } from '../../services/postService'
@@ -11,14 +12,13 @@ export const EditPosts = () => {
     const { editPost, updateEditPost } = useEditPost()
     const [geocode, setGeocode] = useState(null)
     const [image, setImage] = useState('')
-    console.log(editPost)
 
     useEffect(() => {
         editPosts(postId).then(res => {
             const data = res[0]
             updateEditPost(data)
         })
-    }, [postId, ])
+    }, [postId])
 
     useEffect(() => {
         if (editPost.cityName) {
