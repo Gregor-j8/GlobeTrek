@@ -140,11 +140,6 @@
       "id": 9
     },
     {
-      "userId": 3,
-      "followId": 5,
-      "id": 10
-    },
-    {
       "userId": 9,
       "followId": 7,
       "id": 11
@@ -208,6 +203,21 @@
       "userId": 3,
       "followId": 9,
       "id": 23
+    },
+    {
+      "userId": 3,
+      "followId": 5,
+      "id": 24
+    },
+    {
+      "userId": 4,
+      "followId": 7,
+      "id": 25
+    },
+    {
+      "userId": 4,
+      "followId": 9,
+      "id": 26
     }
   ],
   "notes": [
@@ -404,6 +414,18 @@
       "postId": 60,
       "isLiked": true,
       "id": 30
+    },
+    {
+      "userId": 4,
+      "postId": 39,
+      "isLiked": true,
+      "id": 31
+    },
+    {
+      "userId": 4,
+      "postId": 40,
+      "isLiked": true,
+      "id": 32
     }
   ],
   "posts": [
@@ -840,7 +862,13 @@
       "title": "Visiting the Jardin Majorelle",
       "description": "Visited the beautiful Jardin Majorelle and explored the colorful souks of Marrakech.",
       "date": "02/05/2024",
-      "photoUrl": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60"
+      "photoUrl": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60",
+      "user": {
+        "id": 4,
+        "fullName": "Michael Brown",
+        "email": "michael@example.com",
+        "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBwBc9x_-B3ksahoBkr9zvK22-C-iA-eKORg&s"
+      }
     },
     {
       "id": 40,
@@ -1316,6 +1344,20 @@
       "date": "3/27/2025",
       "photoUrl": "https://i.ibb.co/pBRrtGFW/background.jpg",
       "id": 70
+    },
+    {
+      "userId": 4,
+      "cityName": "Brazzaville",
+      "geocode": [
+        -4.2694407,
+        15.2712256
+      ],
+      "title": "aaaa",
+      "description": "aaaa",
+      "popup": "Marker at Brazzaville",
+      "date": "3/27/2025",
+      "photoUrl": "https://i.ibb.co/4gPtQRRK/background.jpg",
+      "id": 71
     }
   ]
 }

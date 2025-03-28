@@ -42,11 +42,11 @@ export const CreateMarker = ({onClose}) => {
                             }
             
                             createPost(post).then(() => {
+                                photoUrl('')
                                 updatePost({userId: 0, cityName: '', lon: 0, lat: 0, geocode: [0, 0], title: '', description: '', popup: '', date: 0, photoUrl: '' })
                                 onClose
                             })}})}
             
-        
             return (
                 <div className="w-full flex items-center justify-center pt-50">
                     <form className="flex z-10000  bg-main-color p-10">
@@ -64,10 +64,11 @@ export const CreateMarker = ({onClose}) => {
                                     />
                             </section>
                             <Filter newPost={newPost} />
-                            <Images setPhotoUrl={setPhotoUrl}/>
+                            <Images photoUrl={photoUrl} setPhotoUrl={setPhotoUrl}/>
                             <div className="flex justify-between pt-4">
                                 <button className="button-primary p-2 cursor-pointer" onClick={AddNewPost}>Create Post</button>
                                 <button className="button-primary p-2 cursor-pointer" onClick={() =>  {
+                                    photoUrl('')
                                     updatePost({userId: 0, cityName: '', lon: 0, lat: 0, geocode: [0, 0], title: '', description: '', popup: '', date: 0 })
                                     onClose
                                 }}>Cancel</button>

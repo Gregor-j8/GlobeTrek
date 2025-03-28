@@ -1,14 +1,12 @@
-import { createContext, useContext, useState } from 'react';
-import { updatePosts } from '../services/postService';
+import { createContext, useContext, useState } from 'react'
+import { updatePosts } from '../services/postService'
 
-const EditPostContext = createContext();
+const EditPostContext = createContext()
 
 export const EditPostProvider = ({ children }) => {
     const [editPost, setEditPost] = useState({})
 
-    const updateEditPost = (updatedPost) => {
-        setEditPost((prevPost) => ({...prevPost, ...updatedPost,
-        }))}
+    const updateEditPost = (updatedPost) => {setEditPost(updatedPost)}
 
     const handleSave = async () => {
         if (editPost.cityName) {
@@ -37,9 +35,9 @@ export const EditPostProvider = ({ children }) => {
         <EditPostContext.Provider value={{ editPost, updateEditPost, handleSave }}>
             {children}
         </EditPostContext.Provider>
-    );
-};
+    )
+}
 
 export const useEditPost = () => {
     return useContext(EditPostContext);
-};
+}
