@@ -1,10 +1,19 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { useEditPost } from "../../context/EditPostContext"
 import { EditFilter } from "../Filter/EditFilter"
 import { deletePost } from "../../services/postService"
+import { EditImages } from "../Images/EditImages"
 
 export const MapModal = ({ marker, onClose, setIsModalOpen }) => {
     const { editPost, updateEditPost, handleSave } = useEditPost()
+    const [image, setImage] = useState('')
+
+    useEffect(() => {
+        if(image !== '') {
+            updateEditPost({
+                photoUrl: image
+            })}
+    }, [image])
   
     useEffect(() => {
         if (marker && marker.id !== editPost.id) {
@@ -50,6 +59,7 @@ const onSave = (event) => {
                     />
                 </div>
                 <EditFilter newPost={editPost} setNewPost={updateEditPost} />
+                <EditImages setImage={setImage} />
                  <div className="flex justify-around p-2">
                     <button className="button-primary p-2 rounded-lg" onClick={onSave}>
                         Save

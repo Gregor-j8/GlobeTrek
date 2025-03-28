@@ -8,7 +8,6 @@ export const PostDetails = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
     const [PostDetail, setPostDetail] = useState({})
-    console.log(PostDetail)
 
     useEffect(() => {
         getPostsDetails(postId).then(data => {
