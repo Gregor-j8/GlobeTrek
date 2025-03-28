@@ -26,7 +26,7 @@ export const Favorite = () => {
                     <button onClick={() => toggleLike(post.post.id)}>
                         {isLiked(post.post.id) ? <FilledHeartIcon /> : <UnFilledHeartIcon />}
                     </button>
-                    <p className="font-normal text-gray-700 mb-3">{post.post. description}</p>
+                    <p className="font-normal text-gray-700 mb-3">{post.post.description}</p>
                 </div>
             </div>
             ))}

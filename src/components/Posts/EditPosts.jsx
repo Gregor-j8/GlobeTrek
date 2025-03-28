@@ -1,42 +1,61 @@
-import { useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import { getPostsDetails, updatePosts } from '../../services/postService';
-import { EditFilter } from '../Filter/EditFilter';
-import { useEditPost } from '../../context/EditPostContext';
+import { useEffect, useState } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
+import { editPosts, updatePosts } from '../../services/postService'
+import { EditFilter } from '../Filter/EditFilter'
+import { EditImages } from '../Images/EditImages'
+import { useEditPost } from '../../context/EditPostContext'
 
 export const EditPosts = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
     const { editPost, updateEditPost } = useEditPost()
+    const [geocode, setGeocode] = useState(null)
+    const [image, setImage] = useState('')
+    console.log(editPost)
 
     useEffect(() => {
-        getPostsDetails(postId).then(res => {
-            const chosenPost = res[0]
-            updateEditPost(chosenPost)
-        });
-    }, [postId, updateEditPost]);
+        editPosts(postId).then(res => {
+            updateEditPost(res)
+        })
+    }, [postId, updateEditPost])
 
     useEffect(() => {
         if (editPost.cityName) {
-            fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(editPost.cityName)}`)
-                .then((res) => res.json())
+            fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(editPost.cityName)}`,
+                {
+                    headers: {
+                        'User-Agent': 'GlobeTrek/1.0 (Gregor.johnson028@gmail.com)',
+                    },
+                }).then((res) => res.json())
                 .then((data) => {
                     if (data[0]) {
-                        updateEditPost({
-                            lat: data[0].lat,
-                            lon: data[0].lon,
+                        setGeocode({
+                            lat: parseFloat(data[0].lat),
+                            lon: parseFloat(data[0].lon),
                             geocode: [parseFloat(data[0].lat), parseFloat(data[0].lon)],
                         })
                     }
                 })
         }
-    }, [editPost, updateEditPost]);
+    }, [editPost.cityName])
+
+    useEffect(() => {
+        if (geocode) {
+            updateEditPost(data => ({
+                ...data,
+                photoUrl: image,
+                lat: geocode.lat,
+                lon: geocode.lon,
+                geocode: geocode.geocode,
+            }))
+        }
+    }, [geocode, updateEditPost, image])
 
     const updatingPost = (event) => {
         event.preventDefault()
         if (!editPost.cityName || !editPost.title || !editPost.description) {
-            alert('Please fill out all forms to make a post');
-            return;
+            alert('Please fill out all forms to make a post')
+            return
         }
         const post = {
             id: postId,
@@ -57,7 +76,7 @@ export const EditPosts = () => {
                             type="text"
                             className="button-primary text-color-primary"
                             value={editPost.title}
-                            onChange={(event) => updateEditPost({ title: event.target.value })}
+                            onChange={(event) => updateEditPost({ ...editPost, title: event.target.value })}
                         />
                     </div>
                     <div>
@@ -65,10 +84,11 @@ export const EditPosts = () => {
                         <input
                             type="text"
                             className="button-primary text-color-primary h-5"
-                            value={editPost.description || ''}
-                            onChange={(event) => updateEditPost({ description: event.target.value })}
+                            value={editPost.description}
+                            onChange={(event) => updateEditPost({ ...editPost, description: event.target.value })}
                         />
                         <EditFilter newPost={editPost} setNewPost={updateEditPost} />
+                        <EditImages setImage={setImage}/>
                     </div>
                     <button className="w-35 mt-22 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={updatingPost}>
                         Save

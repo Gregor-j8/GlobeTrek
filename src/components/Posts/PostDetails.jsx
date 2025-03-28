@@ -8,6 +8,7 @@ export const PostDetails = () => {
     const navigate = useNavigate()
     const { postId } = useParams()
     const [PostDetail, setPostDetail] = useState({})
+    console.log(PostDetail)
 
     useEffect(() => {
         getPostsDetails(postId).then(data => {
@@ -23,17 +24,22 @@ export const PostDetails = () => {
 
     return (
         <div className="w-full h-screen flex  items-center justify-center ">
-            <div className="flex flex-col bg-main-card p-10">
+            <div className="flex w-3/4 flex-col bg-main-card p-10">
                 <section className=" flex justify-between">
                     <Link to={`/profile/${PostDetail?.user?.id}`}>
                         <h1 className="text-color-primary">{PostDetail.user?.fullName}</h1>
                     </Link> 
                     <h2 className="text-color-primary">{PostDetail.title}</h2>          
                 </section>
+                <div className="flex flex-col items-center">
                     <p className="items-center text-color-primary p-15">{PostDetail.description}</p>
+                    <img  src={`${PostDetail.photoUrl}`} className="w-1/4 items-center justify-center text-color-primary"/>                 
+                </div>
+
                     {currentUser.id !== PostDetail.user?.id
                         ? <footer className="flex justify-between">
                             <p className="text-color-primary">{PostDetail.date}</p> 
+                            <button className="button-primary" onClick={() => {navigate("/posts")}}>Return</button>
                             </footer>
                         : <footer className="flex  flex-col text-l p-2">
                             <div className="flex justify-between">
@@ -41,6 +47,7 @@ export const PostDetails = () => {
                                 <button className="cursor-pointer text-color-primary p-2 button-primary" onClick={() => {navigate("edit")}}>Edit</button> 
                             </div>
                             <div className="flex items-center justify-center pt-8 font-bold">
+                                <button className="button-primary" onClick={() => {navigate("/posts")}}>Return</button>
                                 <button className="button-primary cursor-pointer p-2 text-color-primary" value={PostDetail.id} onClick={(event) => HandleDelete(event.target.value)}>Delete</button>
                             </div>
                         </footer>}

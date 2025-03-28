@@ -4,7 +4,8 @@ import { EditFilter } from "../Filter/EditFilter"
 import { deletePost } from "../../services/postService"
 
 export const MapModal = ({ marker, onClose, setIsModalOpen }) => {
-  const { editPost, updateEditPost, handleSave } = useEditPost()
+    const { editPost, updateEditPost, handleSave } = useEditPost()
+  
     useEffect(() => {
         if (marker && marker.id !== editPost.id) {
             updateEditPost(marker)
@@ -49,15 +50,18 @@ const onSave = (event) => {
                     />
                 </div>
                 <EditFilter newPost={editPost} setNewPost={updateEditPost} />
-                <button className="button-primary" onClick={onSave}>
-                    Save
-                </button>                
-                <button className="button-primary" onClick={onClose}>
-                    Cancel
-                </button>
-                <button className="button-primary" onClick={handleDelete}>
-                    Delete
-                </button>
+                 <div className="flex justify-around p-2">
+                    <button className="button-primary p-2 rounded-lg" onClick={onSave}>
+                        Save
+                    </button>                
+                    <button className="button-primary p-2 rounded-lg" onClick={onClose}>
+                        Cancel
+                    </button>
+                    <button className="button-primary p-2 rounded-lg" onClick={handleDelete}>
+                        Delete
+                    </button>                    
+                 </div>
+
             </div>
         </div>
     )

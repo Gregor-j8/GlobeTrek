@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react"
 import { MapContainer, TileLayer } from "react-leaflet";
 import { MarkerPopUp } from "./MarkerPopUp"
-import { getPostMarker, getUserPostMarker } from "../../services/postService";
+import { getPostMarker, getUserPostMarker } from "../../services/postService"
 import { CreateMarker } from "./CreateMarker";
 import { UseCurrentUser } from "../../context/CurrentUserContext";
-import { GetFollowers } from "../../services/followService";
+import { GetFollowering, GetFollowers } from "../../services/followService";
+import { GetUserById } from "../../services/userService";
 
 export const World = () => {
   const [NewPostModal, SetNewPostModal] = useState(false)
@@ -14,6 +15,7 @@ export const World = () => {
   const [holder, setHolder] = useState([])
   const { currentUser } = UseCurrentUser()
   const [userValue, setUserValue] = useState(0)
+  const [Holdfollowing, setHoldFollowing] = useState([])
   const [following, setFollowing] = useState([])
 
   const bounds = [
@@ -22,10 +24,20 @@ export const World = () => {
   ]
 
   useEffect(() => {
-    GetFollowers(currentUser.id).then(data => {
-      setFollowing(data)
+    GetFollowering(currentUser.id).then(data => {
+      setHoldFollowing(data)
     })
   }, [currentUser])
+
+      useEffect(() => {
+          const getUser = async () => {
+                  const userPromises = Holdfollowing.map(id =>
+                      GetUserById(id.follow.userId).then())
+                  const userData = await Promise.all(userPromises)
+                  setFollowing(userData.flat())
+              } 
+              getUser()
+      }, [Holdfollowing])
 
   useEffect(() => {
     if(userValue === 0) {
@@ -68,8 +80,8 @@ export const World = () => {
                       setUserValue(event.target.value)}}>
                         <option value={0}>Following</option>
                         {following.map(follow => (
-                            <option key={follow.user.id} value={follow.user.id}>
-                                {follow.user.fullName}
+                            <option key={follow.id} value={follow.id}>
+                                {follow.fullName}
                             </option>
                         ))}
                     </select>
@@ -86,8 +98,6 @@ export const World = () => {
           maxZoom={22}
           attribution='&copy; <a href="https://carto.com/">CartoDB</a>'
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-           //LightMode Url url="https://mt1.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}"
-          //  attribution='&copy; <a href="https://maps.google.com/">Google Maps</a>'
           noWrap={true}
         />
         {markers.map(marker => {

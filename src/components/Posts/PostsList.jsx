@@ -25,7 +25,6 @@ export const PostsList = () => {
             setPosts(originalPosts)
         }
     }, [search, originalPosts])
-
     return (
         <div className="flex flex-col items-center w-full pt-16">
             <div className="pt-4 pb-5">

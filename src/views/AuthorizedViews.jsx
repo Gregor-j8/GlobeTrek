@@ -14,7 +14,6 @@ import { NotesDetails } from "../components/Notes/NotesDetails"
 import { EditNotes } from "../components/Notes/EditNotes"
 import { NewNotes } from "../components/Notes/NewNotes"
 
-
 export const AuthorizedViews = () => {
     return <>
         <Routes>
