@@ -37,7 +37,7 @@ return (currentUser?.id == userId ? (
             <p className="text-center text-gray-600 mt-1">Posts: {userPosts.length}</p>
             <Follow userId={userId}/>
             <div className="flex flex-col justify-center mt-5 h-80 overflow-y-scroll pt-18">
-                <div className="pt-20 mt-20"></div>
+                <div className="pt-60"></div>
                 {userPosts.map(post => {
                     return <Posts post={post} key={post.id} />
                 })}
