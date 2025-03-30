@@ -218,6 +218,11 @@
       "userId": 4,
       "followId": 9,
       "id": 26
+    },
+    {
+      "userId": 4,
+      "followId": 5,
+      "id": 27
     }
   ],
   "notes": [
