@@ -20,11 +20,11 @@ export const Images = ({photoUrl, setPhotoUrl}) => {
                 }}}
     
     return (
-        <div className="flex flex-col items-center p-6 border rounded-2xl shadow-lg bg-gray-400 max-w-sm mx-auto mt-10">
+        <div className="flex flex-col items-center p-6 border rounded-2xl shadow-lg bg-gray-400 max-w-sm mx-auto mt-5">
             <h2 className="text-lg font-semibold mb-4">Upload an Image</h2>
             <input type="file"
-             onChange={handleImageChange} className="border p-2 rounded-md w-full mb-4"/>
-            {preview && (<img src={preview} alt="Preview" className="mt-4 w-40 h-40 object-cover rounded-lg shadow-md mb-4" />)}
+             onChange={handleImageChange} className="border p-2 rounded-md w-full mb-"/>
+            {preview && (<img src={preview} alt="Preview" className="mt-4 w-40 h-40 object-cover rounded-lg shadow-md mb-2" />)}
         </div>
     )
 }

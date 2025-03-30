@@ -16,9 +16,9 @@ export const NotesList = () => {
     }, [currentUser])
 
     return (
-        <div className="flex flex-col items-center w-full pt-16">
+        <div className="flex flex-col items-center w-full pt-20">
             <div>
-               <button className="button-primary cursor-pointer p-1 rounded-lg " onClick={() => navigate("/newnote")}>New Note</button> 
+               <button className="button-primary cursor-pointer p-2 rounded-lg " onClick={() => navigate("/newnote")}>New Note</button> 
             </div>
             {notes.map(note => {
                 return <Notes note={note} key={note.id}/>
