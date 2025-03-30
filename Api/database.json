@@ -230,54 +230,63 @@
       "id": 1,
       "userId": 1,
       "toVisit": "Bruges",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Br%C3%BCgge_Blick_vom_Belfried_4.jpg/800px-Br%C3%BCgge_Blick_vom_Belfried_4.jpg",
       "toDoList": "See the canals, Visit Markt Square"
     },
     {
       "id": 2,
       "userId": 2,
       "toVisit": "Halifax",
+      "photoUrl": "https://imageio.forbes.com/specials-images/imageserve/6101590c6a9489b3465f098e/Halifax--Waterfront-Aerial-View/960x0.jpg?format=jpg&width=960",
       "toDoList": "Walk the waterfront, Try seafood"
     },
     {
       "id": 3,
       "userId": 3,
       "toVisit": "Gdansk",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Calle_Dlugie_Pobrzeze%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_06.jpg",
       "toDoList": "Visit Old Town See Neptune’s Fountain"
     },
     {
       "id": 4,
       "userId": 4,
       "toVisit": "Luang Prabang",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/45/a9/luang-prabang.jpg?w=1400&h=1400&s=1",
       "toDoList": "Explore temples, Watch the sunset at Mount Phousi"
     },
     {
       "id": 5,
       "userId": 5,
       "toVisit": "Tallinn",
+      "photoUrl": "https://i.natgeofe.com/n/028e4dd5-1664-4b9d-9aee-e0b427d2364a/estonia1.jpg",
       "toDoList": "Walk through Old Town, Visit Alexander Nevsky Cathedral"
     },
     {
       "id": 6,
       "userId": 6,
       "toVisit": "Oaxaca",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/c0/84/eb/vista-monte-alban.jpg?w=600&h=400&s=1",
       "toDoList": "Try mole, Visit Monte Albán"
     },
     {
       "id": 7,
       "userId": 7,
       "toVisit": "Inverness",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f5/fd/inverness.jpg?w=1400&h=1400&s=1",
       "toDoList": "Look for Nessie, Visit Urquhart Castle"
     },
     {
       "id": 8,
       "userId": 8,
       "toVisit": "Kotor",
+      "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/13/be/fe/the-view-from-about-midway.jpg?w=1400&h=1400&s=1",
       "toDoList": "Walk the city walls, Visit St. Tryphon’s Cathedral"
     },
     {
       "id": 9,
       "userId": 9,
       "toVisit": "Ushuaia",
+      "photoUrl": "https://turismoushuaia.com/wp-content/uploads/2018/05/NPX8550-1024x684.jpg",
       "toDoList": "Visit the End of the World Museum, Explore Tierra del Fuego"
     }
   ],

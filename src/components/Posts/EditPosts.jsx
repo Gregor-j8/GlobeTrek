@@ -69,31 +69,39 @@ export const EditPosts = () => {
 
     return (
         <div className="flex items-center justify-center w-full h-screen">
-            <form className="flex flex-col h-2/5 items-center w-full mx-5 justify-center bg-main-card">
+            <form className="flex flex-col h-5/7 items-center px-10 mx-5 justify-center bg-main-card">
                 <fieldset>
-                    <div>
-                        <label className="text-color-primary">Title: </label>
-                        <input
+                    <div className='p-1 flex flex-col'>
+                        <label className="text-color-primary p-1">Title </label>
+                        <textarea
                             type="text"
-                            className="button-primary text-color-primary"
+                            className="button-primary text-color-primary w-90"
                             value={editPost.title}
                             onChange={(event) => updateEditPost({ ...editPost, title: event.target.value })}
                         />
                     </div>
-                    <div>
-                        <label className="text-color-primary">Description: </label>
-                        <input
+                    <div className='p-1 flex flex-col'>
+                        <label htmlFor="textarea" className="text-color-primary p-1 ">Description </label>
+                        <textarea
                             type="text"
-                            className="button-primary text-color-primary h-5"
+                            className="button-primary w-90 text-color-primary"
                             value={editPost.description}
                             onChange={(event) => updateEditPost({ ...editPost, description: event.target.value })}
+                            rows={5}
                         />
+                        <div className='pt-2'>
                         <EditFilter newPost={editPost} setNewPost={updateEditPost} />
+                        </div>
                         <EditImages setImage={setImage}/>
                     </div>
-                    <button className="w-35 mt-22 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={updatingPost}>
-                        Save
-                    </button>
+                    <div className='flex justify-around pb-3'>
+                        <button className="w-35 mt-12 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={updatingPost}>
+                            Save
+                        </button>
+                        <button className="w-35 mt-12 rounded-lg h-8 button-primary text-color-primary cursor-pointer" onClick={() => {navigate("/posts")}}>
+                            Cancel
+                        </button>
+                    </div>
                 </fieldset>
             </form>
         </div>
