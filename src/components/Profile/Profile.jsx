@@ -30,7 +30,7 @@ export const Profile = () => {
     }
 
 return (currentUser?.id == userId ? (
-        <div className="max-w-lg mx-auto my-1 bg-white rounded-lg shadow-md mt-25 flex flex-col items-center justify-center mb-10">
+        <div className="max-w-lg mx-auto my-1 bg-white rounded-lg shadow-md mt-25 flex flex-col items-center justify-center mb-5">
             <img src={`${profile.photoUrl}`} className="w-1/3 mt-2 rounded-4xl"/>
             <h2 className="text-center text-2xl font-semibold text-gray-600 mt-3">{profile.fullName}</h2>
             <p className="text-center  text-gray-600 mt-1">{profile.email}</p>
@@ -43,7 +43,7 @@ return (currentUser?.id == userId ? (
                 })}
             </div>
             <div className="mt-5">
-                <button className="py-3 px-4 button-primary text-color-primary cursor-pointer" onClick={editProfile}>Edit</button>
+                <button className="py-3 px-4 button-primary rounded-lg mb-4 text-color-primary cursor-pointer" onClick={editProfile}>Edit</button>
             </div>
         </div>
     ) : (
