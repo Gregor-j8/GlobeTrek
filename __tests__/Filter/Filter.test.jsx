@@ -17,7 +17,7 @@ import "@testing-library/jest-dom"
       vi.mock('country-state-city', () => ({
         Country: {
           getAllCountries: vi.fn(() => [
-            { isoCode: 'BF', name: 'Burkina Faso' },
+            { isoCode: 'CA', name: 'Canada' },
             { isoCode: 'US', name: 'United States' },
           ])}}))
 
@@ -29,7 +29,7 @@ import "@testing-library/jest-dom"
       screen.debug()
 
       await waitFor(() => {
-        expect(screen.getByText('Burkina Faso')).toBeInTheDocument()
+        expect(screen.getByText('Canada')).toBeInTheDocument()
         expect(screen.getByText('United States')).toBeInTheDocument()
       });
   
