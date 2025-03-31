@@ -24,15 +24,13 @@ import "@testing-library/jest-dom"
     it('should render filter countries', async () => {
         const updatePosts = { id: 1, title: 'john', description: 'hello', city: 'nashville' }
         NewPostContext.mockReturnValue({updatePost: updatePosts})
-        
           render(<Filter />)
       screen.debug()
 
       await waitFor(() => {
         expect(screen.getByText('Canada')).toBeInTheDocument()
         expect(screen.getByText('United States')).toBeInTheDocument()
-      });
-  
+      })
     })
   })
   
