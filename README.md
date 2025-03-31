@@ -1,1 +1,0 @@
-# globetrek-typescript
