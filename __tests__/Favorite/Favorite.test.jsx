@@ -25,7 +25,7 @@ vi.mock('../../src/context/CurrentUserContext', () => ({
   describe('Favorite Component', () => {
     it('should render favorite posts', async () => {
         screen.debug()
-      const mockCurrentUser = { id: 1, name: 'John Doe' }
+      const mockCurrentUser = { id: 1, name: 'john' }
       const mockPosts = [
         {
           post: {
