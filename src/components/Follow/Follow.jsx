@@ -81,7 +81,8 @@ export const Follow = ({userId}) => {
                     <p className="flex justify-center">{following.length}</p>                     
                 </div>
             </section>
-           <button className="cursor-pointer bg-amber-400" value={userId} onClick={(event) => {
+           <button data-testid="follow" className="cursor-pointer bg-amber-400"
+            value={userId} onClick={(event) => {
             SaveFollow(event.target.value, event)}}>
             {isfollowing ? "unfollow" : "follow"}</button>         
            {isFollowerModalOpen && (
