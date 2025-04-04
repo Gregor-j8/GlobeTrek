@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom"
-import { render, screen } from '@testing-library/react'
+import { render, screen, fireEvent} from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { FollowerModal } from '../../src/components/Follow/FollowerModal'
 import { vi, describe, it, expect, beforeEach } from "vitest"
@@ -34,5 +34,10 @@ describe('FollowerModal', () => {
         expect(screen.getByText('g')).toBeInTheDocument()
         expect(screen.getByText('j')).toBeInTheDocument()
     })
-    screen.debug()
+
+        it('calls onClose when close button is clicked', () => {
+            const closeButton = screen.getByText('x')
+            fireEvent.click(closeButton)
+            expect(mockOnClose).toHaveBeenCalledTimes(1)
+        })
 })
