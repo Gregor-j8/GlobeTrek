@@ -1,11 +1,9 @@
 @import "tailwindcss";
 @import "leaflet/dist/leaflet.css";
 
-
 html {
   background-color: #121212;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -13,6 +11,7 @@ html {
 .leaflet-container {
   height: 90vh;
   width: 100vh;
+  font: 1em sans-serif;
 }
 
 .bg-main-color {
@@ -35,4 +34,3 @@ html {
 .button-primary:hover {
   background-color: #ff6347; 
 }
-
