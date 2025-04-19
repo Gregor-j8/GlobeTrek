@@ -58,8 +58,8 @@
     },
     {
       "id": 4,
-      "fullName": "Michael Brown",
-      "email": "michael@example.com",
+      "fullName": "Gregor Johnson",
+      "email": "gregor@example.com",
       "photoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBwBc9x_-B3ksahoBkr9zvK22-C-iA-eKORg&s"
     },
     {
@@ -212,17 +212,17 @@
     {
       "userId": 4,
       "followId": 7,
-      "id": 25
-    },
-    {
-      "userId": 4,
-      "followId": 9,
-      "id": 26
+      "id": 28
     },
     {
       "userId": 4,
       "followId": 5,
-      "id": 27
+      "id": 30
+    },
+    {
+      "userId": 4,
+      "followId": 9,
+      "id": 31
     }
   ],
   "notes": [
@@ -288,6 +288,12 @@
       "toVisit": "Ushuaia",
       "photoUrl": "https://turismoushuaia.com/wp-content/uploads/2018/05/NPX8550-1024x684.jpg",
       "toDoList": "Visit the End of the World Museum, Explore Tierra del Fuego"
+    },
+    {
+      "userId": 4,
+      "toVisit": "nashville ",
+      "toDoList": "go to the titans game",
+      "id": 10
     }
   ],
   "userLikes": [
@@ -431,15 +437,21 @@
     },
     {
       "userId": 4,
+      "postId": 41,
+      "isLiked": true,
+      "id": 35
+    },
+    {
+      "userId": 4,
       "postId": 39,
       "isLiked": true,
-      "id": 31
+      "id": 36
     },
     {
       "userId": 4,
       "postId": 40,
       "isLiked": true,
-      "id": 32
+      "id": 37
     }
   ],
   "posts": [
@@ -873,7 +885,7 @@
         31.6295,
         -7.986
       ],
-      "title": "Visiting the Jardin Majorelle",
+      "title": "ss",
       "description": "Visited the beautiful Jardin Majorelle and explored the colorful souks of Marrakech.",
       "date": "02/05/2024",
       "photoUrl": "https://www.vjv.com/media/thjldkr1/jamaa-el-fna-market-square-marrakesh-morocco_shutterstock-685174879.jpg?width=1920&height=1080&quality=60",
@@ -1362,18 +1374,34 @@
     {
       "userId": 4,
       "cityName": "Nashville",
+      "lat": "36.1622767",
+      "lon": "-86.7742984",
       "geocode": [
         36.1622767,
         -86.7742984
       ],
-      "title": "colins houses",
-      "description": "hello colins",
-      "popup": "Marker at Bichena",
-      "date": "3/28/2025",
-      "photoUrl": "https://i.ibb.co/Y7H3zNB3/background.jpg",
-      "id": 71,
-      "lat": "36.1622767",
-      "lon": "-86.7742984"
+      "title": "nashville",
+      "description": "trip",
+      "popup": "Marker at Nashville",
+      "date": "4/7/2025",
+      "photoUrl": "https://i.ibb.co/Tq0ZyynW/nashville-TN.jpg",
+      "id": 71
+    },
+    {
+      "userId": 4,
+      "cityName": "Los Angeles",
+      "lat": "34.0536909",
+      "lon": "-118.242766",
+      "geocode": [
+        34.0536909,
+        -118.242766
+      ],
+      "title": "la",
+      "description": "la",
+      "popup": "Marker at Los Angeles",
+      "date": "4/16/2025",
+      "photoUrl": "https://i.ibb.co/23vQhYnJ/background.jpg",
+      "id": 72
     }
   ]
 }

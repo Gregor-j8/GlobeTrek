@@ -38,7 +38,6 @@ export const Login = () => {
                   className="flex mb-1 w-fit border-2"
                   onChange={(evt) => set(evt.target.value)}
                   placeholder="Email address"
-                  required
                 />
             </fieldset>     
             <div className="flex items-center justify-center m-3 ">
